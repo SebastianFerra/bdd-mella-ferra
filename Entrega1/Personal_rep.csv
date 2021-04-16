@@ -1,3 +1,4 @@
-﻿rut ;nombre;sexo;edad;licencia ;v_asignado
-20442128-5;Sebastián Ferrá;Hombre;20;B;HGPP21
-12345678-9;Mario Llanos;Mujer;21;C;VGA123
+﻿rut ;nombre;sexo;edad;tipo;patente;licencia 
+20442128-5;Sebastián Ferrá;Hombre;20;Repartidor;HGPP21;B
+12232618-9;Mario Llanos;Mujer;21;Repartidor;VGA123;C
+23419811-6;Isabel Aliste;Mujer;18;Repartidor;PS1285;B

@@ -1,3 +1,7 @@
 ﻿patente;estado;tipo;categoria;uid
 HGPP21;Activo;Auto;Carga;1
-VGA123;Activo;Moto;Cadena Fría;2
+VGA123;Activo;Moto;CadenaFria;2
+KORG12;Inactivo;Camion;CadenaFria;2
+ZWPG17;Activo;Camion;Frescos;3
+KASQ85;Activo;Bicicleta;Carga;4
+PS1285;Inactivo;Bicicleta;Carga;1

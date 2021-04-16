@@ -1,2 +1,5 @@
-﻿rut ;nombre;sexo;edad;tipo;unidad;calificacion
-20432201-5;Pato Mella;Hombre;19;Admin;1;69
+﻿rut ;nombre;sexo;edad;tipo;uid;calificacion
+20432201-5;Pato Mella;Hombre;19;Administrador;1;69
+5203085-1;Elena Gutierrez;Mujer;70;Administrador;3;92
+11032512-3;Guido Albornoz;Hombre;48;Administrador;2;85
+14892021-k;Josefina Flores;Mujer;39;Administrador;4;17

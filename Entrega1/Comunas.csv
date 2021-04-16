@@ -1,4 +1,11 @@
-﻿id_unidad;Comuna;cid
+﻿cid;comuna;uid
 1;Maipu;1
-1;Rancagua;2
-2;Las Condes;3
+2;Daltahue;2
+3;SanJoaquin;2
+4;Valparaiso;1
+5;SanJoaquin;3
+6;LasCondes;3
+7;EstacionCentral;4
+8;Valparaiso;1
+9;PuntaArenas;3
+10;Arica;2
