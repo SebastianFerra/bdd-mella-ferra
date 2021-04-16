@@ -1,2 +1,2 @@
-﻿tipo;estado;patente;categoria;volumen;cargamax
-Auto;Activo;HGPP21;Carga;300;200
+﻿tipo;estado;patente;categoria;volumen;cargamax;uid
+Auto;Activo;HGPP21;Carga;300;200;1

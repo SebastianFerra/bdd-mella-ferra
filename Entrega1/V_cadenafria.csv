@@ -1,2 +1,2 @@
-﻿tipo;estado;patente;categoria;cant_comp;cap_comp
-Moto;Activo;VGA123;Cadena Fría;1;20
+﻿tipo;estado;patente;categoria;cant_comp;cap_comp;uid
+Moto;Activo;VGA123;Cadena Fría;1;20;2

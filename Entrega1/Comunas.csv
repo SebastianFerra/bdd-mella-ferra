@@ -1,4 +1,4 @@
-﻿id_unidad;Comuna
-1;Maipu
-1;Rancagua
-2;Las Condes
+﻿id_unidad;Comuna;cid
+1;Maipu;1
+1;Rancagua;2
+2;Las Condes;3
