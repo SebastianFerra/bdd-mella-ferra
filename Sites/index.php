@@ -1,22 +1,79 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-</head>
+<?php include('templates/header.html');   ?>
+
 <body>
+  <h1 align="center">Biblioteca Pokemón </h1>
+  <p style="text-align:center;">Aquí podrás encontrar información sobre pokemones.</p>
 
-<h1>Hola bienvenido a nuestra página de consultas!</h1>
+  <br>
 
-<?php
-#Para definir variables que pueda ser utilizada en todo el HTML se deben anteceder con $
-#Para imprimir en el HTML ocupamos echo
-echo "<p> Lamentamos la página sea tan rudimentaria pero estamos trabajando para ustedes y tratando de salvar el semestre al mismo tiempo </p>";
+  <h3 align="center"> ¿Quieres buscar un Pokemón por tipo y/o nombre?</h3>
 
-echo "<p> A continuación por favor ingrese su consulta y abajo verá el resultado </p>";
+  <form align="center" action="consultas/consulta_tipo_nombre.php" method="post">
+    Tipo:
+    <input type="text" name="tipo_elegido">
+    <br/>
+    Nombre:
+    <input type="text" name="nombre_pokemon">
+    <br/><br/>
+    <input type="submit" value="Buscar">
+  </form>
+  
+  <br>
+  <br>
+  <br>
 
-?>
+  <h3 align="center"> ¿Quieres buscar un Pokemón por su ID?</h3>
 
+  <form align="center" action="consultas/consulta_stats.php" method="post">
+    Id:
+    <input type="text" name="id_elegido">
+    <br/><br/>
+    <input type="submit" value="Buscar">
+  </form>
+  
+  <br>
+  <br>
+  <br>
 
+  <h3 align="center"> ¿Quieres conocer los Pokemones más altos que: ?</h3>
 
+  <form align="center" action="consultas/consulta_altura.php" method="post">
+    Altura Mínima:
+    <input type="text" name="altura">
+    <br/><br/>
+    <input type="submit" value="Buscar">
+  </form>
+  <br>
+  <br>
+  <br>
+
+  <h3 align="center">¿Quieres buscar todos los pokemones por tipo?</h3>
+
+  <?php
+  #Primero obtenemos todos los tipos de pokemones
+  require("config/conexion.php");
+  $result = $db -> prepare("SELECT DISTINCT tipo FROM pokemones;");
+  $result -> execute();
+  $dataCollected = $result -> fetchAll();
+  ?>
+
+  <form align="center" action="consultas/consulta_tipo.php" method="post">
+    Seleccinar un tipo:
+    <select name="tipo">
+      <?php
+      #Para cada tipo agregamos el tag <option value=value_of_param> visible_value </option>
+      foreach ($dataCollected as $d) {
+        echo "<option value=$d[0]>$d[0]</option>";
+      }
+      ?>
+    </select>
+    <br><br>
+    <input type="submit" value="Buscar por tipo">
+  </form>
+
+  <br>
+  <br>
+  <br>
+  <br>
 </body>
 </html>
