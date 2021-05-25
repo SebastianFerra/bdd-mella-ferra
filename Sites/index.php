@@ -1,8 +1,8 @@
 <?php include('templates/header.html');   ?>
 
 <body>
-  <h1 align="center">Biblioteca Pokemón </h1>
-  <p style="text-align:center;">Aquí podrás encontrar información sobre pokemones.</p>
+  <h1 align="center">Empresa de despachos </h1>
+  <p style="text-align:center;">Aquí podrás encontrar información sobre los despachos de tu empresa favorita</p>
 
   <br>
 
