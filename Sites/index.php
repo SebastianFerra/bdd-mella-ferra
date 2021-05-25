@@ -49,8 +49,8 @@
   ?>
 
   <form align="center" action="consultas/consulta4.php" method="post">
-    Seleccinar un tipo:
-    <select name="tipo">
+    Seleccinar un año:
+    <select name="año">
       <?php
       #Para cada tipo agregamos el tag <option value=value_of_param> visible_value </option>
       foreach ($dataCollected as $d) {
@@ -58,8 +58,6 @@
       }
       ?>
     </select>
-    <br><br>
-    <input type="submit" value="Buscar por tipo">
 	<br/><br/>
 	<input type="submit" value="Buscar">
   </form>
