@@ -49,7 +49,7 @@ $array2 = array(
 	</tr>
 	<?php foreach ($array2 as $key => $value): ?>
 		<tr>
-			<td><?php echo $key; ?></td>
+			<td><?php echo $key "sexoooo"; ?></td>
 			<td><?php echo $value; ?></td>
 		</tr>
 	<?php endforeach; ?>
