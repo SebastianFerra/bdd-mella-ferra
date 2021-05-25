@@ -27,3 +27,72 @@ git push
 git branch --set-upstream-to=origin/master master
 tree
 logout
+git pull
+git pull remote master
+git pull bdd-mella-ferra master
+git init
+git remote add origin https://github.com/SebastianFerra/bdd-mella-ferra
+git pull master
+git pull
+git pull remote master
+git pull master
+git pull https://github.com/SebastianFerra/bdd-mella-ferra master
+help
+/Entrega1
+dirs
+git pull
+la
+tree
+rm /Entrega1/fsdfasdfas.txt
+rm ./Entrega1/fsdfasdfas.txt
+tree
+git add .
+git commit -m "Alo?"
+git push
+tree
+ld
+ls
+la
+rm ./.gitignore.txt
+la
+git add .
+git commit -m "ldkfs"
+git push
+git pull
+tree
+psql
+git pull
+tree
+psql
+tree
+psql
+tree
+psql
+tree
+psql
+do-release-upgrade
+psql
+git pull
+psql
+git pull
+tree
+psql
+git pull
+SebastianFerra
+gitpull
+git pull
+tree
+psql
+git pull
+psql
+tree
+psql
+tree
+psql
+git pull
+psql
+git pull
+tre
+tree
+cd/Sites
+/Sites
