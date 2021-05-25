@@ -5,7 +5,7 @@
 </head>
 <body>
 
-<h1>Hola</h1>
+<h1>Hola bienvenido a nuestra página de consultas!</h1>
 
 <?php
 #Para definir variables que pueda ser utilizada en todo el HTML se deben anteceder con $
@@ -13,9 +13,9 @@ $var1 = 20;
 $booleano = true;
 
 #Para imprimir en el HTML ocupamos echo
-echo "<p> hola </p>";
+echo "<p> Lamentamos la página sea tan rudimentaria pero estamos trabajando para ustedes y tratando de salvar el semestre al mismo tiempo </p>";
 
-echo "<p> Las variables son: Var1: {$var1}  booleano: {$booleano} </p>";
+echo "<p> A continuación por favor ingrese su consulta y abajo verá el resultado </p>";
 
 #Control de flujo
 if ($booleano){
