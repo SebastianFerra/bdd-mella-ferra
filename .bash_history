@@ -96,3 +96,21 @@ tre
 tree
 cd/Sites
 /Sites
+\d
+\t
+\tree
+git add .
+git commit -m "sites?"
+git push
+cd sites
+cd Sites
+\tree
+cd ..
+-a
+\a
+a
+\a
+\tree
+\all
+git pull
+\tree
