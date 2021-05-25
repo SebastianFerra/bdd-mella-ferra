@@ -73,7 +73,7 @@
     Tipo de vehículo:
     <input type="text" name="vehiculo">
     <br/><br/>
-    <input type="submit" value="Buscar">
+
   </form>
   <?php
   #	AQUI OBTENEMOS LAS COSAS QUE NECESITAMOS COMO LOS AÑOS Y ESAS COSAS
@@ -94,6 +94,7 @@
       ?>
     </select>
 	<br><br>
+	Seleccionar año término:
 	<select name="Término">
       <?php
       #Para cada tipo agregamos el tag <option value=value_of_param> visible_value </option>
