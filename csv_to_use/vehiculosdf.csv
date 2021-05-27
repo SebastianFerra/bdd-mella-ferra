@@ -1,0 +1,118 @@
+id,patente,estado,tipo,unidad,Clasificación
+0,ZX2922,activo,auto,8,Fresco
+1,PM8536,activo,moto,13,Fresco
+2,VC7492,activo,camioneta,49,Fresco
+3,LS5992,activo,moto,0,Fresco
+4,PJ5481,activo,auto,7,Frio
+5,LX6914,activo,auto,18,Fresco
+6,EH9187,activo,bicicleta,44,Frio
+7,ST8633,activo,camioneta,14,Frio
+8,EY2745,activo,moto,53,Frio
+9,LA5643,activo,moto,26,Frio
+10,AU5998,mantencion,moto,45,Fresco
+11,ET5609,activo,moto,22,Frio
+12,MO4425,mantencion,camioneta,51,Carga
+13,BY5212,activo,camioneta,30,Frio
+14,EG8528,activo,camioneta,47,Carga
+15,QD4440,activo,moto,31,Frio
+16,VX5561,activo,bicicleta,40,Fresco
+17,VT6220,activo, camion,2,Ninguna
+18,XK7318,activo,auto,35,Fresco
+19,WW2485,activo,camioneta,21,Frio
+20,HV2199,activo, camion,6,Ninguna
+21,ID7819,activo,bicicleta,19,Fresco
+22,QA2495,activo,bicicleta,15,Frio
+23,WF7217,activo, camion,39,Ninguna
+24,BN4195,activo,moto,10,Frio
+25,UW2735,mantencion,camioneta,1,Fresco
+26,EF7582,activo, camion,11,Ninguna
+27,OT5458,mantencion,moto,42,Fresco
+28,YN4644,activo,camioneta,17,Carga
+29,FS3778,activo,bicicleta,37,Fresco
+30,VW7522,activo,bicicleta,16,Fresco
+31,VI4743,activo,camioneta,23,Carga
+32,OJ8771,activo,auto,34,Fresco
+33,OC4762,activo,camioneta,38,Fresco
+34,XN4914,mantencion,bicicleta,46,Frio
+35,XP9141,activo,bicicleta,20,Frio
+36,EX4705,activo,camioneta,50,Carga
+37,BJ4245,activo,moto,55,Fresco
+38,RH8308,activo,auto,52,Frio
+39,YP3858,activo,camioneta,29,Frio
+40,AL8743,activo,camioneta,48,Carga
+41,KM2551,activo,auto,27,Fresco
+42,EI5702,activo,bicicleta,56,Fresco
+43,RJ2733,mantencion,auto,9,Fresco
+44,YG2900,activo,bicicleta,41,Frio
+45,TO8113,mantencion,bicicleta,12,Fresco
+46,HE7029,activo,camioneta,36,Frio
+47,HB3228,activo,bicicleta,4,Fresco
+48,OF5956,activo,moto,33,Frio
+49,SG9128,mantencion, camion,25,Ninguna
+50,GO7311,activo,bicicleta,54,Fresco
+51,PM7495,activo,auto,32,Fresco
+52,GS7205,activo,auto,28,Fresco
+53,PU5101,mantencion,bicicleta,24,Frio
+54,VP2429,activo, camion,5,Ninguna
+55,MO4968,activo,auto,43,Fresco
+56,BI5654,activo,camioneta,51,Carga
+57,YB8271,activo,auto,25,Frio
+58,VT2032,activo,auto,35,Frio
+59,MU6547,activo,camioneta,39,Fresco
+60,IW2489,activo,bicicleta,50,Frio
+61,IG9597,mantencion,moto,18,Fresco
+62,AU6167,activo,bicicleta,17,Frio
+63,JD8184,activo,moto,5,Fresco
+64,RK2324,activo,camioneta,31,Fresco
+65,LN6036,activo, camion,54,Ninguna
+66,PZ3477,mantencion,camioneta,12,Fresco
+67,GM1638,activo,bicicleta,7,Fresco
+68,CI3218,activo, camion,18,Ninguna
+69,UH6836,activo,moto,20,Fresco
+70,QJ6353,activo, camion,32,Ninguna
+71,LW4637,activo,camioneta,5,Fresco
+72,SL2391,mantencion,moto,41,Fresco
+73,PP3724,activo,camioneta,4,Fresco
+74,QL4591,activo,bicicleta,23,Frio
+75,BF7024,mantencion,camioneta,10,Carga
+76,QI7769,activo,moto,40,Frio
+77,FM3163,mantencion,auto,8,Fresco
+78,NX3376,activo,moto,20,Frio
+79,XG7925,activo,moto,30,Frio
+80,KY2131,activo,moto,19,Frio
+81,MW6341,activo,auto,28,Fresco
+82,FU8868,activo,bicicleta,23,Fresco
+83,UH1378,activo, camion,7,Ninguna
+84,GT9752,activo,auto,39,Fresco
+85,OB9598,mantencion,camioneta,14,Fresco
+86,VR7517,mantencion, camion,21,Ninguna
+87,GF5994,activo,auto,9,Fresco
+88,HF1544,activo,auto,45,Fresco
+89,AI2283,mantencion,moto,45,Frio
+90,KC2936,activo,camioneta,23,Carga
+91,MN1612,mantencion,moto,32,Fresco
+92,OR9516,activo,moto,12,Fresco
+93,OE1789,mantencion,camioneta,43,Fresco
+94,WD8846,activo,bicicleta,30,Fresco
+95,MZ9845,activo,camioneta,2,Carga
+96,RV9799,mantencion,bicicleta,3,Frio
+97,IV2746,activo,moto,21,Fresco
+98,TJ7818,mantencion,moto,33,Frio
+99,OF1501,activo,camioneta,2,Fresco
+100,BY4314,activo,camioneta,56,Fresco
+101,AM9504,activo,camioneta,4,Frio
+102,ZV9679,activo,camioneta,12,Carga
+103,SV9482,activo,auto,3,Fresco
+104,UL8619,activo,bicicleta,51,Fresco
+105,LF8633,activo,camioneta,49,Fresco
+106,PR9667,activo,camioneta,53,Carga
+107,MZ2239,activo, camion,35,Ninguna
+108,WI9449,activo,bicicleta,14,Frio
+109,XG4556,activo,camioneta,2,Frio
+110,HW2014,activo,auto,1,Frio
+111,BZ3311,activo,moto,28,Fresco
+112,BB5259,mantencion,bicicleta,3,Fresco
+113,WC8293,activo,camioneta,39,Fresco
+114,RY9242,mantencion,auto,36,Fresco
+115,OM4230,activo, camion,32,Ninguna
+116,AL1557,mantencion,auto,40,Fresco
