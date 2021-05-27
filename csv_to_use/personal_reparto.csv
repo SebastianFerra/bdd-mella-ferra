@@ -1,1646 +1,1646 @@
-id,tipo_licencia
-91,auto
-122,auto
-616,moto
-84,no es necesaria
-768,auto
-350,moto
-21,auto
-414,auto
-555,no es necesaria
-813,moto
-467,moto
-309,no es necesaria
-644,vehiculo de carga
-689,auto
-34,auto
-552,no es necesaria
-383,no es necesaria
-327,vehiculo de carga
-577,no es necesaria
-167,no es necesaria
-479,auto
-376,auto
-728,no es necesaria
-321,auto
-753,moto
-441,moto
-652,auto
-289,moto
-758,auto
-540,no es necesaria
-432,auto
-823,vehiculo de carga
-444,vehiculo de carga
-99,auto
-525,auto
-232,auto
-183,no es necesaria
-1,moto
-758,moto
-103,vehiculo de carga
-345,auto
-670,moto
-521,moto
-813,moto
-44,auto
-658,moto
-403,no es necesaria
-785,auto
-318,auto
-273,no es necesaria
-93,vehiculo de carga
-625,auto
-536,moto
-127,no es necesaria
-168,moto
-39,vehiculo de carga
-599,auto
-635,moto
-269,vehiculo de carga
-384,no es necesaria
-168,auto
-93,no es necesaria
-535,moto
-285,vehiculo de carga
-763,moto
-486,auto
-385,moto
-667,auto
-358,auto
-691,moto
-0,moto
-3,auto
-344,auto
-555,moto
-347,auto
-455,auto
-172,vehiculo de carga
-520,no es necesaria
-382,auto
-11,auto
-507,no es necesaria
-200,auto
-395,no es necesaria
-24,auto
-467,no es necesaria
-115,auto
-503,vehiculo de carga
-495,auto
-235,auto
-608,moto
-567,auto
-266,vehiculo de carga
-353,auto
-710,auto
-266,auto
-15,moto
-40,auto
-185,auto
-400,moto
-671,auto
-259,auto
-394,moto
-36,auto
-274,moto
-554,vehiculo de carga
-464,moto
-184,auto
-777,no es necesaria
-616,auto
-357,vehiculo de carga
-677,auto
-496,moto
-679,auto
-100,auto
-227,moto
-281,auto
-340,auto
-475,moto
-323,moto
-82,auto
-142,vehiculo de carga
-269,auto
-664,auto
-568,auto
-382,no es necesaria
-140,auto
-393,auto
-356,auto
-335,auto
-120,vehiculo de carga
-797,vehiculo de carga
-484,auto
-198,auto
-429,no es necesaria
-485,auto
-28,auto
-96,vehiculo de carga
-124,no es necesaria
-517,auto
-61,no es necesaria
-425,vehiculo de carga
-416,moto
-524,moto
-365,no es necesaria
-3,auto
-296,auto
-598,no es necesaria
-149,auto
-259,auto
-463,auto
-566,auto
-396,vehiculo de carga
-24,auto
-194,moto
-205,auto
-158,auto
-619,vehiculo de carga
-595,auto
-678,moto
-220,auto
-620,moto
-377,auto
-676,auto
-298,auto
-351,moto
-435,moto
-265,moto
-581,auto
-663,auto
-366,no es necesaria
-814,moto
-452,auto
-362,auto
-676,auto
-274,no es necesaria
-283,no es necesaria
-173,auto
-803,moto
-102,vehiculo de carga
-442,no es necesaria
-474,no es necesaria
-516,no es necesaria
-612,moto
-2,moto
-286,auto
-697,no es necesaria
-643,auto
-284,auto
-89,auto
-126,auto
-353,auto
-86,auto
-362,auto
-410,auto
-145,moto
-674,auto
-385,auto
-709,auto
-773,auto
-712,no es necesaria
-706,no es necesaria
-178,no es necesaria
-109,auto
-238,auto
-210,auto
-744,auto
-365,vehiculo de carga
-380,auto
-639,auto
-790,no es necesaria
-705,moto
-59,auto
-725,auto
-486,auto
-299,moto
-128,no es necesaria
-141,auto
-505,moto
-566,no es necesaria
-409,no es necesaria
-189,moto
-663,no es necesaria
-154,vehiculo de carga
-779,auto
-693,no es necesaria
-566,auto
-196,auto
-818,auto
-131,auto
-315,no es necesaria
-403,auto
-407,moto
-53,auto
-745,auto
-475,auto
-435,auto
-631,auto
-329,auto
-629,auto
-634,vehiculo de carga
-36,no es necesaria
-643,auto
-422,auto
-421,no es necesaria
-173,no es necesaria
-705,vehiculo de carga
-26,no es necesaria
-329,vehiculo de carga
-302,auto
-148,no es necesaria
-246,no es necesaria
-365,auto
-390,auto
-179,vehiculo de carga
-327,no es necesaria
-487,auto
-606,auto
-219,moto
-514,moto
-514,vehiculo de carga
-763,auto
-361,vehiculo de carga
-400,auto
-710,auto
-592,auto
-479,no es necesaria
-156,no es necesaria
-25,auto
-347,no es necesaria
-598,no es necesaria
-536,moto
-579,auto
-415,vehiculo de carga
-460,auto
-371,auto
-484,no es necesaria
-794,auto
-617,no es necesaria
-694,no es necesaria
-722,no es necesaria
-669,auto
-632,auto
-287,auto
-283,auto
-805,moto
-199,auto
-38,moto
-815,auto
-15,no es necesaria
-655,no es necesaria
-435,auto
-618,moto
-695,auto
-531,auto
-177,auto
-777,auto
-665,no es necesaria
-692,moto
-415,no es necesaria
-551,auto
-23,auto
-552,auto
-478,moto
-758,auto
-813,auto
-58,vehiculo de carga
-248,auto
-646,vehiculo de carga
-391,auto
-382,auto
-695,vehiculo de carga
-14,no es necesaria
-591,auto
-302,no es necesaria
-58,moto
-29,vehiculo de carga
-251,auto
-314,auto
-711,auto
-415,moto
-276,vehiculo de carga
-577,no es necesaria
-812,auto
-617,auto
-773,auto
-601,no es necesaria
-210,moto
-126,no es necesaria
-488,moto
-791,no es necesaria
-160,auto
-220,auto
-21,auto
-15,auto
-509,moto
-285,auto
-553,moto
-109,moto
-389,moto
-562,auto
-460,no es necesaria
-26,auto
-71,auto
-630,auto
-368,no es necesaria
-503,auto
-460,moto
-683,auto
-240,auto
-642,auto
-671,auto
-174,auto
-725,no es necesaria
-633,moto
-576,vehiculo de carga
-534,auto
-720,no es necesaria
-221,auto
-332,vehiculo de carga
-502,auto
-397,vehiculo de carga
-357,no es necesaria
-277,auto
-728,auto
-403,auto
-402,auto
-804,no es necesaria
-205,moto
-1,auto
-463,auto
-3,auto
-43,vehiculo de carga
-167,vehiculo de carga
-125,vehiculo de carga
-75,no es necesaria
-704,no es necesaria
-86,moto
-667,auto
-723,no es necesaria
-603,moto
-790,auto
-58,no es necesaria
-733,no es necesaria
-706,moto
-470,moto
-192,auto
-332,auto
-262,auto
-430,moto
-818,moto
-213,no es necesaria
-760,moto
-576,no es necesaria
-254,auto
-318,auto
-274,no es necesaria
-470,auto
-436,auto
-414,no es necesaria
-452,auto
-445,vehiculo de carga
-458,vehiculo de carga
-539,no es necesaria
-761,auto
-762,no es necesaria
-316,auto
-233,auto
-51,auto
-236,auto
-23,no es necesaria
-379,moto
-633,vehiculo de carga
-328,auto
-557,auto
-245,auto
-792,moto
-127,vehiculo de carga
-726,auto
-95,moto
-762,vehiculo de carga
-287,auto
-288,no es necesaria
-216,moto
-329,no es necesaria
-264,auto
-556,vehiculo de carga
-142,auto
-738,auto
-367,moto
-250,moto
-574,auto
-733,auto
-722,auto
-687,auto
-228,auto
-316,auto
-778,auto
-463,no es necesaria
-425,auto
-664,moto
-213,moto
-151,no es necesaria
-144,auto
-702,vehiculo de carga
-379,no es necesaria
-65,auto
-680,auto
-711,auto
-536,no es necesaria
-402,auto
-410,vehiculo de carga
-526,moto
-351,auto
-371,auto
-247,moto
-372,auto
-377,auto
-702,moto
-773,auto
-702,moto
-425,moto
-116,no es necesaria
-759,auto
-230,auto
-137,no es necesaria
-720,auto
-661,auto
-799,auto
-512,auto
-798,vehiculo de carga
-75,moto
-708,moto
-73,moto
-160,auto
-151,auto
-288,no es necesaria
-300,auto
-385,vehiculo de carga
-165,vehiculo de carga
-515,auto
-783,moto
-362,auto
-608,auto
-378,auto
-745,no es necesaria
-61,auto
-690,no es necesaria
-718,no es necesaria
-737,auto
-200,moto
-611,vehiculo de carga
-459,auto
-446,auto
-694,moto
-25,auto
-222,auto
-631,auto
-245,no es necesaria
-600,moto
-396,moto
-682,vehiculo de carga
-416,auto
-564,auto
-474,auto
-394,auto
-259,auto
-628,vehiculo de carga
-689,auto
-100,auto
-601,auto
-104,auto
-397,no es necesaria
-687,no es necesaria
-131,no es necesaria
-606,moto
-631,auto
-388,no es necesaria
-785,no es necesaria
-34,moto
-436,auto
-410,auto
-448,vehiculo de carga
-620,auto
-720,moto
-474,no es necesaria
-331,auto
-335,no es necesaria
-160,auto
-816,auto
-548,auto
-804,moto
-772,vehiculo de carga
-507,auto
-512,moto
-614,auto
-242,moto
-323,moto
-133,moto
-146,auto
-785,auto
-286,vehiculo de carga
-556,no es necesaria
-99,no es necesaria
-704,vehiculo de carga
-570,auto
-395,auto
-513,auto
-505,no es necesaria
-519,no es necesaria
-378,no es necesaria
-277,auto
-612,no es necesaria
-635,moto
-520,auto
-270,no es necesaria
-267,no es necesaria
-618,auto
-67,moto
-515,no es necesaria
-560,no es necesaria
-823,moto
-559,auto
-151,auto
-621,auto
-412,auto
-230,no es necesaria
-488,vehiculo de carga
-253,no es necesaria
-681,no es necesaria
-199,no es necesaria
-239,moto
-221,no es necesaria
-321,moto
-141,vehiculo de carga
-129,auto
-464,moto
-609,auto
-608,moto
-731,moto
-546,auto
-801,auto
-42,no es necesaria
-568,moto
-114,vehiculo de carga
-570,auto
-376,no es necesaria
-133,no es necesaria
-4,moto
-793,auto
-55,auto
-269,auto
-109,auto
-33,no es necesaria
-296,auto
-672,no es necesaria
-458,auto
-756,auto
-34,moto
-93,vehiculo de carga
-653,moto
-317,auto
-85,auto
-355,no es necesaria
-216,moto
-344,auto
-33,vehiculo de carga
-661,no es necesaria
-104,auto
-680,auto
-9,auto
-557,no es necesaria
-551,auto
-683,moto
-584,moto
-809,auto
-262,moto
-496,auto
-703,auto
-331,auto
-478,no es necesaria
-172,vehiculo de carga
-346,no es necesaria
-723,auto
-268,no es necesaria
-508,vehiculo de carga
-375,moto
-736,auto
-334,no es necesaria
-590,auto
-452,vehiculo de carga
-44,no es necesaria
-128,auto
-467,auto
-619,auto
-741,auto
-385,vehiculo de carga
-601,auto
-309,moto
-157,no es necesaria
-315,no es necesaria
-603,no es necesaria
-496,auto
-715,no es necesaria
-760,auto
-97,vehiculo de carga
-416,auto
-561,moto
-645,no es necesaria
-172,no es necesaria
-354,moto
-304,moto
-581,moto
-584,vehiculo de carga
-79,no es necesaria
-791,moto
-4,vehiculo de carga
-55,auto
-487,auto
-214,auto
-542,no es necesaria
-39,no es necesaria
-324,no es necesaria
-800,no es necesaria
-181,auto
-475,vehiculo de carga
-820,moto
-543,vehiculo de carga
-91,moto
-612,auto
-189,auto
-363,auto
-243,auto
-582,auto
-0,vehiculo de carga
-55,auto
-567,no es necesaria
-258,auto
-809,vehiculo de carga
-582,moto
-149,auto
-267,auto
-227,auto
-577,no es necesaria
-753,moto
-228,auto
-199,auto
-818,no es necesaria
-222,moto
-123,vehiculo de carga
-486,auto
-472,auto
-760,moto
-367,auto
-73,no es necesaria
-103,moto
-161,auto
-797,auto
-441,auto
-711,auto
-333,moto
-798,vehiculo de carga
-495,moto
-28,auto
-228,no es necesaria
-397,auto
-119,auto
-505,moto
-179,moto
-803,auto
-123,auto
-642,vehiculo de carga
-141,auto
-217,auto
-275,moto
-306,auto
-222,moto
-682,auto
-639,auto
-399,no es necesaria
-680,no es necesaria
-465,no es necesaria
-23,auto
-628,no es necesaria
-8,no es necesaria
-354,auto
-442,vehiculo de carga
-804,moto
-550,auto
-591,vehiculo de carga
-816,moto
-217,auto
-395,moto
-414,no es necesaria
-224,vehiculo de carga
-700,auto
-590,no es necesaria
-146,auto
-219,auto
-530,auto
-350,no es necesaria
-608,no es necesaria
-358,auto
-154,moto
-6,vehiculo de carga
-574,moto
-228,auto
-29,auto
-432,auto
-731,auto
-140,no es necesaria
-137,auto
-546,auto
-508,vehiculo de carga
-701,auto
-248,no es necesaria
-554,auto
-51,auto
-282,auto
-43,auto
-467,moto
-548,no es necesaria
-390,moto
-493,auto
-253,auto
-756,auto
-145,moto
-142,auto
-787,auto
-394,auto
-188,auto
-564,moto
-630,auto
-595,moto
-475,no es necesaria
-376,auto
-446,auto
-236,no es necesaria
-32,moto
-174,no es necesaria
-609,no es necesaria
-233,moto
-302,no es necesaria
-506,vehiculo de carga
-441,no es necesaria
-324,auto
-723,auto
-633,no es necesaria
-809,auto
-802,auto
-248,auto
-802,auto
-314,auto
-602,auto
-699,auto
-369,no es necesaria
-124,auto
-100,moto
-89,moto
-678,auto
-104,auto
-340,auto
-459,auto
-389,auto
-153,no es necesaria
-183,auto
-483,auto
-654,auto
-599,moto
-196,auto
-689,vehiculo de carga
-667,moto
-368,no es necesaria
-93,no es necesaria
-485,no es necesaria
-476,auto
-464,auto
-437,vehiculo de carga
-275,auto
-539,no es necesaria
-91,auto
-678,auto
-224,auto
-254,auto
-300,auto
-523,auto
-559,auto
-555,moto
-63,auto
-753,auto
-421,auto
-524,auto
-657,moto
-559,auto
-327,auto
-787,vehiculo de carga
-509,auto
-8,no es necesaria
-584,auto
-14,auto
-148,auto
-742,auto
-692,auto
-791,moto
-680,auto
-346,no es necesaria
-430,vehiculo de carga
-250,moto
-12,moto
-383,no es necesaria
-682,no es necesaria
-275,moto
-576,auto
-214,auto
-455,vehiculo de carga
-718,no es necesaria
-276,no es necesaria
-396,moto
-802,auto
-332,auto
-686,auto
-628,moto
-205,moto
-820,auto
-658,auto
-95,auto
-40,moto
-380,auto
-120,auto
-327,auto
-378,moto
-712,auto
-699,no es necesaria
-653,vehiculo de carga
-435,moto
-245,no es necesaria
-430,vehiculo de carga
-661,auto
-635,auto
-814,auto
-523,no es necesaria
-823,no es necesaria
-187,moto
-399,auto
-537,auto
-563,auto
-814,vehiculo de carga
-536,auto
-411,no es necesaria
-63,moto
-733,auto
-276,moto
-620,moto
-777,auto
-794,vehiculo de carga
-258,vehiculo de carga
-72,moto
-289,no es necesaria
-736,moto
-756,auto
-331,auto
-347,no es necesaria
-445,moto
-760,auto
-407,vehiculo de carga
-556,auto
-137,auto
-445,vehiculo de carga
-624,auto
-378,auto
-700,vehiculo de carga
-73,moto
-718,auto
-560,auto
-18,auto
-253,auto
-156,auto
-59,auto
-478,moto
-463,moto
-395,auto
-630,auto
-595,no es necesaria
-586,auto
-763,no es necesaria
-519,auto
-235,auto
-36,no es necesaria
-582,moto
-703,vehiculo de carga
-71,moto
-116,moto
-314,moto
-706,auto
-707,auto
-65,moto
-593,no es necesaria
-813,auto
-254,auto
-273,no es necesaria
-744,auto
-146,vehiculo de carga
-63,auto
-274,auto
-388,auto
-363,auto
-520,auto
-720,no es necesaria
-336,auto
-745,moto
-282,no es necesaria
-654,moto
-466,no es necesaria
-238,moto
-693,moto
-133,vehiculo de carga
-778,auto
-99,auto
-376,no es necesaria
-296,no es necesaria
-168,auto
-381,no es necesaria
-145,no es necesaria
-605,no es necesaria
-652,moto
-495,moto
-145,vehiculo de carga
-362,auto
-634,moto
-543,auto
-40,no es necesaria
-488,auto
-185,no es necesaria
-645,no es necesaria
-733,vehiculo de carga
-230,auto
-598,no es necesaria
-518,auto
-615,moto
-184,auto
-25,auto
-537,moto
-790,moto
-20,auto
-342,vehiculo de carga
-97,no es necesaria
-328,vehiculo de carga
-97,moto
-710,vehiculo de carga
-289,no es necesaria
-101,no es necesaria
-518,no es necesaria
-624,moto
-578,moto
-593,no es necesaria
-304,vehiculo de carga
-725,auto
-655,auto
-477,auto
-424,moto
-625,vehiculo de carga
-742,moto
-639,auto
-518,no es necesaria
-511,no es necesaria
-304,vehiculo de carga
-410,moto
-49,auto
-614,vehiculo de carga
-442,moto
-372,vehiculo de carga
-423,no es necesaria
-206,no es necesaria
-606,auto
-665,moto
-646,vehiculo de carga
-412,moto
-502,auto
-404,auto
-52,no es necesaria
-103,auto
-298,auto
-513,moto
-511,vehiculo de carga
-363,no es necesaria
-455,auto
-707,moto
-257,auto
-632,auto
-573,auto
-311,auto
-619,auto
-284,moto
-462,auto
-512,no es necesaria
-567,auto
-699,vehiculo de carga
-287,no es necesaria
-37,no es necesaria
-281,auto
-158,vehiculo de carga
-227,auto
-194,auto
-32,vehiculo de carga
-654,no es necesaria
-624,moto
-126,auto
-106,vehiculo de carga
-643,vehiculo de carga
-702,no es necesaria
-640,no es necesaria
-342,no es necesaria
-298,no es necesaria
-109,auto
-369,auto
-513,auto
-429,vehiculo de carga
-128,no es necesaria
-562,no es necesaria
-254,auto
-505,no es necesaria
-542,vehiculo de carga
-345,auto
-132,moto
-104,moto
-42,auto
-716,vehiculo de carga
-243,no es necesaria
-526,auto
-664,auto
-375,vehiculo de carga
-582,auto
-673,no es necesaria
-187,auto
-331,auto
-477,auto
-511,auto
-342,auto
-262,no es necesaria
-316,no es necesaria
-265,no es necesaria
-578,moto
-156,auto
-273,moto
-783,auto
-573,auto
-517,moto
-384,auto
-267,moto
-240,moto
-602,moto
-490,auto
-335,no es necesaria
-479,no es necesaria
-398,no es necesaria
-658,no es necesaria
-483,auto
-392,auto
-381,auto
-602,auto
-11,no es necesaria
-573,moto
-614,auto
-169,moto
-14,no es necesaria
-731,no es necesaria
-313,vehiculo de carga
-673,no es necesaria
-95,vehiculo de carga
-715,no es necesaria
-173,no es necesaria
-516,moto
-780,auto
-423,vehiculo de carga
-172,moto
-194,auto
-737,no es necesaria
-497,moto
-216,moto
-615,moto
-384,moto
-12,moto
-220,no es necesaria
-575,vehiculo de carga
-484,auto
-191,auto
-553,auto
-618,moto
-690,moto
-768,auto
-768,auto
-483,auto
-158,auto
-89,auto
-122,no es necesaria
-324,no es necesaria
-103,auto
-221,auto
-652,auto
-421,no es necesaria
-300,no es necesaria
-65,vehiculo de carga
-698,no es necesaria
-550,vehiculo de carga
-116,auto
-660,auto
-520,auto
-84,auto
-42,auto
-183,auto
-273,auto
-115,auto
-324,no es necesaria
-313,auto
-525,moto
-168,no es necesaria
-546,vehiculo de carga
-794,auto
-84,auto
-38,auto
-787,no es necesaria
-686,auto
-664,moto
-615,auto
-661,auto
-151,no es necesaria
-535,moto
-315,auto
-259,no es necesaria
-690,vehiculo de carga
-296,moto
-23,no es necesaria
-240,auto
-683,no es necesaria
-136,vehiculo de carga
-657,no es necesaria
-506,moto
-630,vehiculo de carga
-351,auto
-409,moto
-407,vehiculo de carga
-99,moto
-291,vehiculo de carga
-792,auto
-799,moto
-717,moto
-575,moto
-669,moto
-187,auto
-366,auto
-61,auto
-372,vehiculo de carga
-381,auto
-411,auto
-130,moto
-221,moto
-243,moto
-153,moto
-815,vehiculo de carga
-779,no es necesaria
-154,no es necesaria
-734,moto
-432,moto
-6,no es necesaria
-761,vehiculo de carga
-600,vehiculo de carga
-404,auto
-153,auto
-677,auto
-708,moto
-578,no es necesaria
-636,no es necesaria
-810,no es necesaria
-563,vehiculo de carga
-289,vehiculo de carga
-369,no es necesaria
-207,auto
-86,moto
-281,vehiculo de carga
-96,auto
-392,moto
-306,auto
-53,auto
-543,auto
-591,no es necesaria
-220,moto
-118,auto
-515,moto
-497,vehiculo de carga
-424,auto
-705,no es necesaria
-33,auto
-812,moto
-120,auto
-625,auto
-246,auto
-183,auto
-323,no es necesaria
-334,no es necesaria
-311,auto
-277,moto
-318,auto
-644,auto
-96,no es necesaria
-591,auto
-641,vehiculo de carga
-757,auto
-206,no es necesaria
-192,auto
-154,auto
-114,no es necesaria
-58,vehiculo de carga
-797,auto
-115,no es necesaria
-392,auto
-611,moto
-291,auto
-554,auto
-615,auto
-515,auto
-339,auto
-691,no es necesaria
-350,auto
-388,auto
-523,moto
-726,auto
-306,auto
-240,auto
-534,auto
-398,auto
-264,moto
-715,auto
-118,auto
-216,vehiculo de carga
-710,auto
-29,no es necesaria
-811,no es necesaria
-462,moto
-75,vehiculo de carga
-636,auto
-693,no es necesaria
-110,auto
-619,auto
-200,vehiculo de carga
-444,auto
-33,auto
-554,auto
-79,moto
-133,auto
-692,auto
-9,no es necesaria
-356,auto
-586,auto
-816,moto
-803,moto
-531,auto
-177,auto
-657,moto
-768,auto
-118,vehiculo de carga
-423,auto
-741,moto
-317,auto
-474,auto
-574,auto
-118,vehiculo de carga
-291,auto
-335,moto
-477,vehiculo de carga
-270,no es necesaria
-357,moto
-744,auto
-156,auto
-28,moto
-614,auto
-358,auto
-101,auto
-381,moto
-242,auto
-687,moto
-561,auto
-660,vehiculo de carga
-629,no es necesaria
-355,auto
-353,auto
-738,no es necesaria
-285,vehiculo de carga
-497,auto
-119,auto
-697,vehiculo de carga
-697,no es necesaria
-441,vehiculo de carga
-333,moto
-653,auto
-742,auto
-144,no es necesaria
-276,no es necesaria
-548,auto
-575,no es necesaria
-442,auto
-598,auto
-575,auto
-496,auto
-0,auto
-65,auto
-414,auto
-357,no es necesaria
-192,no es necesaria
-674,auto
-115,no es necesaria
-681,auto
-734,no es necesaria
-188,no es necesaria
-537,auto
-167,auto
-484,no es necesaria
-246,auto
-116,auto
-397,no es necesaria
-553,no es necesaria
-26,auto
-437,no es necesaria
-123,auto
-579,moto
-465,auto
-610,auto
-715,no es necesaria
-592,no es necesaria
-321,auto
-149,auto
-810,auto
-741,no es necesaria
-140,no es necesaria
-756,moto
-262,moto
-601,moto
-592,auto
-85,moto
-181,auto
-695,auto
-539,no es necesaria
-20,no es necesaria
-803,no es necesaria
-653,moto
-707,no es necesaria
-59,moto
-506,auto
-361,auto
-238,moto
-640,auto
-181,vehiculo de carga
-130,auto
-448,auto
-642,auto
-780,moto
-232,auto
-110,moto
-757,moto
-167,no es necesaria
-744,vehiculo de carga
-485,auto
-617,moto
-336,no es necesaria
-12,no es necesaria
-416,no es necesaria
-165,moto
-106,moto
-129,auto
-459,auto
-350,vehiculo de carga
-483,no es necesaria
-525,auto
-525,moto
-596,vehiculo de carga
-550,moto
-52,auto
-86,auto
-464,no es necesaria
-291,moto
-636,auto
-548,auto
-671,moto
-698,no es necesaria
-776,moto
-37,no es necesaria
-671,vehiculo de carga
-540,moto
-300,no es necesaria
-67,no es necesaria
-67,auto
-539,vehiculo de carga
-314,no es necesaria
-119,no es necesaria
-551,moto
-437,moto
-555,auto
-456,no es necesaria
-159,vehiculo de carga
-711,moto
-268,moto
-299,moto
-609,auto
-351,moto
-551,vehiculo de carga
-523,vehiculo de carga
-189,auto
-25,auto
-707,vehiculo de carga
-636,auto
-705,auto
-736,auto
-452,auto
-42,auto
-679,no es necesaria
-264,auto
-790,auto
-772,auto
-102,auto
-749,no es necesaria
-761,auto
-96,auto
-91,moto
-466,vehiculo de carga
-82,no es necesaria
-20,auto
-620,no es necesaria
-315,auto
-299,no es necesaria
-429,auto
-125,auto
-712,moto
-458,auto
-779,auto
-391,moto
-165,auto
-132,auto
-403,moto
-328,auto
-694,moto
-593,no es necesaria
-377,vehiculo de carga
-67,moto
-382,auto
-97,auto
-345,auto
-415,auto
-646,no es necesaria
-456,no es necesaria
-393,vehiculo de carga
-695,moto
-502,moto
-736,moto
-654,no es necesaria
-389,no es necesaria
-36,auto
-136,no es necesaria
-797,moto
-785,auto
-798,auto
-287,no es necesaria
-159,vehiculo de carga
-316,auto
-799,auto
-728,no es necesaria
-286,moto
-181,auto
-72,no es necesaria
-161,auto
-610,vehiculo de carga
-534,no es necesaria
-612,auto
-169,no es necesaria
-217,auto
-804,no es necesaria
-641,auto
-242,auto
-21,moto
-323,auto
-191,auto
-478,auto
-805,auto
-424,auto
-676,auto
-776,moto
-716,moto
-701,auto
-119,moto
-618,auto
-159,vehiculo de carga
-157,moto
-55,auto
-345,auto
-635,auto
-737,auto
-655,no es necesaria
-476,no es necesaria
-243,auto
-621,vehiculo de carga
-429,no es necesaria
-718,no es necesaria
-214,moto
-398,no es necesaria
-534,moto
-466,auto
-38,vehiculo de carga
-247,auto
-39,moto
-670,auto
-603,moto
-157,vehiculo de carga
-18,moto
-336,no es necesaria
-579,auto
-61,no es necesaria
-728,moto
-20,no es necesaria
-815,auto
-444,no es necesaria
-535,no es necesaria
-95,vehiculo de carga
-12,no es necesaria
-142,moto
-129,auto
-39,no es necesaria
-559,auto
-603,moto
-595,no es necesaria
-198,auto
-230,auto
-693,auto
-691,no es necesaria
-681,auto
-177,auto
-257,auto
-368,auto
-270,vehiculo de carga
-207,auto
-602,moto
-37,moto
-472,moto
-127,moto
-600,vehiculo de carga
-717,moto
-141,no es necesaria
-678,auto
-772,moto
-584,moto
-486,auto
-2,no es necesaria
-336,no es necesaria
-759,auto
-645,auto
-689,vehiculo de carga
-749,no es necesaria
-655,no es necesaria
-236,no es necesaria
-422,auto
-224,auto
-513,moto
-257,auto
-32,vehiculo de carga
-518,auto
-811,auto
-178,auto
-472,no es necesaria
-466,no es necesaria
-239,moto
-49,auto
-672,moto
-801,auto
-425,moto
-531,auto
-191,moto
-629,no es necesaria
-810,auto
-521,moto
-18,moto
-128,no es necesaria
-205,no es necesaria
-579,vehiculo de carga
-479,auto
-757,auto
-793,auto
-185,no es necesaria
-75,auto
-82,auto
-144,moto
-26,vehiculo de carga
-191,no es necesaria
-342,no es necesaria
-699,auto
-800,moto
-187,vehiculo de carga
-493,auto
-507,auto
-553,auto
-596,moto
-344,auto
-334,auto
-697,auto
-530,auto
-605,auto
-339,vehiculo de carga
-251,no es necesaria
-490,auto
-353,moto
+id,id_persona,tipo_licencia
+1,91,auto
+2,122,auto
+3,616,moto
+4,84,no es necesaria
+5,768,auto
+6,350,moto
+7,21,auto
+8,414,auto
+9,555,no es necesaria
+10,813,moto
+11,467,moto
+12,309,no es necesaria
+13,644,vehiculo de carga
+14,689,auto
+15,34,auto
+16,552,no es necesaria
+17,383,no es necesaria
+18,327,vehiculo de carga
+19,577,no es necesaria
+20,167,no es necesaria
+21,479,auto
+22,376,auto
+23,728,no es necesaria
+24,321,auto
+25,753,moto
+26,441,moto
+27,652,auto
+28,289,moto
+29,758,auto
+30,540,no es necesaria
+31,432,auto
+32,823,vehiculo de carga
+33,444,vehiculo de carga
+34,99,auto
+35,525,auto
+36,232,auto
+37,183,no es necesaria
+38,1,moto
+39,758,moto
+40,103,vehiculo de carga
+41,345,auto
+42,670,moto
+43,521,moto
+44,813,moto
+45,44,auto
+46,658,moto
+47,403,no es necesaria
+48,785,auto
+49,318,auto
+50,273,no es necesaria
+51,93,vehiculo de carga
+52,625,auto
+53,536,moto
+54,127,no es necesaria
+55,168,moto
+56,39,vehiculo de carga
+57,599,auto
+58,635,moto
+59,269,vehiculo de carga
+60,384,no es necesaria
+61,168,auto
+62,93,no es necesaria
+63,535,moto
+64,285,vehiculo de carga
+65,763,moto
+66,486,auto
+67,385,moto
+68,667,auto
+69,358,auto
+70,691,moto
+71,0,moto
+72,3,auto
+73,344,auto
+74,555,moto
+75,347,auto
+76,455,auto
+77,172,vehiculo de carga
+78,520,no es necesaria
+79,382,auto
+80,11,auto
+81,507,no es necesaria
+82,200,auto
+83,395,no es necesaria
+84,24,auto
+85,467,no es necesaria
+86,115,auto
+87,503,vehiculo de carga
+88,495,auto
+89,235,auto
+90,608,moto
+91,567,auto
+92,266,vehiculo de carga
+93,353,auto
+94,710,auto
+95,266,auto
+96,15,moto
+97,40,auto
+98,185,auto
+99,400,moto
+100,671,auto
+101,259,auto
+102,394,moto
+103,36,auto
+104,274,moto
+105,554,vehiculo de carga
+106,464,moto
+107,184,auto
+108,777,no es necesaria
+109,616,auto
+110,357,vehiculo de carga
+111,677,auto
+112,496,moto
+113,679,auto
+114,100,auto
+115,227,moto
+116,281,auto
+117,340,auto
+118,475,moto
+119,323,moto
+120,82,auto
+121,142,vehiculo de carga
+122,269,auto
+123,664,auto
+124,568,auto
+125,382,no es necesaria
+126,140,auto
+127,393,auto
+128,356,auto
+129,335,auto
+130,120,vehiculo de carga
+131,797,vehiculo de carga
+132,484,auto
+133,198,auto
+134,429,no es necesaria
+135,485,auto
+136,28,auto
+137,96,vehiculo de carga
+138,124,no es necesaria
+139,517,auto
+140,61,no es necesaria
+141,425,vehiculo de carga
+142,416,moto
+143,524,moto
+144,365,no es necesaria
+145,3,auto
+146,296,auto
+147,598,no es necesaria
+148,149,auto
+149,259,auto
+150,463,auto
+151,566,auto
+152,396,vehiculo de carga
+153,24,auto
+154,194,moto
+155,205,auto
+156,158,auto
+157,619,vehiculo de carga
+158,595,auto
+159,678,moto
+160,220,auto
+161,620,moto
+162,377,auto
+163,676,auto
+164,298,auto
+165,351,moto
+166,435,moto
+167,265,moto
+168,581,auto
+169,663,auto
+170,366,no es necesaria
+171,814,moto
+172,452,auto
+173,362,auto
+174,676,auto
+175,274,no es necesaria
+176,283,no es necesaria
+177,173,auto
+178,803,moto
+179,102,vehiculo de carga
+180,442,no es necesaria
+181,474,no es necesaria
+182,516,no es necesaria
+183,612,moto
+184,2,moto
+185,286,auto
+186,697,no es necesaria
+187,643,auto
+188,284,auto
+189,89,auto
+190,126,auto
+191,353,auto
+192,86,auto
+193,362,auto
+194,410,auto
+195,145,moto
+196,674,auto
+197,385,auto
+198,709,auto
+199,773,auto
+200,712,no es necesaria
+201,706,no es necesaria
+202,178,no es necesaria
+203,109,auto
+204,238,auto
+205,210,auto
+206,744,auto
+207,365,vehiculo de carga
+208,380,auto
+209,639,auto
+210,790,no es necesaria
+211,705,moto
+212,59,auto
+213,725,auto
+214,486,auto
+215,299,moto
+216,128,no es necesaria
+217,141,auto
+218,505,moto
+219,566,no es necesaria
+220,409,no es necesaria
+221,189,moto
+222,663,no es necesaria
+223,154,vehiculo de carga
+224,779,auto
+225,693,no es necesaria
+226,566,auto
+227,196,auto
+228,818,auto
+229,131,auto
+230,315,no es necesaria
+231,403,auto
+232,407,moto
+233,53,auto
+234,745,auto
+235,475,auto
+236,435,auto
+237,631,auto
+238,329,auto
+239,629,auto
+240,634,vehiculo de carga
+241,36,no es necesaria
+242,643,auto
+243,422,auto
+244,421,no es necesaria
+245,173,no es necesaria
+246,705,vehiculo de carga
+247,26,no es necesaria
+248,329,vehiculo de carga
+249,302,auto
+250,148,no es necesaria
+251,246,no es necesaria
+252,365,auto
+253,390,auto
+254,179,vehiculo de carga
+255,327,no es necesaria
+256,487,auto
+257,606,auto
+258,219,moto
+259,514,moto
+260,514,vehiculo de carga
+261,763,auto
+262,361,vehiculo de carga
+263,400,auto
+264,710,auto
+265,592,auto
+266,479,no es necesaria
+267,156,no es necesaria
+268,25,auto
+269,347,no es necesaria
+270,598,no es necesaria
+271,536,moto
+272,579,auto
+273,415,vehiculo de carga
+274,460,auto
+275,371,auto
+276,484,no es necesaria
+277,794,auto
+278,617,no es necesaria
+279,694,no es necesaria
+280,722,no es necesaria
+281,669,auto
+282,632,auto
+283,287,auto
+284,283,auto
+285,805,moto
+286,199,auto
+287,38,moto
+288,815,auto
+289,15,no es necesaria
+290,655,no es necesaria
+291,435,auto
+292,618,moto
+293,695,auto
+294,531,auto
+295,177,auto
+296,777,auto
+297,665,no es necesaria
+298,692,moto
+299,415,no es necesaria
+300,551,auto
+301,23,auto
+302,552,auto
+303,478,moto
+304,758,auto
+305,813,auto
+306,58,vehiculo de carga
+307,248,auto
+308,646,vehiculo de carga
+309,391,auto
+310,382,auto
+311,695,vehiculo de carga
+312,14,no es necesaria
+313,591,auto
+314,302,no es necesaria
+315,58,moto
+316,29,vehiculo de carga
+317,251,auto
+318,314,auto
+319,711,auto
+320,415,moto
+321,276,vehiculo de carga
+322,577,no es necesaria
+323,812,auto
+324,617,auto
+325,773,auto
+326,601,no es necesaria
+327,210,moto
+328,126,no es necesaria
+329,488,moto
+330,791,no es necesaria
+331,160,auto
+332,220,auto
+333,21,auto
+334,15,auto
+335,509,moto
+336,285,auto
+337,553,moto
+338,109,moto
+339,389,moto
+340,562,auto
+341,460,no es necesaria
+342,26,auto
+343,71,auto
+344,630,auto
+345,368,no es necesaria
+346,503,auto
+347,460,moto
+348,683,auto
+349,240,auto
+350,642,auto
+351,671,auto
+352,174,auto
+353,725,no es necesaria
+354,633,moto
+355,576,vehiculo de carga
+356,534,auto
+357,720,no es necesaria
+358,221,auto
+359,332,vehiculo de carga
+360,502,auto
+361,397,vehiculo de carga
+362,357,no es necesaria
+363,277,auto
+364,728,auto
+365,403,auto
+366,402,auto
+367,804,no es necesaria
+368,205,moto
+369,1,auto
+370,463,auto
+371,3,auto
+372,43,vehiculo de carga
+373,167,vehiculo de carga
+374,125,vehiculo de carga
+375,75,no es necesaria
+376,704,no es necesaria
+377,86,moto
+378,667,auto
+379,723,no es necesaria
+380,603,moto
+381,790,auto
+382,58,no es necesaria
+383,733,no es necesaria
+384,706,moto
+385,470,moto
+386,192,auto
+387,332,auto
+388,262,auto
+389,430,moto
+390,818,moto
+391,213,no es necesaria
+392,760,moto
+393,576,no es necesaria
+394,254,auto
+395,318,auto
+396,274,no es necesaria
+397,470,auto
+398,436,auto
+399,414,no es necesaria
+400,452,auto
+401,445,vehiculo de carga
+402,458,vehiculo de carga
+403,539,no es necesaria
+404,761,auto
+405,762,no es necesaria
+406,316,auto
+407,233,auto
+408,51,auto
+409,236,auto
+410,23,no es necesaria
+411,379,moto
+412,633,vehiculo de carga
+413,328,auto
+414,557,auto
+415,245,auto
+416,792,moto
+417,127,vehiculo de carga
+418,726,auto
+419,95,moto
+420,762,vehiculo de carga
+421,287,auto
+422,288,no es necesaria
+423,216,moto
+424,329,no es necesaria
+425,264,auto
+426,556,vehiculo de carga
+427,142,auto
+428,738,auto
+429,367,moto
+430,250,moto
+431,574,auto
+432,733,auto
+433,722,auto
+434,687,auto
+435,228,auto
+436,316,auto
+437,778,auto
+438,463,no es necesaria
+439,425,auto
+440,664,moto
+441,213,moto
+442,151,no es necesaria
+443,144,auto
+444,702,vehiculo de carga
+445,379,no es necesaria
+446,65,auto
+447,680,auto
+448,711,auto
+449,536,no es necesaria
+450,402,auto
+451,410,vehiculo de carga
+452,526,moto
+453,351,auto
+454,371,auto
+455,247,moto
+456,372,auto
+457,377,auto
+458,702,moto
+459,773,auto
+460,702,moto
+461,425,moto
+462,116,no es necesaria
+463,759,auto
+464,230,auto
+465,137,no es necesaria
+466,720,auto
+467,661,auto
+468,799,auto
+469,512,auto
+470,798,vehiculo de carga
+471,75,moto
+472,708,moto
+473,73,moto
+474,160,auto
+475,151,auto
+476,288,no es necesaria
+477,300,auto
+478,385,vehiculo de carga
+479,165,vehiculo de carga
+480,515,auto
+481,783,moto
+482,362,auto
+483,608,auto
+484,378,auto
+485,745,no es necesaria
+486,61,auto
+487,690,no es necesaria
+488,718,no es necesaria
+489,737,auto
+490,200,moto
+491,611,vehiculo de carga
+492,459,auto
+493,446,auto
+494,694,moto
+495,25,auto
+496,222,auto
+497,631,auto
+498,245,no es necesaria
+499,600,moto
+500,396,moto
+501,682,vehiculo de carga
+502,416,auto
+503,564,auto
+504,474,auto
+505,394,auto
+506,259,auto
+507,628,vehiculo de carga
+508,689,auto
+509,100,auto
+510,601,auto
+511,104,auto
+512,397,no es necesaria
+513,687,no es necesaria
+514,131,no es necesaria
+515,606,moto
+516,631,auto
+517,388,no es necesaria
+518,785,no es necesaria
+519,34,moto
+520,436,auto
+521,410,auto
+522,448,vehiculo de carga
+523,620,auto
+524,720,moto
+525,474,no es necesaria
+526,331,auto
+527,335,no es necesaria
+528,160,auto
+529,816,auto
+530,548,auto
+531,804,moto
+532,772,vehiculo de carga
+533,507,auto
+534,512,moto
+535,614,auto
+536,242,moto
+537,323,moto
+538,133,moto
+539,146,auto
+540,785,auto
+541,286,vehiculo de carga
+542,556,no es necesaria
+543,99,no es necesaria
+544,704,vehiculo de carga
+545,570,auto
+546,395,auto
+547,513,auto
+548,505,no es necesaria
+549,519,no es necesaria
+550,378,no es necesaria
+551,277,auto
+552,612,no es necesaria
+553,635,moto
+554,520,auto
+555,270,no es necesaria
+556,267,no es necesaria
+557,618,auto
+558,67,moto
+559,515,no es necesaria
+560,560,no es necesaria
+561,823,moto
+562,559,auto
+563,151,auto
+564,621,auto
+565,412,auto
+566,230,no es necesaria
+567,488,vehiculo de carga
+568,253,no es necesaria
+569,681,no es necesaria
+570,199,no es necesaria
+571,239,moto
+572,221,no es necesaria
+573,321,moto
+574,141,vehiculo de carga
+575,129,auto
+576,464,moto
+577,609,auto
+578,608,moto
+579,731,moto
+580,546,auto
+581,801,auto
+582,42,no es necesaria
+583,568,moto
+584,114,vehiculo de carga
+585,570,auto
+586,376,no es necesaria
+587,133,no es necesaria
+588,4,moto
+589,793,auto
+590,55,auto
+591,269,auto
+592,109,auto
+593,33,no es necesaria
+594,296,auto
+595,672,no es necesaria
+596,458,auto
+597,756,auto
+598,34,moto
+599,93,vehiculo de carga
+600,653,moto
+601,317,auto
+602,85,auto
+603,355,no es necesaria
+604,216,moto
+605,344,auto
+606,33,vehiculo de carga
+607,661,no es necesaria
+608,104,auto
+609,680,auto
+610,9,auto
+611,557,no es necesaria
+612,551,auto
+613,683,moto
+614,584,moto
+615,809,auto
+616,262,moto
+617,496,auto
+618,703,auto
+619,331,auto
+620,478,no es necesaria
+621,172,vehiculo de carga
+622,346,no es necesaria
+623,723,auto
+624,268,no es necesaria
+625,508,vehiculo de carga
+626,375,moto
+627,736,auto
+628,334,no es necesaria
+629,590,auto
+630,452,vehiculo de carga
+631,44,no es necesaria
+632,128,auto
+633,467,auto
+634,619,auto
+635,741,auto
+636,385,vehiculo de carga
+637,601,auto
+638,309,moto
+639,157,no es necesaria
+640,315,no es necesaria
+641,603,no es necesaria
+642,496,auto
+643,715,no es necesaria
+644,760,auto
+645,97,vehiculo de carga
+646,416,auto
+647,561,moto
+648,645,no es necesaria
+649,172,no es necesaria
+650,354,moto
+651,304,moto
+652,581,moto
+653,584,vehiculo de carga
+654,79,no es necesaria
+655,791,moto
+656,4,vehiculo de carga
+657,55,auto
+658,487,auto
+659,214,auto
+660,542,no es necesaria
+661,39,no es necesaria
+662,324,no es necesaria
+663,800,no es necesaria
+664,181,auto
+665,475,vehiculo de carga
+666,820,moto
+667,543,vehiculo de carga
+668,91,moto
+669,612,auto
+670,189,auto
+671,363,auto
+672,243,auto
+673,582,auto
+674,0,vehiculo de carga
+675,55,auto
+676,567,no es necesaria
+677,258,auto
+678,809,vehiculo de carga
+679,582,moto
+680,149,auto
+681,267,auto
+682,227,auto
+683,577,no es necesaria
+684,753,moto
+685,228,auto
+686,199,auto
+687,818,no es necesaria
+688,222,moto
+689,123,vehiculo de carga
+690,486,auto
+691,472,auto
+692,760,moto
+693,367,auto
+694,73,no es necesaria
+695,103,moto
+696,161,auto
+697,797,auto
+698,441,auto
+699,711,auto
+700,333,moto
+701,798,vehiculo de carga
+702,495,moto
+703,28,auto
+704,228,no es necesaria
+705,397,auto
+706,119,auto
+707,505,moto
+708,179,moto
+709,803,auto
+710,123,auto
+711,642,vehiculo de carga
+712,141,auto
+713,217,auto
+714,275,moto
+715,306,auto
+716,222,moto
+717,682,auto
+718,639,auto
+719,399,no es necesaria
+720,680,no es necesaria
+721,465,no es necesaria
+722,23,auto
+723,628,no es necesaria
+724,8,no es necesaria
+725,354,auto
+726,442,vehiculo de carga
+727,804,moto
+728,550,auto
+729,591,vehiculo de carga
+730,816,moto
+731,217,auto
+732,395,moto
+733,414,no es necesaria
+734,224,vehiculo de carga
+735,700,auto
+736,590,no es necesaria
+737,146,auto
+738,219,auto
+739,530,auto
+740,350,no es necesaria
+741,608,no es necesaria
+742,358,auto
+743,154,moto
+744,6,vehiculo de carga
+745,574,moto
+746,228,auto
+747,29,auto
+748,432,auto
+749,731,auto
+750,140,no es necesaria
+751,137,auto
+752,546,auto
+753,508,vehiculo de carga
+754,701,auto
+755,248,no es necesaria
+756,554,auto
+757,51,auto
+758,282,auto
+759,43,auto
+760,467,moto
+761,548,no es necesaria
+762,390,moto
+763,493,auto
+764,253,auto
+765,756,auto
+766,145,moto
+767,142,auto
+768,787,auto
+769,394,auto
+770,188,auto
+771,564,moto
+772,630,auto
+773,595,moto
+774,475,no es necesaria
+775,376,auto
+776,446,auto
+777,236,no es necesaria
+778,32,moto
+779,174,no es necesaria
+780,609,no es necesaria
+781,233,moto
+782,302,no es necesaria
+783,506,vehiculo de carga
+784,441,no es necesaria
+785,324,auto
+786,723,auto
+787,633,no es necesaria
+788,809,auto
+789,802,auto
+790,248,auto
+791,802,auto
+792,314,auto
+793,602,auto
+794,699,auto
+795,369,no es necesaria
+796,124,auto
+797,100,moto
+798,89,moto
+799,678,auto
+800,104,auto
+801,340,auto
+802,459,auto
+803,389,auto
+804,153,no es necesaria
+805,183,auto
+806,483,auto
+807,654,auto
+808,599,moto
+809,196,auto
+810,689,vehiculo de carga
+811,667,moto
+812,368,no es necesaria
+813,93,no es necesaria
+814,485,no es necesaria
+815,476,auto
+816,464,auto
+817,437,vehiculo de carga
+818,275,auto
+819,539,no es necesaria
+820,91,auto
+821,678,auto
+822,224,auto
+823,254,auto
+824,300,auto
+825,523,auto
+826,559,auto
+827,555,moto
+828,63,auto
+829,753,auto
+830,421,auto
+831,524,auto
+832,657,moto
+833,559,auto
+834,327,auto
+835,787,vehiculo de carga
+836,509,auto
+837,8,no es necesaria
+838,584,auto
+839,14,auto
+840,148,auto
+841,742,auto
+842,692,auto
+843,791,moto
+844,680,auto
+845,346,no es necesaria
+846,430,vehiculo de carga
+847,250,moto
+848,12,moto
+849,383,no es necesaria
+850,682,no es necesaria
+851,275,moto
+852,576,auto
+853,214,auto
+854,455,vehiculo de carga
+855,718,no es necesaria
+856,276,no es necesaria
+857,396,moto
+858,802,auto
+859,332,auto
+860,686,auto
+861,628,moto
+862,205,moto
+863,820,auto
+864,658,auto
+865,95,auto
+866,40,moto
+867,380,auto
+868,120,auto
+869,327,auto
+870,378,moto
+871,712,auto
+872,699,no es necesaria
+873,653,vehiculo de carga
+874,435,moto
+875,245,no es necesaria
+876,430,vehiculo de carga
+877,661,auto
+878,635,auto
+879,814,auto
+880,523,no es necesaria
+881,823,no es necesaria
+882,187,moto
+883,399,auto
+884,537,auto
+885,563,auto
+886,814,vehiculo de carga
+887,536,auto
+888,411,no es necesaria
+889,63,moto
+890,733,auto
+891,276,moto
+892,620,moto
+893,777,auto
+894,794,vehiculo de carga
+895,258,vehiculo de carga
+896,72,moto
+897,289,no es necesaria
+898,736,moto
+899,756,auto
+900,331,auto
+901,347,no es necesaria
+902,445,moto
+903,760,auto
+904,407,vehiculo de carga
+905,556,auto
+906,137,auto
+907,445,vehiculo de carga
+908,624,auto
+909,378,auto
+910,700,vehiculo de carga
+911,73,moto
+912,718,auto
+913,560,auto
+914,18,auto
+915,253,auto
+916,156,auto
+917,59,auto
+918,478,moto
+919,463,moto
+920,395,auto
+921,630,auto
+922,595,no es necesaria
+923,586,auto
+924,763,no es necesaria
+925,519,auto
+926,235,auto
+927,36,no es necesaria
+928,582,moto
+929,703,vehiculo de carga
+930,71,moto
+931,116,moto
+932,314,moto
+933,706,auto
+934,707,auto
+935,65,moto
+936,593,no es necesaria
+937,813,auto
+938,254,auto
+939,273,no es necesaria
+940,744,auto
+941,146,vehiculo de carga
+942,63,auto
+943,274,auto
+944,388,auto
+945,363,auto
+946,520,auto
+947,720,no es necesaria
+948,336,auto
+949,745,moto
+950,282,no es necesaria
+951,654,moto
+952,466,no es necesaria
+953,238,moto
+954,693,moto
+955,133,vehiculo de carga
+956,778,auto
+957,99,auto
+958,376,no es necesaria
+959,296,no es necesaria
+960,168,auto
+961,381,no es necesaria
+962,145,no es necesaria
+963,605,no es necesaria
+964,652,moto
+965,495,moto
+966,145,vehiculo de carga
+967,362,auto
+968,634,moto
+969,543,auto
+970,40,no es necesaria
+971,488,auto
+972,185,no es necesaria
+973,645,no es necesaria
+974,733,vehiculo de carga
+975,230,auto
+976,598,no es necesaria
+977,518,auto
+978,615,moto
+979,184,auto
+980,25,auto
+981,537,moto
+982,790,moto
+983,20,auto
+984,342,vehiculo de carga
+985,97,no es necesaria
+986,328,vehiculo de carga
+987,97,moto
+988,710,vehiculo de carga
+989,289,no es necesaria
+990,101,no es necesaria
+991,518,no es necesaria
+992,624,moto
+993,578,moto
+994,593,no es necesaria
+995,304,vehiculo de carga
+996,725,auto
+997,655,auto
+998,477,auto
+999,424,moto
+1000,625,vehiculo de carga
+1001,742,moto
+1002,639,auto
+1003,518,no es necesaria
+1004,511,no es necesaria
+1005,304,vehiculo de carga
+1006,410,moto
+1007,49,auto
+1008,614,vehiculo de carga
+1009,442,moto
+1010,372,vehiculo de carga
+1011,423,no es necesaria
+1012,206,no es necesaria
+1013,606,auto
+1014,665,moto
+1015,646,vehiculo de carga
+1016,412,moto
+1017,502,auto
+1018,404,auto
+1019,52,no es necesaria
+1020,103,auto
+1021,298,auto
+1022,513,moto
+1023,511,vehiculo de carga
+1024,363,no es necesaria
+1025,455,auto
+1026,707,moto
+1027,257,auto
+1028,632,auto
+1029,573,auto
+1030,311,auto
+1031,619,auto
+1032,284,moto
+1033,462,auto
+1034,512,no es necesaria
+1035,567,auto
+1036,699,vehiculo de carga
+1037,287,no es necesaria
+1038,37,no es necesaria
+1039,281,auto
+1040,158,vehiculo de carga
+1041,227,auto
+1042,194,auto
+1043,32,vehiculo de carga
+1044,654,no es necesaria
+1045,624,moto
+1046,126,auto
+1047,106,vehiculo de carga
+1048,643,vehiculo de carga
+1049,702,no es necesaria
+1050,640,no es necesaria
+1051,342,no es necesaria
+1052,298,no es necesaria
+1053,109,auto
+1054,369,auto
+1055,513,auto
+1056,429,vehiculo de carga
+1057,128,no es necesaria
+1058,562,no es necesaria
+1059,254,auto
+1060,505,no es necesaria
+1061,542,vehiculo de carga
+1062,345,auto
+1063,132,moto
+1064,104,moto
+1065,42,auto
+1066,716,vehiculo de carga
+1067,243,no es necesaria
+1068,526,auto
+1069,664,auto
+1070,375,vehiculo de carga
+1071,582,auto
+1072,673,no es necesaria
+1073,187,auto
+1074,331,auto
+1075,477,auto
+1076,511,auto
+1077,342,auto
+1078,262,no es necesaria
+1079,316,no es necesaria
+1080,265,no es necesaria
+1081,578,moto
+1082,156,auto
+1083,273,moto
+1084,783,auto
+1085,573,auto
+1086,517,moto
+1087,384,auto
+1088,267,moto
+1089,240,moto
+1090,602,moto
+1091,490,auto
+1092,335,no es necesaria
+1093,479,no es necesaria
+1094,398,no es necesaria
+1095,658,no es necesaria
+1096,483,auto
+1097,392,auto
+1098,381,auto
+1099,602,auto
+1100,11,no es necesaria
+1101,573,moto
+1102,614,auto
+1103,169,moto
+1104,14,no es necesaria
+1105,731,no es necesaria
+1106,313,vehiculo de carga
+1107,673,no es necesaria
+1108,95,vehiculo de carga
+1109,715,no es necesaria
+1110,173,no es necesaria
+1111,516,moto
+1112,780,auto
+1113,423,vehiculo de carga
+1114,172,moto
+1115,194,auto
+1116,737,no es necesaria
+1117,497,moto
+1118,216,moto
+1119,615,moto
+1120,384,moto
+1121,12,moto
+1122,220,no es necesaria
+1123,575,vehiculo de carga
+1124,484,auto
+1125,191,auto
+1126,553,auto
+1127,618,moto
+1128,690,moto
+1129,768,auto
+1130,768,auto
+1131,483,auto
+1132,158,auto
+1133,89,auto
+1134,122,no es necesaria
+1135,324,no es necesaria
+1136,103,auto
+1137,221,auto
+1138,652,auto
+1139,421,no es necesaria
+1140,300,no es necesaria
+1141,65,vehiculo de carga
+1142,698,no es necesaria
+1143,550,vehiculo de carga
+1144,116,auto
+1145,660,auto
+1146,520,auto
+1147,84,auto
+1148,42,auto
+1149,183,auto
+1150,273,auto
+1151,115,auto
+1152,324,no es necesaria
+1153,313,auto
+1154,525,moto
+1155,168,no es necesaria
+1156,546,vehiculo de carga
+1157,794,auto
+1158,84,auto
+1159,38,auto
+1160,787,no es necesaria
+1161,686,auto
+1162,664,moto
+1163,615,auto
+1164,661,auto
+1165,151,no es necesaria
+1166,535,moto
+1167,315,auto
+1168,259,no es necesaria
+1169,690,vehiculo de carga
+1170,296,moto
+1171,23,no es necesaria
+1172,240,auto
+1173,683,no es necesaria
+1174,136,vehiculo de carga
+1175,657,no es necesaria
+1176,506,moto
+1177,630,vehiculo de carga
+1178,351,auto
+1179,409,moto
+1180,407,vehiculo de carga
+1181,99,moto
+1182,291,vehiculo de carga
+1183,792,auto
+1184,799,moto
+1185,717,moto
+1186,575,moto
+1187,669,moto
+1188,187,auto
+1189,366,auto
+1190,61,auto
+1191,372,vehiculo de carga
+1192,381,auto
+1193,411,auto
+1194,130,moto
+1195,221,moto
+1196,243,moto
+1197,153,moto
+1198,815,vehiculo de carga
+1199,779,no es necesaria
+1200,154,no es necesaria
+1201,734,moto
+1202,432,moto
+1203,6,no es necesaria
+1204,761,vehiculo de carga
+1205,600,vehiculo de carga
+1206,404,auto
+1207,153,auto
+1208,677,auto
+1209,708,moto
+1210,578,no es necesaria
+1211,636,no es necesaria
+1212,810,no es necesaria
+1213,563,vehiculo de carga
+1214,289,vehiculo de carga
+1215,369,no es necesaria
+1216,207,auto
+1217,86,moto
+1218,281,vehiculo de carga
+1219,96,auto
+1220,392,moto
+1221,306,auto
+1222,53,auto
+1223,543,auto
+1224,591,no es necesaria
+1225,220,moto
+1226,118,auto
+1227,515,moto
+1228,497,vehiculo de carga
+1229,424,auto
+1230,705,no es necesaria
+1231,33,auto
+1232,812,moto
+1233,120,auto
+1234,625,auto
+1235,246,auto
+1236,183,auto
+1237,323,no es necesaria
+1238,334,no es necesaria
+1239,311,auto
+1240,277,moto
+1241,318,auto
+1242,644,auto
+1243,96,no es necesaria
+1244,591,auto
+1245,641,vehiculo de carga
+1246,757,auto
+1247,206,no es necesaria
+1248,192,auto
+1249,154,auto
+1250,114,no es necesaria
+1251,58,vehiculo de carga
+1252,797,auto
+1253,115,no es necesaria
+1254,392,auto
+1255,611,moto
+1256,291,auto
+1257,554,auto
+1258,615,auto
+1259,515,auto
+1260,339,auto
+1261,691,no es necesaria
+1262,350,auto
+1263,388,auto
+1264,523,moto
+1265,726,auto
+1266,306,auto
+1267,240,auto
+1268,534,auto
+1269,398,auto
+1270,264,moto
+1271,715,auto
+1272,118,auto
+1273,216,vehiculo de carga
+1274,710,auto
+1275,29,no es necesaria
+1276,811,no es necesaria
+1277,462,moto
+1278,75,vehiculo de carga
+1279,636,auto
+1280,693,no es necesaria
+1281,110,auto
+1282,619,auto
+1283,200,vehiculo de carga
+1284,444,auto
+1285,33,auto
+1286,554,auto
+1287,79,moto
+1288,133,auto
+1289,692,auto
+1290,9,no es necesaria
+1291,356,auto
+1292,586,auto
+1293,816,moto
+1294,803,moto
+1295,531,auto
+1296,177,auto
+1297,657,moto
+1298,768,auto
+1299,118,vehiculo de carga
+1300,423,auto
+1301,741,moto
+1302,317,auto
+1303,474,auto
+1304,574,auto
+1305,118,vehiculo de carga
+1306,291,auto
+1307,335,moto
+1308,477,vehiculo de carga
+1309,270,no es necesaria
+1310,357,moto
+1311,744,auto
+1312,156,auto
+1313,28,moto
+1314,614,auto
+1315,358,auto
+1316,101,auto
+1317,381,moto
+1318,242,auto
+1319,687,moto
+1320,561,auto
+1321,660,vehiculo de carga
+1322,629,no es necesaria
+1323,355,auto
+1324,353,auto
+1325,738,no es necesaria
+1326,285,vehiculo de carga
+1327,497,auto
+1328,119,auto
+1329,697,vehiculo de carga
+1330,697,no es necesaria
+1331,441,vehiculo de carga
+1332,333,moto
+1333,653,auto
+1334,742,auto
+1335,144,no es necesaria
+1336,276,no es necesaria
+1337,548,auto
+1338,575,no es necesaria
+1339,442,auto
+1340,598,auto
+1341,575,auto
+1342,496,auto
+1343,0,auto
+1344,65,auto
+1345,414,auto
+1346,357,no es necesaria
+1347,192,no es necesaria
+1348,674,auto
+1349,115,no es necesaria
+1350,681,auto
+1351,734,no es necesaria
+1352,188,no es necesaria
+1353,537,auto
+1354,167,auto
+1355,484,no es necesaria
+1356,246,auto
+1357,116,auto
+1358,397,no es necesaria
+1359,553,no es necesaria
+1360,26,auto
+1361,437,no es necesaria
+1362,123,auto
+1363,579,moto
+1364,465,auto
+1365,610,auto
+1366,715,no es necesaria
+1367,592,no es necesaria
+1368,321,auto
+1369,149,auto
+1370,810,auto
+1371,741,no es necesaria
+1372,140,no es necesaria
+1373,756,moto
+1374,262,moto
+1375,601,moto
+1376,592,auto
+1377,85,moto
+1378,181,auto
+1379,695,auto
+1380,539,no es necesaria
+1381,20,no es necesaria
+1382,803,no es necesaria
+1383,653,moto
+1384,707,no es necesaria
+1385,59,moto
+1386,506,auto
+1387,361,auto
+1388,238,moto
+1389,640,auto
+1390,181,vehiculo de carga
+1391,130,auto
+1392,448,auto
+1393,642,auto
+1394,780,moto
+1395,232,auto
+1396,110,moto
+1397,757,moto
+1398,167,no es necesaria
+1399,744,vehiculo de carga
+1400,485,auto
+1401,617,moto
+1402,336,no es necesaria
+1403,12,no es necesaria
+1404,416,no es necesaria
+1405,165,moto
+1406,106,moto
+1407,129,auto
+1408,459,auto
+1409,350,vehiculo de carga
+1410,483,no es necesaria
+1411,525,auto
+1412,525,moto
+1413,596,vehiculo de carga
+1414,550,moto
+1415,52,auto
+1416,86,auto
+1417,464,no es necesaria
+1418,291,moto
+1419,636,auto
+1420,548,auto
+1421,671,moto
+1422,698,no es necesaria
+1423,776,moto
+1424,37,no es necesaria
+1425,671,vehiculo de carga
+1426,540,moto
+1427,300,no es necesaria
+1428,67,no es necesaria
+1429,67,auto
+1430,539,vehiculo de carga
+1431,314,no es necesaria
+1432,119,no es necesaria
+1433,551,moto
+1434,437,moto
+1435,555,auto
+1436,456,no es necesaria
+1437,159,vehiculo de carga
+1438,711,moto
+1439,268,moto
+1440,299,moto
+1441,609,auto
+1442,351,moto
+1443,551,vehiculo de carga
+1444,523,vehiculo de carga
+1445,189,auto
+1446,25,auto
+1447,707,vehiculo de carga
+1448,636,auto
+1449,705,auto
+1450,736,auto
+1451,452,auto
+1452,42,auto
+1453,679,no es necesaria
+1454,264,auto
+1455,790,auto
+1456,772,auto
+1457,102,auto
+1458,749,no es necesaria
+1459,761,auto
+1460,96,auto
+1461,91,moto
+1462,466,vehiculo de carga
+1463,82,no es necesaria
+1464,20,auto
+1465,620,no es necesaria
+1466,315,auto
+1467,299,no es necesaria
+1468,429,auto
+1469,125,auto
+1470,712,moto
+1471,458,auto
+1472,779,auto
+1473,391,moto
+1474,165,auto
+1475,132,auto
+1476,403,moto
+1477,328,auto
+1478,694,moto
+1479,593,no es necesaria
+1480,377,vehiculo de carga
+1481,67,moto
+1482,382,auto
+1483,97,auto
+1484,345,auto
+1485,415,auto
+1486,646,no es necesaria
+1487,456,no es necesaria
+1488,393,vehiculo de carga
+1489,695,moto
+1490,502,moto
+1491,736,moto
+1492,654,no es necesaria
+1493,389,no es necesaria
+1494,36,auto
+1495,136,no es necesaria
+1496,797,moto
+1497,785,auto
+1498,798,auto
+1499,287,no es necesaria
+1500,159,vehiculo de carga
+1501,316,auto
+1502,799,auto
+1503,728,no es necesaria
+1504,286,moto
+1505,181,auto
+1506,72,no es necesaria
+1507,161,auto
+1508,610,vehiculo de carga
+1509,534,no es necesaria
+1510,612,auto
+1511,169,no es necesaria
+1512,217,auto
+1513,804,no es necesaria
+1514,641,auto
+1515,242,auto
+1516,21,moto
+1517,323,auto
+1518,191,auto
+1519,478,auto
+1520,805,auto
+1521,424,auto
+1522,676,auto
+1523,776,moto
+1524,716,moto
+1525,701,auto
+1526,119,moto
+1527,618,auto
+1528,159,vehiculo de carga
+1529,157,moto
+1530,55,auto
+1531,345,auto
+1532,635,auto
+1533,737,auto
+1534,655,no es necesaria
+1535,476,no es necesaria
+1536,243,auto
+1537,621,vehiculo de carga
+1538,429,no es necesaria
+1539,718,no es necesaria
+1540,214,moto
+1541,398,no es necesaria
+1542,534,moto
+1543,466,auto
+1544,38,vehiculo de carga
+1545,247,auto
+1546,39,moto
+1547,670,auto
+1548,603,moto
+1549,157,vehiculo de carga
+1550,18,moto
+1551,336,no es necesaria
+1552,579,auto
+1553,61,no es necesaria
+1554,728,moto
+1555,20,no es necesaria
+1556,815,auto
+1557,444,no es necesaria
+1558,535,no es necesaria
+1559,95,vehiculo de carga
+1560,12,no es necesaria
+1561,142,moto
+1562,129,auto
+1563,39,no es necesaria
+1564,559,auto
+1565,603,moto
+1566,595,no es necesaria
+1567,198,auto
+1568,230,auto
+1569,693,auto
+1570,691,no es necesaria
+1571,681,auto
+1572,177,auto
+1573,257,auto
+1574,368,auto
+1575,270,vehiculo de carga
+1576,207,auto
+1577,602,moto
+1578,37,moto
+1579,472,moto
+1580,127,moto
+1581,600,vehiculo de carga
+1582,717,moto
+1583,141,no es necesaria
+1584,678,auto
+1585,772,moto
+1586,584,moto
+1587,486,auto
+1588,2,no es necesaria
+1589,336,no es necesaria
+1590,759,auto
+1591,645,auto
+1592,689,vehiculo de carga
+1593,749,no es necesaria
+1594,655,no es necesaria
+1595,236,no es necesaria
+1596,422,auto
+1597,224,auto
+1598,513,moto
+1599,257,auto
+1600,32,vehiculo de carga
+1601,518,auto
+1602,811,auto
+1603,178,auto
+1604,472,no es necesaria
+1605,466,no es necesaria
+1606,239,moto
+1607,49,auto
+1608,672,moto
+1609,801,auto
+1610,425,moto
+1611,531,auto
+1612,191,moto
+1613,629,no es necesaria
+1614,810,auto
+1615,521,moto
+1616,18,moto
+1617,128,no es necesaria
+1618,205,no es necesaria
+1619,579,vehiculo de carga
+1620,479,auto
+1621,757,auto
+1622,793,auto
+1623,185,no es necesaria
+1624,75,auto
+1625,82,auto
+1626,144,moto
+1627,26,vehiculo de carga
+1628,191,no es necesaria
+1629,342,no es necesaria
+1630,699,auto
+1631,800,moto
+1632,187,vehiculo de carga
+1633,493,auto
+1634,507,auto
+1635,553,auto
+1636,596,moto
+1637,344,auto
+1638,334,auto
+1639,697,auto
+1640,530,auto
+1641,605,auto
+1642,339,vehiculo de carga
+1643,251,no es necesaria
+1644,490,auto
+1645,353,moto
