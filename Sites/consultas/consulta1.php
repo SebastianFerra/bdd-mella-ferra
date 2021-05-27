@@ -9,7 +9,8 @@
   
 
   #Se construye la consulta como un string
- 	$query = "SELECT * FROM unidades;";
+ 	$query = "SELECT direcciones.nombre_direccion
+   FROM Unidades JOIN Direcciones ON unidades.dirección = direcciones.id;";
 
   #Se prepara y ejecuta la consulta. Se obtienen TODOS los resultados
 	$result = $db -> prepare($query);
