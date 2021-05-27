@@ -6,7 +6,7 @@
   require("../config/conexion.php");
 
   #Se obtiene el valor del input del usuario
-  $altura = $_POST["altura"]; # aqui va el nombre de la variable que llamé al comienzo 
+  $altura = $_POST["año"]; # aqui va el nombre de la variable que llamé al comienzo 
   $altura = intval($altura);
 
   #Se construye la consulta como un string
