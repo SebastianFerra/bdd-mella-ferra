@@ -43,14 +43,14 @@
   <?php
   #	AQUI OBTENEMOS LAS COSAS QUE NECESITAMOS COMO LOS AÑOS Y ESAS COSAS
   require("config/conexion.php");
-  $result = $db -> prepare("SELECT DISTINCT tipo FROM pokemones;");
+  $result = $db -> prepare("SELECT DISTINCT comuna FROM direcciones;");
   $result -> execute();
   $dataCollected = $result -> fetchAll();
   ?>
 
   <form align="center" action="consultas/consulta4.php" method="post">
-    Seleccinar un año:
-    <select name="año">
+    Seleccinar una comuna:
+    <select name="comuna">
       <?php
       #Para cada tipo agregamos el tag <option value=value_of_param> visible_value </option>
       foreach ($dataCollected as $d) {
