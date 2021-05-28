@@ -62,8 +62,8 @@
   <br>
   <br>
 
-  <h3 align="center"> Ingrese un tipo de vehiculo y 2 números para ver qué despachos fueron realizados por repartidores cuya edad está en el rango y por medio de ese tipo de vehiculo</h3>
-
+  <h3 align="center"> Ingrese un tipo de vehiculo y 2 números para ver qué despachos fueron realizados</h3>
+  <h3>por repartidores cuya edad está en el rango y por medio de ese tipo de vehiculo</h3>
   <form align="center" action="consultas/consulta4.php" method="post">
     Tipo de vehículo:
     <input type="text" name="vehiculo">
