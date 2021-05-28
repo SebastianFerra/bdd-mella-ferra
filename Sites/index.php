@@ -131,7 +131,7 @@
     <input type="submit" value="Buscar">
   </form>
   <div>
-            <img src="us.jpg" alt="us" />
+            <img src="us.JPG" alt="us" />
         </div>
 </body>
 </html>
