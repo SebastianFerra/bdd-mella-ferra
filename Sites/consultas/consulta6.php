@@ -6,11 +6,17 @@
   require("../config/conexion.php");
 
   #Se obtiene el valor del input del usuario
-  $altura = $_POST["altura"]; # aqui va el nombre de la variable que llamé al comienzo 
-  $altura = intval($altura);
+  $tipo = strtolower($_POST["tipo"]); # aqui va el nombre de la variable que llamé al comienzo 
+  
 
   #Se construye la consulta como un string
- 	$query = "SELECT pid, nombre, altura FROM pokemones where altura>=$altura order by altura desc;";
+ 	$query = "SELECT Unidades.id, COUNT(Vehiculos.id) AS n_vehiculos 
+   FROM Unidades, Vehiculos 
+   WHERE Vehiculos.tipo LIKE '%$tipo%' 
+   AND Vehiculos.unidad = Unidades.id 
+   GROUP BY Unidades.id 
+   ORDER BY n_vehiculos DESC 
+   LIMIT 1;";
 
   #Se prepara y ejecuta la consulta. Se obtienen TODOS los resultados
 	$result = $db -> prepare($query);
@@ -20,9 +26,9 @@
 
   <table>
     <tr>
-      <th>ID</th>
-      <th>Nombre</th>
-      <th>Altura</th>
+      <th>ID unidad</th>
+      <th>Cantidad</th>
+  
     </tr>
   
       <?php

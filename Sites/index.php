@@ -6,7 +6,7 @@
 
   <br>
 
-  <h3 align="center"> CONSULTA 1</h3>
+  <h3 align="center"> Listado con las direcciones de nuestras unidades de despacho</h3>
 
   <form align="center" action="consultas/consulta1.php" method="post">
     
@@ -19,7 +19,7 @@
   <br>
   <br>
 
-  <h3 align="center"> CONSULTA 2</h3>
+  <h3 align="center"> Ingrese una comuna para ver los vehículos de las uniades que se ubican allí</h3>
 
   <form align="center" action="consultas/consulta2.php" method="post">
     Comuna:
@@ -32,7 +32,7 @@
   <br>
   <br>
 
-  <h3 align="center"> CONSULTA 3 </h3>
+  <h3 align="center"> Ingrese una comuna y seleccione un año para ver todos los vehiculos que realizaron despachos allí en ese año</h3>
   <form align="center" action="consultas/consulta3.php" method="post">
     Comuna:
     <input type="text" name="altura">
@@ -62,7 +62,7 @@
   <br>
   <br>
 
-  <h3 align="center"> CONSULTA 4</h3>
+  <h3 align="center"> Ingrese un tipo de vehiculo y 2 números para ver qué despachos fueron realizados por repartidores cuya edad está en el rango y por medio de ese tipo de vehiculo</h3>
 
   <form align="center" action="consultas/consulta4.php" method="post">
     Tipo de vehículo:
@@ -103,7 +103,7 @@
   <br>
   <br>
   <br>
-  <h3 align="center"> CONSULTA 5 </h3>
+  <h3 align="center"> Ingrese 2 comunas y vea los nombres de los jefes de las unidades que realizaron despachos a ambas comunas </h3>
 
   <form align="center" action="consultas/consulta5.php" method="post">
     Comuna 1:
@@ -117,7 +117,7 @@
   <br>
   <br>
   <br>
-  <h3 align="center"> CONSULTA 6 </h3>
+  <h3 align="center"> Ingrese un tipo de vehiculop para saber que unidad maneja más vehiculos de tal tipo </h3>
 
   <form align="center" action="consultas/consulta6.php" method="post">
    Tipo de vehículo:
@@ -125,6 +125,9 @@
     <br/><br/>
     <input type="submit" value="Buscar">
   </form>
+  <br>
+  <br>
+  <br>
   <div>
             <img src="us.JPG" alt="us" />
         </div>
