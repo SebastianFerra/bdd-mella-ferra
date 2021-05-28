@@ -69,11 +69,11 @@
     <input type="text" name="vehiculo">
     <br/><br/>
 
-  </form>
+  
   <?php
   #	AQUI OBTENEMOS LAS COSAS QUE NECESITAMOS COMO LOS AÑOS Y ESAS COSAS
   require("config/conexion.php");
-  $result = $db -> prepare("SELECT DISTINCT tipo FROM pokemones;");
+  $result = $db -> prepare("SELECT DISTINCT edad FROM personal;");
   $result -> execute();
   $dataCollected = $result -> fetchAll();
   ?>
