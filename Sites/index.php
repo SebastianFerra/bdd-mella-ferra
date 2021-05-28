@@ -128,8 +128,6 @@
   <br>
   <br>
   <br>
-  <div>
-            <img src="us.JPG" alt="us" />
-        </div>
+ 
 </body>
 </html>
