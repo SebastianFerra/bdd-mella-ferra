@@ -9,9 +9,10 @@
   $comuna= $_POST["comuna"]; # aqui va el nombre de la variable que llamé al comienzo 
   $comuna = strtolower($comuna);
   $año = strval($_POST["año"]);
-
+echo $año
+echo $comuna
   #Se construye la consulta como un string
- 	$query = "SELECT Despachos.id FROM Despachos,Direcciones WHERE DATE_PART('year', Despachos.fecha) = '$año' AND Direcciones.comuna LIKE '%$comuna%' AND Despachos.dir_destino = Direcciones.id;";
+ 	$query = "SELECT Despachos.id FROM Despachos,Direcciones WHERE Direcciones.comuna LIKE '%$comuna%' AND Despachos.dir_destino = Direcciones.id;";
 
   #Se prepara y ejecuta la consulta. Se obtienen TODOS los resultados
 	$result = $db -> prepare($query);
