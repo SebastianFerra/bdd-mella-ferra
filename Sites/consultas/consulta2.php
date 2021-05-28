@@ -11,9 +11,10 @@
 
   #Se construye la consulta como un string
  	$query = "SELECT Vehiculos.id, Unidades.id, Unidades.dirección
-   FROM Vehiculos JOIN Unidades ON Unidades.id = Vehiculos.uid 
-   JOIN Direcciones ON Unidades.dirección = Direcciones.id
-   WHERE Direcciones.comuna LIKE '%$comuna%';";
+   FROM Vehiculos,Direcciones,Unidades 
+   WHERE Unidades.id = Vehiculos.unidad 
+   AND Unidades.dirección = Direcciones.id
+   AND Direcciones.comuna LIKE '%$comuna%';";
 
   #Se prepara y ejecuta la consulta. Se obtienen TODOS los resultados
 	$result = $db -> prepare($query);
