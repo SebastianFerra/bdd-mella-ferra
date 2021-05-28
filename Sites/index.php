@@ -130,5 +130,8 @@
     <br/><br/>
     <input type="submit" value="Buscar">
   </form>
+  <div>
+            <img src="us.jpg" alt="us" />
+        </div>
 </body>
 </html>
