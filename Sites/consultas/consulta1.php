@@ -20,9 +20,9 @@
 
   <table>
     <tr>
-      <th>ID</th>
-      <th>id_dirección</th>
-      <th>id_jefe</th>
+      <th>Dirección unidad</th>
+      <th></th>
+      <th></th>
     </tr>
   
       <?php
