@@ -13,15 +13,7 @@
   $tipo = $_POST["vehiculo"];
   $tipo = strtolower($tipo);
   #Se construye la consulta como un string
- 	$query = "SELECT Despachos.id
-   FROM Despachos JOIN Vehiculos JOIN Conductores JOIN Personal_reparto JOIN Personal
-   WHERE Despachos.vehiculo = Vehiculos.id
-   AND Vehiculos.id = Conductores.vehículo
-   AND Personal_reparto.id_persona = Personal.id 
-   AND Personal_reparto.id_persona = Conductores.id_conductor 
-   AND Personal.tipo = 'repartidor'
-   AND Personal.edad BETWEEN '$inicio' AND '$termino' 
-   AND Vehiculos.tipo LIKE '%$tipo%'";
+ 	$query = "SELECT Despachos.id FROM Despachos , Vehiculos , Conductores , Personal_reparto ,Personal WHERE Despachos.vehiculo = Vehiculos.id AND Vehiculos.id = Conductores.vehículo AND Personal_reparto.id_persona = Personal.id  AND Personal_reparto.id_persona = Conductores.id_conductor  AND Personal.tipo = 'repartidor' AND Personal.edad BETWEEN ('$inicio' AND '$termino') AND Vehiculos.tipo LIKE '%$tipo%'";
 
   #Se prepara y ejecuta la consulta. Se obtienen TODOS los resultados
 	$result = $db -> prepare($query);
