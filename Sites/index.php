@@ -32,7 +32,7 @@
   <br>
   <br>
 
-  <h3 align="center"> Ingrese una comuna y seleccione un año para ver todos los vehiculos que realizaron despachos allí en ese año</h3>
+  <h3 align="center"> Ingrese una comuna y seleccione un año para ver todos los vehículos que realizaron despachos allí en ese año</h3>
   <form align="center" action="consultas/consulta3.php" method="post">
     Comuna:
     <input type="text" name="altura">
@@ -62,11 +62,11 @@
   <br>
   <br>
 
-  <h3 align="center"> Ingrese un tipo de vehiculo y 2 números para ver qué despachos fueron realizados</h3>
-  <h3>por repartidores cuya edad está en el rango y por medio de ese tipo de vehiculo</h3>
+  <h3 align="center"> Ingrese un tipo de vehículo y 2 números para ver qué despachos fueron realizados</h3>
+  <h3>por repartidores cuya edad está en el rango y por medio de ese tipo de vehículo</h3>
   <form align="center" action="consultas/consulta4.php" method="post">
     Tipo de vehículo:
-    <input type="text" name="vehiculo">
+    <input type="text" name="vehículo">
     <br/><br/>
 
   
@@ -117,7 +117,7 @@
   <br>
   <br>
   <br>
-  <h3 align="center"> Ingrese un tipo de vehiculo para saber que unidad maneja más vehiculos de tal tipo </h3>
+  <h3 align="center"> Ingrese un tipo de vehículo para saber qué unidad maneja más vehículos de tal tipo </h3>
 
   <form align="center" action="consultas/consulta6.php" method="post">
    Tipo de vehículo:
