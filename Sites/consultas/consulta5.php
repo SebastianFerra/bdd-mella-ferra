@@ -13,12 +13,14 @@
  	$query = "SELECT Personal_admin.id_persona 
    FROM Personal_admin JOIN Unidades JOIN Cobertura
    WHERE Cobertura.comuna LIKE '%$comuna1%'
-   AND Personal_admin.clasificacion = 'administracion'
+   AND Unidades.id = Cobertura.unidad
+   AND Unidades.jefe = personal_admin.id_persona
    INTERSECT 
    SELECT Personal_admin.id_persona
    FROM Personal_admin JOIN Unidades JOIN Cobertura
    WHERE Cobertura.comuna LIKE '%$comuna2%'
-   AND Personal_admin.clasificacion = 'administracion';";
+   AND Unidades.id = Cobertura.unidad
+   AND Unidades.jefe = personal_admin.id_persona ;";
 
   #Se prepara y ejecuta la consulta. Se obtienen TODOS los resultados
 	$result = $db -> prepare($query);
