@@ -6,11 +6,14 @@
   require("../config/conexion.php");
 
   #Se obtiene el valor del input del usuario
-  $altura = $_POST["comuna"]; # aqui va el nombre de la variable que llamé al comienzo 
-  $altura = intval($altura);
+  $comuna = $_POST["comuna"]; # aqui va el nombre de la variable que llamé al comienzo 
+  
 
   #Se construye la consulta como un string
- 	$query = "SELECT pid, nombre, altura FROM pokemones where altura>=$altura order by altura desc;";
+ 	$query = "SELECT Vehiculos.id, Unidades.id, Unidades.dirección
+   FROM Vehiculos JOIN Unidades ON Unidades.id = Vehiculos.uid 
+   JOIN Direcciones ON Unidades.dirección = Direcciones.id
+   WHERE Direcciones.comuna LIKE x '%$comuna%';";
 
   #Se prepara y ejecuta la consulta. Se obtienen TODOS los resultados
 	$result = $db -> prepare($query);
@@ -20,9 +23,10 @@
 
   <table>
     <tr>
-      <th>ID</th>
-      <th>Nombre</th>
-      <th>Altura</th>
+      <th>Vehiculo id</th>
+      <th>Unidad id</th>
+      <th>Unidad dirección</th>
+      
     </tr>
   
       <?php
