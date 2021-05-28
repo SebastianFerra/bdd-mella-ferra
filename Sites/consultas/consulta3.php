@@ -13,7 +13,7 @@
   #Se construye la consulta como un string
  	$query = "SELECT Despachos.vid
    FROM Despachos JOIN Direcciones
-   WHERE year(Despachos.fecha) LIKE "$año" 
+   WHERE DATE_PART('year', Despachos.fecha) = $año
    AND Direcciones.comuna LIKE "%$comuna%"
    AND Despachos.dir_destino = Direcciones.id;";
 
