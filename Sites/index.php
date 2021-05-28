@@ -38,7 +38,7 @@
     <input type="text" name="altura">
     <br/><br/>
     
-  </form>
+  
   <?php
   #	AQUI OBTENEMOS LAS COSAS QUE NECESITAMOS COMO LOS AÑOS Y ESAS COSAS
   require("config/conexion.php");
