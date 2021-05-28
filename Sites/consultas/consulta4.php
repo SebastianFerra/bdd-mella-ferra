@@ -8,10 +8,10 @@
   #Se obtiene el valor del input del usuario
   $inicio = $_POST["inicio"]; # aqui va el nombre de la variable que llamé al comienzo 
   $inicio = intval($inicio);
-  $termino = $_POST["termino"]
-  $termino = intval($termino)
-  $tipo = $_POST["vehiculo"]
-
+  $termino = $_POST["termino"];
+  $termino = intval($termino);
+  $tipo = $_POST["vehiculo"];
+  $tipo = strtolower($tipo);
   #Se construye la consulta como un string
  	$query = "SELECT Despachos.id
    FROM Despachos JOIN Vehiculos JOIN Conductores JOIN Personal_reparto JOIN Personal
