@@ -73,7 +73,7 @@
   <?php
   #	AQUI OBTENEMOS LAS COSAS QUE NECESITAMOS COMO LOS AÑOS Y ESAS COSAS
   require("config/conexion.php");
-  $result = $db -> prepare("SELECT DISTINCT edad FROM personal;");
+  $result = $db -> prepare("SELECT DISTINCT edad FROM personal ORDER BY edad;");
   $result -> execute();
   $dataCollected = $result -> fetchAll();
   ?>
@@ -88,7 +88,7 @@
     </select>
 	<br><br>
 	Seleccionar año término:
-	<select name="Término">
+	<select name="termino">
       <?php
       #Para cada tipo agregamos el tag <option value=value_of_param> visible_value </option>
       foreach ($dataCollected as $d) {

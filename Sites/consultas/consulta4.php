@@ -6,11 +6,22 @@
   require("../config/conexion.php");
 
   #Se obtiene el valor del input del usuario
-  $altura = $_POST["altura"]; # aqui va el nombre de la variable que llamé al comienzo 
-  $altura = intval($altura);
+  $inicio = $_POST["inicio"]; # aqui va el nombre de la variable que llamé al comienzo 
+  $inicio = intval($inicio);
+  $termino = $_POST["termino"]
+  $termino = intval($termino)
+  $tipo = $_POST["vehiculo"]
 
   #Se construye la consulta como un string
- 	$query = "SELECT pid, nombre, altura FROM pokemones where altura>=$altura order by altura desc;";
+ 	$query = "SELECT Despachos.id
+   FROM Despachos JOIN Vehiculos JOIN Conductores JOIN Personal_reparto JOIN Personal
+   WHERE Despachos.vehiculo = Vehiculos.id
+   AND Vehiculos.id = Conductores.vehículo
+   AND Personal_reparto.id_persona = Personal.id 
+   AND Personal_reparto.id_persona = Conductores.id_conductor 
+   AND Personal.tipo = 'repartidor'
+   AND Personal.edad BETWEEN '$inicio' AND '$termino' 
+   AND Vehiculos.tipo LIKE '%$tipo%'";
 
   #Se prepara y ejecuta la consulta. Se obtienen TODOS los resultados
 	$result = $db -> prepare($query);
@@ -20,15 +31,14 @@
 
   <table>
     <tr>
-      <th>ID</th>
-      <th>Nombre</th>
-      <th>Altura</th>
+      <th>Despacho id</th>
+      
     </tr>
   
       <?php
         // echo $pokemones;
         foreach ($pokemones as $p) {
-          echo "<tr><td>$p[0]</td><td>$p[1]</td><td>$p[2]</td></tr>";
+          echo "<tr><td>$p[0]</td></tr>";
       }
       ?>
       
