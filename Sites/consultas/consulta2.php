@@ -7,7 +7,7 @@
 
   #Se obtiene el valor del input del usuario
   $comuna = $_POST["comuna"]; # aqui va el nombre de la variable que llamé al comienzo 
-  $comuna = strtolower("$comuna")
+  $comuna = strtolower($comuna);
 
   #Se construye la consulta como un string
  	$query = "SELECT Vehiculos.id, Unidades.id, Unidades.dirección
