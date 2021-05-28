@@ -6,11 +6,19 @@
   require("../config/conexion.php");
 
   #Se obtiene el valor del input del usuario
-  $altura = $_POST["altura"]; # aqui va el nombre de la variable que llamé al comienzo 
-  $altura = intval($altura);
+  $comuna1 = strtolower($_POST["comuna1"]); # aqui va el nombre de la variable que llamé al comienzo 
+  $comuna2 = strtolower($_POST["comuna2"]);
 
   #Se construye la consulta como un string
- 	$query = "SELECT pid, nombre, altura FROM pokemones where altura>=$altura order by altura desc;";
+ 	$query = " SELECT Personal.nombre FROM Personal WHERE Peronal.id = (SELECT Personal_admin.id_persona 
+   FROM Personal_admin JOIN Unidades JOIN Cobertura
+   WHERE Cobertura.comuna LIKE '%$comuna1%'
+   AND Personal_admin.clasificacion = 'administracion'
+   INTERSECT 
+   SELECT Personal_admin.id_persona
+   FROM Personal_admin JOIN Unidades JOIN Cobertura
+   WHERE Cobertura.comuna LIKE '%$comuna%'
+   AND Personal_admin.clasificacion = 'administracion');";
 
   #Se prepara y ejecuta la consulta. Se obtienen TODOS los resultados
 	$result = $db -> prepare($query);
@@ -20,15 +28,14 @@
 
   <table>
     <tr>
-      <th>ID</th>
-      <th>Nombre</th>
-      <th>Altura</th>
+      <th>Nombre jefe</th>
+
     </tr>
   
       <?php
         // echo $pokemones;
         foreach ($pokemones as $p) {
-          echo "<tr><td>$p[0]</td><td>$p[1]</td><td>$p[2]</td></tr>";
+          echo "<tr><td>$p[0]</td></tr>";
       }
       ?>
       
