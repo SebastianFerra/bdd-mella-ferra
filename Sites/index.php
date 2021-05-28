@@ -117,7 +117,7 @@
   <br>
   <br>
   <br>
-  <h3 align="center"> Ingrese un tipo de vehiculop para saber que unidad maneja más vehiculos de tal tipo </h3>
+  <h3 align="center"> Ingrese un tipo de vehiculo para saber que unidad maneja más vehiculos de tal tipo </h3>
 
   <form align="center" action="consultas/consulta6.php" method="post">
    Tipo de vehículo:
