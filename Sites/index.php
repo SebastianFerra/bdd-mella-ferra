@@ -33,7 +33,6 @@
   <br>
 
   <h3 align="center"> CONSULTA 3 </h3>
-
   <form align="center" action="consultas/consulta3.php" method="post">
     Comuna:
     <input type="text" name="altura">
@@ -47,8 +46,6 @@
   $result -> execute();
   $dataCollected = $result -> fetchAll();
   ?>
-
-  <form align="center" action="consultas/consulta4.php" method="post">
     Seleccinar una año:
     <select name="año">
       <?php
@@ -67,7 +64,7 @@
 
   <h3 align="center"> CONSULTA 4</h3>
 
-  <form align="center" action="consultas/consulta2.php" method="post">
+  <form align="center" action="consultas/consulta4.php" method="post">
     Tipo de vehículo:
     <input type="text" name="vehiculo">
     <br/><br/>
@@ -80,8 +77,6 @@
   $result -> execute();
   $dataCollected = $result -> fetchAll();
   ?>
-
-  <form align="center" action="consultas/consulta4.php" method="post">
     Seleccinar año inicio:
     <select name="inicio">
       <?php
