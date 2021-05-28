@@ -19,7 +19,7 @@
   <br>
   <br>
 
-  <h3 align="center"> Ingrese una comuna para ver los vehículos de las uniades que se ubican allí</h3>
+  <h3 align="center"> Ingrese una comuna para ver los vehículos de las unidades que se ubican allí</h3>
 
   <form align="center" action="consultas/consulta2.php" method="post">
     Comuna:
