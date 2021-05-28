@@ -43,7 +43,7 @@
   <?php
   #	AQUI OBTENEMOS LAS COSAS QUE NECESITAMOS COMO LOS AÑOS Y ESAS COSAS
   require("config/conexion.php");
-  $result = $db -> prepare("SELECT DISTINCT DATE_PART('year',fecha) FROM despachos ORDER BY fecha;");
+  $result = $db -> prepare("SELECT DISTINCT DATE_PART('year',fecha) AS año FROM despachos ORDER BY año;");
   $result -> execute();
   $dataCollected = $result -> fetchAll();
   ?>
