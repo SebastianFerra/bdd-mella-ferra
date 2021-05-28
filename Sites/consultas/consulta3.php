@@ -11,11 +11,7 @@
   $año = $_POST["año"];
 
   #Se construye la consulta como un string
- 	$query = "SELECT Despachos.vid
-   FROM Despachos JOIN Direcciones
-   WHERE DATE_PART('year', Despachos.fecha) = $año
-   AND Direcciones.comuna LIKE "%$comuna%"
-   AND Despachos.dir_destino = Direcciones.id;";
+ 	$query = "SELECT Despachos.id FROM Despachos,Direcciones WHERE DATE_PART('year', Despachos.fecha) == '$año' AND Direcciones.comuna LIKE '%$comuna%' AND Despachos.dir_destino = Direcciones.id;";
 
   #Se prepara y ejecuta la consulta. Se obtienen TODOS los resultados
 	$result = $db -> prepare($query);
@@ -25,15 +21,13 @@
 
   <table>
     <tr>
-      <th>ID</th>
-      <th>Nombre</th>
-      <th>Altura</th>
+      <th>Despachos id</th>
     </tr>
   
       <?php
         // echo $pokemones;
         foreach ($pokemones as $p) {
-          echo "<tr><td>$p[0]</td><td>$p[1]</td><td>$p[2]</td></tr>";
+          echo "<tr><td>$p[0]</td></tr>";
       }
       ?>
       
