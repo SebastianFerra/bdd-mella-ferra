@@ -8,7 +8,7 @@
   #Se obtiene el valor del input del usuario
   $comuna= $_POST["comuna"]; # aqui va el nombre de la variable que llamé al comienzo 
   $comuna = strtolower($comuna);
-  $año = $_POST["año"];
+  $año = strval($_POST["año"]);
 
   #Se construye la consulta como un string
  	$query = "SELECT Despachos.id FROM Despachos,Direcciones WHERE DATE_PART('year', Despachos.fecha) = '$año' AND Direcciones.comuna LIKE '%$comuna%' AND Despachos.dir_destino = Direcciones.id;";
