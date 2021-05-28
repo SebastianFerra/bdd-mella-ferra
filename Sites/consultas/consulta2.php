@@ -13,7 +13,7 @@
  	$query = "SELECT Vehiculos.id, Unidades.id, Unidades.dirección
    FROM Vehiculos JOIN Unidades ON Unidades.id = Vehiculos.uid 
    JOIN Direcciones ON Unidades.dirección = Direcciones.id
-   WHERE Direcciones.comuna LIKE x '%$comuna%';";
+   WHERE Direcciones.comuna LIKE '%$comuna%';";
 
   #Se prepara y ejecuta la consulta. Se obtienen TODOS los resultados
 	$result = $db -> prepare($query);
