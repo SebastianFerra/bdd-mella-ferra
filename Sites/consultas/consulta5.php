@@ -10,15 +10,15 @@
   $comuna2 = strtolower($_POST["comuna2"]);
 
   #Se construye la consulta como un string
- 	$query = " SELECT Personal.nombre FROM Personal WHERE Peronal.id = (SELECT Personal_admin.id_persona 
+ 	$query = "SELECT Personal_admin.id_persona 
    FROM Personal_admin JOIN Unidades JOIN Cobertura
    WHERE Cobertura.comuna LIKE '%$comuna1%'
    AND Personal_admin.clasificacion = 'administracion'
    INTERSECT 
    SELECT Personal_admin.id_persona
    FROM Personal_admin JOIN Unidades JOIN Cobertura
-   WHERE Cobertura.comuna LIKE '%$comuna%'
-   AND Personal_admin.clasificacion = 'administracion');";
+   WHERE Cobertura.comuna LIKE '%$comuna2%'
+   AND Personal_admin.clasificacion = 'administracion';";
 
   #Se prepara y ejecuta la consulta. Se obtienen TODOS los resultados
 	$result = $db -> prepare($query);
