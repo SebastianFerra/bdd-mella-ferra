@@ -17,9 +17,8 @@
 	$result2 -> execute();
 	$usuarios = $result2 -> fetchAll();
 
+  $count = 1;
     foreach ($personal_admin as $p) {
-
-      $count = 1;
 
         if (false == in_array($p, $usuarios)) {
           $p[0] = 364 + $count;
