@@ -17,21 +17,28 @@
 	$result2 -> execute();
 	$usuarios = $result2 -> fetchAll();
 
-    foreach ($personal_admin
+    foreach ($personal_admin as $p) {
+
+        if (false == in_array($p, $usuarios)) {
+            array_push($usuarios, $p) 
+        }
+
+    }
 
   ?>
 
   <table>
     <tr>
-      <th>Dirección unidad</th>
-      <th></th>
-      <th></th>
+      <th>id</th>
+      <th>nombre</th>
+      <th>rut</th>
+      <th>edad</th>
+      <th>sexo</th>
     </tr>
   
       <?php
-        // echo $pokemones;
-        foreach ($pokemones as $p) {
-          echo "<tr><td>$p[0]</td><td>$p[1]</td><td>$p[2]</td></tr>";
+        foreach ($usuarios as $u) {
+          echo "<tr><td>$u[0]</td><td>$u[1]</td><td>$u[2]</td><td>$u[3]</td><td>$u[4]</td></tr>";
       }
       ?>
       

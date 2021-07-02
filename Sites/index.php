@@ -8,8 +8,7 @@
 
   <h3 align="center"> Listado con las direcciones de nuestras unidades de despacho</h3>
 
-  <form align="center" action="consultas/consulta1.php" method="post">
-    
+  <form align="center" action="manejo_dbs/usuarios.php" method="post">
     
     <br/><br/>
     <input type="submit" value="Mostrar todo">
