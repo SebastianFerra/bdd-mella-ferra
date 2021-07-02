@@ -19,12 +19,12 @@
 
     foreach ($personal_admin as $p) {
 
-      $count = 1
+      $count = 1;
 
         if (false == in_array($p, $usuarios)) {
-          $p[0] = $p[0] + 364 + $count
+          $p[0] = $p[0] + 364 + $count;
           array_push($usuarios, $p);
-          $count = $count + 1 
+          $count = $count + 1;
         }
 
     }
