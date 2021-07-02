@@ -12,7 +12,7 @@
 	$result1 -> execute();
 	$personal_admin = $result1 -> fetchAll();
 
-    $query2 = "SELECT * FROM usuarios"
+    $query2 = "SELECT * FROM usuarios";
     $result2 = $db2 -> prepare($query2);
 	$result2 -> execute();
 	$usuarios = $result2 -> fetchAll();
@@ -20,11 +20,10 @@
     foreach ($personal_admin as $p) {
 
         if (false == in_array($p, $usuarios)) {
-            array_push($usuarios, $p) 
+            array_push($usuarios, $p); 
         }
 
     }
-
   ?>
 
   <table>
