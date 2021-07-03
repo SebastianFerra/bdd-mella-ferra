@@ -17,7 +17,7 @@
 	$result2 -> execute();
 	$usuarios = $result2 -> fetchAll();
 
-  $query3 = "SELECT personal_admin.id_persona, unidades.direccion FROM personal_admin, unidades WHERE personal_admin.uid = unidades.uid";
+  $query3 = "SELECT personal_admin.id_persona, unidades.dirección FROM personal_admin, unidades WHERE personal_admin.uid = unidades.uid";
   $result3 = $db1 -> prepare($query3);
 	$result3 -> execute();
 	$direcciones_personal = $result3 -> fetchAll();
@@ -82,11 +82,10 @@
         <th>id direccion</th>
       </tr>
       <?php
-        foreach ($direcciones_personal as $u) {
-          echo "<tr><td>$u[0]</td><td>$u[1]</td></tr>";
+        foreach ($direcciones_personal as $per) {
+          echo "<tr><td>$per[0]</td><td>$per[1]</td></tr>";
       }
       ?>
-      
     </table>
   </div>
 
