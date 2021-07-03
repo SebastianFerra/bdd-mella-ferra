@@ -17,59 +17,47 @@
 	$result2 -> execute();
 	$usuarios = $result2 -> fetchAll();
 
-  $query3 = "SELECT personal_admin.id_persona, unidades.dirección FROM personal_admin, unidades WHERE personal_admin.unidad = unidades.id";
-  $result3 = $db1 -> prepare($query3);
+  $query3 = "SELECT * FROM direcciones_usuario";
+  $result3 = $db2 -> prepare($query3);
 	$result3 -> execute();
-	$direcciones_personal = $result3 -> fetchAll();
-
-  $query4 = "SELECT usuario, direccion FROM direcciones_usuario";
-  $result4 = $db2 -> prepare($query4);
-	$result4 -> execute();
-	$direcciones_usuario = $result4 -> fetchAll();
-
-  $count = 0;
-  $new_direcciones = array();
-  foreach ($personal_admin as $p) {
-    foreach($direcciones_personal as $d) {
-      if ($d[0] == $p[0]) {
-        $replace = array(0 => count($usuarios) + $count);
-        $new_d = array_replace($d, $replace);
-        array_push($new_direcciones, $new_d);
-      } 
-    }
-    $count = $count + 1;
-  }
-  $direcciones_personal = $new_direcciones;
+	$direcciones_usuario = $result3 -> fetchAll();
 
   $user_count = 0;
   foreach ($personal_admin as $p) {
-    $p[0] = count($usuarios) + $user_count;
-    if (false == in_array($p, $usuarios)) {
+    $condicion = true;
+    foreach($usuarios as $u) {
+      if ($u[2] == $p[2]) {
+        $condicion = false;
+      } 
+    }
+    if ($condicion) {
+      $id_admin = $p[0]
+      $query_dir = "SELECT unidades.dirección FROM personal_admin, unidades WHERE personal_admin.unidad = unidades.id AND personal_admin.id_persona = $id_admin";
+      $result_dir = $db1 -> prepare($query_dir);
+      $result_dir -> execute();
+      $dir_admin = $result_dir -> fetchAll();
+      echo $dir_admin
+      
+
+
+      $p[0] = count($usuarios) + $user_count;
       $id_usuario = $p[0];
       $nombre = $p[1];
       $rut = $p[2];
       $edad = $p[3];
       $sexo = $p[4];
-      $insert = "INSERT INTO usuarios VALUES($id_usuario, '$nombre', '$rut', $edad, '$sexo')";
-      $insert_result = $db2 -> prepare($insert);
-      $insert_result -> execute();
-      $insert_result -> fetchAll();
+      #$insert_usr = "INSERT INTO usuarios VALUES($id_usuario, '$nombre', '$rut', $edad, '$sexo')";
+      #$insert_usr_result = $db2 -> prepare($insert_usr);
+      #$insert_usr_result -> execute();
+      #$insert_usr_result -> fetchAll();
+
+      $id_dir_usuario = count($direcciones_usuario) + $user_count;
+      #$insert_dir = "INSERT INTO direcciones_usuario VALUES($id_dir_usuario, $id_usuario, $dir_admin)";
+      #$insert_dir_result = $db2 -> prepare($insert_dir);
+      #$insert_dir_result -> execute();
+      #$insert_dir_result -> fetchAll();
+
       $user_count = $user_count + 1;
-    }
-  }
-  
-  $dir_count = 0;
-  foreach ($direcciones_personal as $d) {
-    if (false == in_array($d, $direcciones_usuario)) {
-      $new_d = array(count($direcciones_usuario) + $dir_count, $d[0], $d[1]);
-      $id_dir_usuario = $new_d[0];
-      $usuario = intval($new_d[2]);
-      $direccion = intval($new_d[3]);
-      $insert_d = "INSERT INTO direcciones_usuario VALUES($id_dir_usuario, $usuario, $direccion)";
-      $insert_d_result = $db2 -> prepare($insert_d);
-      $insert_d_result -> execute();
-      $insert_d_result -> fetchAll();
-      $dir_count = $dir_count + 1;
     }
   }
 
