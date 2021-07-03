@@ -78,12 +78,13 @@
     </table>
     <table style="float: left">
       <tr>
+        <th>id direccion usuario</th>
         <th>id usuario</th>
         <th>id direccion</th>
       </tr>
       <?php
-        foreach ($direcciones_personal as $per) {
-          echo "<tr><td>$per[0]</td><td>$per[1]</td></tr>";
+        foreach ($direcciones_usuario_full as $per) {
+          echo "<tr><td>$per[0]</td><td>$per[1]</td><td>$per[2]</td></tr>";
       }
       ?>
     </table>
