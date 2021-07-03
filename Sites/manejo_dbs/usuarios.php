@@ -43,13 +43,13 @@
   }
 
   $user_count = 1;
-    foreach ($personal_admin as $p) {
-      if (false == in_array($p, $usuarios)) {
-        $p[0] = 364 + $user_count;
-        array_push($usuarios, $p);
-        $user_count = $user_count + 1;
-      }
+  foreach ($personal_admin as $p) {
+    if (false == in_array($p, $usuarios)) {
+      $p[0] = 364 + $user_count;
+      array_push($usuarios, $p);
+      $user_count = $user_count + 1;
     }
+  }
   
   $dir_count = 1;
   foreach ($direcciones_personal as $d) {
@@ -78,13 +78,12 @@
     </table>
     <table style="float: left">
       <tr>
-        <th>id usario direccion</th>
         <th>id usuario</th>
         <th>id direccion</th>
       </tr>
       <?php
-        foreach ($direcciones_usuario_full as $u) {
-          echo "<tr><td>$u[0]</td><td>$u[1]</td><td>$u[2]</td><td>$u[3]</td><td>$u[4]</td></tr>";
+        foreach ($direcciones_personal as $u) {
+          echo "<tr><td>$u[0]</td><td>$u[1]</td></tr>";
       }
       ?>
       
