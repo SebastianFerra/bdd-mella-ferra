@@ -37,7 +37,7 @@
   foreach ($personal_admin as $p) {
     foreach($direcciones_personal as $d) {
       if ($d[0] == $p[0]) {
-        $replace = array(0 => 364 + $count);
+        $replace = array(0 => count($usuarios) + $count);
         $new_d = array_replace($d, $replace);
         array_push($new_direcciones, $new_d);
       } 
@@ -49,7 +49,7 @@
   $user_count = 1;
   foreach ($personal_admin as $p) {
     if (false == in_array($p, $usuarios)) {
-      $p[0] = 364 + $user_count;
+      $p[0] = count($usuarios) + $user_count;
       array_push($usuarios, $p);
       $user_count = $user_count + 1;
     }
@@ -58,7 +58,7 @@
   $dir_count = 1;
   foreach ($direcciones_personal as $d) {
     if (false == in_array($d, $direcciones_usuario)) {
-      $new_d = array(938 + $dir_count, $d[0], $d[1]);
+      $new_d = array(count($direcciones_usuario) + $dir_count, $d[0], $d[1]);
       array_push($direcciones_usuario_full, $new_d);
       $dir_count = $dir_count + 1;
     }
