@@ -53,6 +53,7 @@
       $insert = "INSERT INTO usuarios(id_usuario, nombre, rut, edad, sexo) VALUES($id_usuario, $nombre, $rut, $edad, $sexo)";
       $insert_result = $db2 -> prepare($insert);
       $insert_result -> execute();
+      $insert_result -> fetchAll();
       $user_count = $user_count + 1;
     }
   }
@@ -67,6 +68,7 @@
       $insert_d = "INSERT INTO direcciones_usuario(id_dir_usuario, usuario, direccion) VALUES($id_dir_usuario, $usuario, $direccion)";
       $insert_d_result = $db2 -> prepare($insert_d);
       $insert_d_result -> execute();
+      $insert_d_result -> fetchAll();
       $dir_count = $dir_count + 1;
     }
   }
