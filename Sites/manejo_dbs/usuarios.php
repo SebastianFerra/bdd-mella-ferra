@@ -45,7 +45,7 @@
   foreach ($personal_admin as $p) {
     if (false == in_array($p, $usuarios)) {
       $p[0] = count($usuarios) + $user_count;
-      $insert = "INSERT INTO usuarios values($p[0], $p[1], $p[2], $p[3], $p[4])";
+      $insert = "INSERT INTO usuarios(id_usuario, nombre, rut, edad, sexo) VALUES($p[0], $p[1], $p[2], $p[3], $p[4])";
       $insert_result = $db2 -> prepare($insert);
 	    $insert_result -> execute();
       $user_count = $user_count + 1;
@@ -56,7 +56,7 @@
   foreach ($direcciones_personal as $d) {
     if (false == in_array($d, $direcciones_usuario)) {
       $new_d = array(count($direcciones_usuario) + $dir_count, $d[0], $d[1]);
-      $insert_d = "INSERT INTO direcciones_usuario values($new_d[0], $new_d[1], $new_d[2])";
+      $insert_d = "INSERT INTO direcciones_usuario(id_dir_usuario, usuario, direccion) VALUES($new_d[0], $new_d[1], $new_d[2])";
       $insert_result_d = $db2 -> prepare($insert_d);
 	    $insert_result_d -> execute();
       $dir_count = $dir_count + 1;
