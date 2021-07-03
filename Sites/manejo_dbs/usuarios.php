@@ -33,7 +33,7 @@
 	$direcciones_usuario_full = $result5 -> fetchAll();
 
   $count = 1;
-  $new_direcciones = array()
+  $new_direcciones = array();
   foreach ($personal_admin as $p) {
     foreach($direcciones_personal as $d) {
       if ($d[0] == $p[0]) {
