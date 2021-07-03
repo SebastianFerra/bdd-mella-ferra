@@ -32,7 +32,7 @@
 	$result5 -> execute();
 	$direcciones_usuario_full = $result5 -> fetchAll();
 
-  $count = 1;
+  $count = 0;
   $new_direcciones = array();
   foreach ($personal_admin as $p) {
     foreach($direcciones_personal as $d) {
@@ -46,7 +46,7 @@
   }
   $direcciones_personal = $new_direcciones;
 
-  $user_count = 1;
+  $user_count = 0;
   foreach ($personal_admin as $p) {
     if (false == in_array($p, $usuarios)) {
       $p[0] = count($usuarios) + $user_count;
@@ -55,7 +55,7 @@
     }
   }
   
-  $dir_count = 1;
+  $dir_count = 0;
   foreach ($direcciones_personal as $d) {
     if (false == in_array($d, $direcciones_usuario)) {
       $new_d = array(count($direcciones_usuario) + $dir_count, $d[0], $d[1]);
