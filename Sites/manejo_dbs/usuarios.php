@@ -46,7 +46,7 @@
     if (false == in_array($p, $usuarios)) {
       $p[0] = count($usuarios) + $user_count;
       $insert = "INSERT INTO usuarios(id_usuario, nombre, rut, edad, sexo) VALUES($p[0], $p[1], $p[2], $p[3], $p[4])";
-      $db2 -> exec($insert);
+      $db2 -> execute($insert);
       $user_count = $user_count + 1;
     }
   }
@@ -56,7 +56,7 @@
     if (false == in_array($d, $direcciones_usuario)) {
       $new_d = array(count($direcciones_usuario) + $dir_count, $d[0], $d[1]);
       $insert_d = "INSERT INTO direcciones_usuario(id_dir_usuario, usuario, direccion) VALUES($new_d[0], $new_d[1], $new_d[2])";
-      $db2 -> exec($insert_d);
+      $db2 -> execute($insert_d);
       $dir_count = $dir_count + 1;
     }
   }
@@ -70,10 +70,6 @@
   $result6 = $db2 -> prepare($query6);
 	$result6 -> execute();
 	$direcciones_changed = $result6 -> fetchAll();
-
-
-
-
   ?>
 
   <div>
