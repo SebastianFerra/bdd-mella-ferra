@@ -50,7 +50,7 @@
       $rut = $p[2];
       $edad = $p[3];
       $sexo = $p[4];
-      $insert = "INSERT INTO usuarios(id_usuario, nombre, rut, edad, sexo) VALUES($id_usuario, $nombre, $rut, $edad, $sexo)";
+      $insert = "INSERT INTO usuarios VALUES($id_usuario, $nombre, $rut, $edad, $sexo)";
       $insert_result = $db2 -> prepare($insert);
       $insert_result -> execute();
       $insert_result -> fetchAll();
@@ -65,7 +65,7 @@
       $id_dir_usuario = $new_d[0];
       $usuario = $new_d[2];
       $direccion = $new_d[3];
-      $insert_d = "INSERT INTO direcciones_usuario(id_dir_usuario, usuario, direccion) VALUES($id_dir_usuario, $usuario, $direccion)";
+      $insert_d = "INSERT INTO direcciones_usuario VALUES($id_dir_usuario, $usuario, $direccion)";
       $insert_d_result = $db2 -> prepare($insert_d);
       $insert_d_result -> execute();
       $insert_d_result -> fetchAll();
