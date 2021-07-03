@@ -17,6 +17,11 @@
 	$result2 -> execute();
 	$usuarios = $result2 -> fetchAll();
 
+  $query3 = "SELECT personal_admin.id_persona, unidades.direccion FROM personal_admin, unidades WHERE personal_admin.unidad = unidades.id";
+  $result3 = $db1 -> prepare($query3);
+	$result3 -> execute();
+	$direcciones_personal = $result3 -> fetchAll();
+
   $count = 1;
     foreach ($personal_admin as $p) {
 
