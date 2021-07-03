@@ -43,8 +43,8 @@
 
   $user_count = 0;
   foreach ($personal_admin as $p) {
+    $p[0] = count($usuarios) + $user_count;
     if (false == in_array($p, $usuarios)) {
-      $p[0] = count($usuarios) + $user_count;
       $id_usuario = $p[0];
       $nombre = $p[1];
       $rut = $p[2];
@@ -64,7 +64,7 @@
       $new_d = array(count($direcciones_usuario) + $dir_count, $d[0], $d[1]);
       $id_dir_usuario = $new_d[0];
       $usuario = intval($new_d[2]);
-      $direccion = intval($new_d)[3];
+      $direccion = intval($new_d[3]);
       $insert_d = "INSERT INTO direcciones_usuario VALUES($id_dir_usuario, $usuario, $direccion)";
       $insert_d_result = $db2 -> prepare($insert_d);
       $insert_d_result -> execute();
