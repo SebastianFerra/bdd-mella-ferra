@@ -27,11 +27,6 @@
 	$result4 -> execute();
 	$direcciones_usuario = $result4 -> fetchAll();
 
-  $query5 = "SELECT * FROM direcciones_usuario";
-  $result5 = $db2 -> prepare($query5);
-	$result5 -> execute();
-	$direcciones_usuario_full = $result5 -> fetchAll();
-
   $count = 0;
   $new_direcciones = array();
   foreach ($personal_admin as $p) {
@@ -50,7 +45,9 @@
   foreach ($personal_admin as $p) {
     if (false == in_array($p, $usuarios)) {
       $p[0] = count($usuarios) + $user_count;
-      array_push($usuarios, $p);
+      $insert = "INSERT INTO usuarios values($p[0], $p[1], $p[2], $p[3], $p[4])";
+      $insert_result = $db2 -> prepare($insert);
+	    $insert_result -> execute();
       $user_count = $user_count + 1;
     }
   }
@@ -59,10 +56,26 @@
   foreach ($direcciones_personal as $d) {
     if (false == in_array($d, $direcciones_usuario)) {
       $new_d = array(count($direcciones_usuario) + $dir_count, $d[0], $d[1]);
-      array_push($direcciones_usuario_full, $new_d);
+      $insert_d = "INSERT INTO direcciones_usuario values($new_d[0], $new_d[1], $new_d[2])";
+      $insert_result_d = $db2 -> prepare($insert_d);
+	    $insert_result_d -> execute();
       $dir_count = $dir_count + 1;
     }
   }
+
+  $query5 = "SELECT * FROM usuarios";
+  $result5 = $db2 -> prepare($query5);
+	$result5 -> execute();
+	$usuarios_changed = $result5 -> fetchAll();
+
+  $query6 = "SELECT * FROM direcciones_usuario";
+  $result6 = $db2 -> prepare($query6);
+	$result6 -> execute();
+	$direcciones_changed = $result6 -> fetchAll();
+
+
+
+
   ?>
 
   <div>
@@ -75,7 +88,7 @@
         <th>sexo</th>
       </tr>
       <?php
-        foreach ($usuarios as $u) {
+        foreach ($usuarios_changed as $u) {
           echo "<tr><td>$u[0]</td><td>$u[1]</td><td>$u[2]</td><td>$u[3]</td><td>$u[4]</td></tr>";
       }
       ?>
@@ -87,7 +100,7 @@
         <th>id direccion</th>
       </tr>
       <?php
-        foreach ($direcciones_usuario_full as $per) {
+        foreach ($direcciones_changed as $per) {
           echo "<tr><td>$per[0]</td><td>$per[1]</td><td>$per[2]</td></tr>";
       }
       ?>
