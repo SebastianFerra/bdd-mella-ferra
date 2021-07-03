@@ -36,7 +36,7 @@
       $result_dir = $db1 -> prepare($query_dir);
       $result_dir -> execute();
       $dir_admin = $result_dir -> fetchAll();
-      echo $dir_admin[0][0];
+      $dir_admin = intval($dir_admin[0][0]);
       
 
 
@@ -46,16 +46,16 @@
       $rut = $p[2];
       $edad = $p[3];
       $sexo = $p[4];
-      #$insert_usr = "INSERT INTO usuarios VALUES($id_usuario, '$nombre', '$rut', $edad, '$sexo')";
-      #$insert_usr_result = $db2 -> prepare($insert_usr);
-      #$insert_usr_result -> execute();
-      #$insert_usr_result -> fetchAll();
+      $insert_usr = "INSERT INTO usuarios VALUES($id_usuario, '$nombre', '$rut', $edad, '$sexo')";
+      $insert_usr_result = $db2 -> prepare($insert_usr);
+      $insert_usr_result -> execute();
+      $insert_usr_result -> fetchAll();
 
       $id_dir_usuario = count($direcciones_usuario) + $user_count;
-      #$insert_dir = "INSERT INTO direcciones_usuario VALUES($id_dir_usuario, $id_usuario, $dir_admin)";
-      #$insert_dir_result = $db2 -> prepare($insert_dir);
-      #$insert_dir_result -> execute();
-      #$insert_dir_result -> fetchAll();
+      $insert_dir = "INSERT INTO direcciones_usuario VALUES($id_dir_usuario, $id_usuario, $dir_admin)";
+      $insert_dir_result = $db2 -> prepare($insert_dir);
+      $insert_dir_result -> execute();
+      $insert_dir_result -> fetchAll();
 
       $user_count = $user_count + 1;
     }
