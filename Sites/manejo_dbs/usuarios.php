@@ -36,7 +36,7 @@
       $result_dir = $db1 -> prepare($query_dir);
       $result_dir -> execute();
       $dir_admin = $result_dir -> fetchAll();
-      echo $dir_admin[0];
+      echo $dir_admin[0][0];
       
 
 
