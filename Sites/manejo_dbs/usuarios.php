@@ -63,8 +63,8 @@
     if (false == in_array($d, $direcciones_usuario)) {
       $new_d = array(count($direcciones_usuario) + $dir_count, $d[0], $d[1]);
       $id_dir_usuario = $new_d[0];
-      $usuario = $new_d[2];
-      $direccion = $new_d[3];
+      $usuario = intval($new_d[2]);
+      $direccion = intval($new_d)[3];
       $insert_d = "INSERT INTO direcciones_usuario VALUES($id_dir_usuario, $usuario, $direccion)";
       $insert_d_result = $db2 -> prepare($insert_d);
       $insert_d_result -> execute();
