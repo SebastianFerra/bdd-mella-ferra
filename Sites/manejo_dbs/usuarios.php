@@ -31,7 +31,7 @@
       } 
     }
     if ($condicion) {
-      $id_admin = $p[0]
+      $id_admin = $p[0];
       $query_dir = "SELECT unidades.dirección FROM personal_admin, unidades WHERE personal_admin.unidad = unidades.id AND personal_admin.id_persona = $id_admin";
       $result_dir = $db1 -> prepare($query_dir);
       $result_dir -> execute();
