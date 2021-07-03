@@ -13,7 +13,7 @@
 	$personal_admin = $result1 -> fetchAll();
 
   $query2 = "SELECT * FROM usuarios";
-  $result2 = $db2 -> exec($query2);
+  $result2 = $db2 -> prepare($query2);
 	$result2 -> execute();
 	$usuarios = $result2 -> fetchAll();
 
