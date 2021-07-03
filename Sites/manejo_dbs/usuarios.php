@@ -44,7 +44,7 @@
     }
     $count = $count + 1;
   }
-  $direcciones_personal = $new_direcciones
+  $direcciones_personal = $new_direcciones;
 
   $user_count = 1;
   foreach ($personal_admin as $p) {
