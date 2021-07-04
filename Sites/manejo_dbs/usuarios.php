@@ -1,6 +1,4 @@
-<?php include('../templates/header.html');   ?>
 
-<body>
 <?php
   #Llama a conexión, crea el objeto PDO y obtiene la variable $db
   require("../config/conexion.php");
@@ -9,7 +7,7 @@
 
   $query1 = "SELECT personal.id,personal.nombre,personal.rut,personal.edad,personal.sexo FROM personal, personal_admin WHERE personal.id = personal_admin.id_persona";
 	$result1 = $db1 -> prepare($query1);
-	$result1 -> execute();
+  $result1 -> execute();
 	$personal_admin = $result1 -> fetchAll();
 
   $query2 = "SELECT * FROM usuarios";
@@ -61,45 +59,4 @@
       $user_count = $user_count + 1;
     }
   }
-
-  $query5 = "SELECT * FROM usuarios";
-  $result5 = $db2 -> prepare($query5);
-	$result5 -> execute();
-	$usuarios_changed = $result5 -> fetchAll();
-
-  $query6 = "SELECT * FROM direcciones_usuario";
-  $result6 = $db2 -> prepare($query6);
-	$result6 -> execute();
-	$direcciones_changed = $result6 -> fetchAll();
   ?>
-
-  <div>
-    <table style="float: left">
-      <tr>
-        <th>id</th>
-        <th>nombre</th>
-        <th>rut</th>
-        <th>edad</th>
-        <th>sexo</th>
-      </tr>
-      <?php
-        foreach ($usuarios_changed as $u) {
-          echo "<tr><td>$u[0]</td><td>$u[1]</td><td>$u[2]</td><td>$u[3]</td><td>$u[4]</td></tr>";
-      }
-      ?>
-    </table>
-    <table style="float: left">
-      <tr>
-        <th>id direccion usuario</th>
-        <th>id usuario</th>
-        <th>id direccion</th>
-      </tr>
-      <?php
-        foreach ($direcciones_changed as $per) {
-          echo "<tr><td>$per[0]</td><td>$per[1]</td><td>$per[2]</td></tr>";
-      }
-      ?>
-    </table>
-  </div>
-
-<?php include('../templates/footer.html'); ?>
