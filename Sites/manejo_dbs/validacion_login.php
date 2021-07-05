@@ -16,7 +16,9 @@
 
   if (count($user_data) == 1) {
 
-    echo 'Bien, el usuario ' + $user_data['nombre'] + ' ha sido validado'; 
+    $nombre = $user_data['nombre']
+
+    echo "Bien, el usuario $nombre ha sido validado"; 
 
   } elseif (count($user_data) == 0) {
 
