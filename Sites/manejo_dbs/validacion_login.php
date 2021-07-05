@@ -16,7 +16,7 @@
 
   if (count($user_data) == 1) {
 
-    $nombre = $user_data['nombre']
+    $nombre = $user_data['nombre'];
 
     echo "Bien, el usuario $nombre ha sido validado"; 
 
