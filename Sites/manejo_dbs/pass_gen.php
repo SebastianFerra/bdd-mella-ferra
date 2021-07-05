@@ -16,7 +16,7 @@
         $result_alter -> fetchAll();
 
         foreach ($usuarios as $user) {
-            $user_id = $user[0]
+            $user_id = $user[0];
             $password = $user[2];
             $query_pass = "UPDATE usuarios SET pass = $password WHERE id_usuario = $user_id";
             $result_pass = $db2 -> prepare($query_pass);
