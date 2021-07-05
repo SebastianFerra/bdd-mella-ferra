@@ -15,7 +15,7 @@
   $users = $result -> fetchAll();
 
   if (count($users) == 1) {
-    $user_data = $users[0]
+    $user_data = $users[0];
     $nombre = $user_data['nombre'];
     echo "Bien, el usuario $nombre ha sido validado"; 
   } elseif (count($user_data) == 0) {
