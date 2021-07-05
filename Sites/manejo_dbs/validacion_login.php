@@ -12,23 +12,17 @@
   $query = "SELECT * FROM usuarios WHERE rut = '$rut' AND pass = '$pass'";
   $result = $db2 -> prepare($query);
   $result -> execute();
-  $user_data = $result -> fetchAll();
+  $users = $result -> fetchAll();
 
-  if (count($user_data) == 1) {
-
+  if (count($users) == 1) {
+    $user_data = $users[0]
     $nombre = $user_data['nombre'];
-
     echo "Bien, el usuario $nombre ha sido validado"; 
-
   } elseif (count($user_data) == 0) {
-
     echo 'El rut o password son incorrectos';
-
   } else {
     echo 'algo raro paso';
   }
-
-
 ?>
 
 <?php include('../templates/footer.html'); ?>
