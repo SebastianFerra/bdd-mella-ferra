@@ -12,7 +12,7 @@
         <label for="rut"><h3>RUT:</h3></label>
         <input type="text" name="rut"> 
         <label for="nombre"><h3>Contraseña:</h3></label>
-        <input type="text" name="password"> 
+        <input type="password" name="password"> 
         <br>
         <br>
         <br>

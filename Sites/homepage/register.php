@@ -17,7 +17,9 @@
         <label for="edad"><h3>Edad:</h3></label>
         <input type="text" name="edad"> 
         <label for="direccion"><h3>Dirección:</h3></label>
-        <input type="text" name="direccion"> 
+        <input type="text" name="direccion">
+        <label for="direccion"><h3>Comuna:</h3></label>
+        <input type="text" name="comuna">  
         <br>
         <br>
         <br>
