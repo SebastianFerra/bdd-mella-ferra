@@ -8,7 +8,7 @@
     $usuarios = $result_usrs -> fetchAll();
 
 
-    $atr = count($usuarios[0])
+    $atr = count($usuarios[0]);
     if ($atr == 5) {
         $query_alter = "ALTER TABLE usuarios ADD pass VARCHAR";
         $result_alter = $db2 -> prepare($query_alter);
