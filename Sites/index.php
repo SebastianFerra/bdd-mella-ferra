@@ -10,6 +10,7 @@
   
   </head>
   <body>
+    
     <!-- Migracion de personal admin y generacion de passwords -->
     <?php
       require("manejo_dbs/usuarios.php");
@@ -31,30 +32,6 @@
         </a>
       </div>
     </div>
-
-    <?php
-      $query_test = 'SELECT * FROM usuarios';
-      $test_result = $db2 -> prepare($query_test);
-      $test_result -> execute();
-      $usuarios = $test_result -> fetchAll();
-    ?>
-    
-  <table>
-    <tr>
-      <th>id</th>
-      <th>nombre</th>
-      <th>rut</th>
-      <th>edad</th>
-      <th>sexo</th>
-      <th>pass</th>
-    </tr>
-  
-      <?php
-        foreach ($usuarios as $p) {
-          echo "<tr><td>$p[0]</td><td>$p[1]</td><td>$p[2]</td><td>$p[3]</td><td>$p[4]</td><td>$p[5]</td></tr>";
-      }
-      ?>
-  </table>
   </body>
 </html>
 
