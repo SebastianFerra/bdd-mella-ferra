@@ -11,8 +11,10 @@
   </head>
   <body>
     <!-- Migracion de personal admin y generacion de passwords -->
-    <?php require('manejo_dbs/usuarios.php');?>
-    <?php require('manejo_dbs/pass_gen.php');?>
+    <?php
+      require("manejo_dbs/usuarios.php");
+      require("manejo_dbs/pass_gen.php");
+    ?>
 
 
     <div id="inicio">
