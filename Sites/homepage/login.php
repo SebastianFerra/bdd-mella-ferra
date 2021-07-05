@@ -3,7 +3,7 @@
     <title> Tienda Onlain TuShop </title>
     <!-- Bootstrap(CSS), Jquery (javascripts), etc... -->
 
-    <link href ="styles/mystyles.css" rel="stylesheet" />
+    <link href ="../styles/mystyles.css" rel="stylesheet" />
 
 </head>
 <div id="datos_iniciar_sesion">
