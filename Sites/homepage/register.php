@@ -3,7 +3,7 @@
     <title> Tienda Onlain TuShop </title>
     <!-- Bootstrap(CSS), Jquery (javascripts), etc... -->
 
-    <link href ="../style.css" rel="stylesheet" />
+    <link href ="../styles/style.css" rel="stylesheet" />
 
 </head>
 
