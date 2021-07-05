@@ -7,7 +7,7 @@
 
 </head>
 <div id="datos_iniciar_sesion">
-    <form action="manejo_dbs/validacion_login.php" method="post">
+    <form action="../manejo_dbs/validacion_login.php" method="post">
         <h2>INICIAR SESIÓN</h2>
         <label for="rut"><h3>RUT:</h3></label>
         <input type="text" name="rut"> 
@@ -17,7 +17,6 @@
         <br>
         <br>
         <button class="boton2">ACEPTAR</button>
-        <input type="submit" value="Buscar">
     </form>
 
 </div>
