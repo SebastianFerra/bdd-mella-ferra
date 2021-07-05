@@ -6,7 +6,7 @@
     <title> Tienda Onlain TuShop </title>
     <!-- Bootstrap(CSS), Jquery (javascripts), etc... -->
 
-    <link href ="styles/mystyles.css" rel="stylesheet" />
+    <link href ="style.css" rel="stylesheet" />
   
   </head>
   <body>
