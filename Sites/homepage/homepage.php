@@ -9,7 +9,7 @@
 
 <?php
     $id_user = $_POST["id_user_login"];
-    echo $id_user;
+    echo '$id_user';
 
     #$query_user = "SELECT * FROM usuarios WHERE id_usuario = $id_user";
     #$result_user = $db2 -> prepare($query_user);
