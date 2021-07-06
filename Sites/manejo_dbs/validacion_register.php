@@ -52,13 +52,11 @@
   if ($rut_exists) {
 
     echo "Lo sentimos pero ese rut ya existe";
-    echo '<br>
+    echo "<br>
           <br>
-          <form action="../homepage/register.php" method="get">
-            <input type="submit" value="Volver">
-          </form>
-          </body>
-          </html>';
+          <form action='../homepage/login.php' method='get'>
+            <input type='submit' value='Volver'>
+          </form>";
 
   } elseif (false == $rut_exists) {
 
@@ -110,16 +108,17 @@
     if (count($user_check) == 1) {
 
       echo "Registro exitoso";
-      echo '<br>
+      echo "<br>
             <br>
-            <form action="../homepage/homepage.php" method="get">
-              <input type="hidden" name="id_user_register" value=$id_user>
-              <input type="submit" value="Ir al homepage">
-            </form>
-            </body>
-            </html>';
+            <form action='../homepage/homepage.php' method='post'>
+              <input type='hidden' name='id_user' value=$id_user>
+              <input type='submit' value='Ir al homepage'>
+            </form>"; 
 
     }
 
   }
 ?>
+
+</body>
+</html>
