@@ -5,33 +5,38 @@
   #Llama a conexión, crea el objeto PDO y obtiene la variable $db
   require("../config/conexion.php");
 
-  $query = "SELECT * FROM usuarios ";
-  $result = $db2 -> prepare($query);
-  $result -> execute();
-  $users = $result -> fetchAll();
-
-  $id_user = count($users);  
   $nombre = $_POST["nombre"];
   $rut = $_POST["rut"];
   $edad = $_POST["edad"];
   $direccion = $_POST["direccion"];
   $comuna = $_POST["comuna"];
-
+  
   $query_addres = "SELECT * FROM direcciones WHERE nombre_direccion = '$direccion' AND comuna = '$comuna'";
   $result_addres = $db2 -> prepare($query_addres);
   $result_addres -> execute();
   $addres = $result_addres -> fetchAll();
 
-  $query_max = "SELECT * FROM direcciones_usuario";
+  $query = "SELECT * FROM usuarios";
+  $result = $db2 -> prepare($query);
+  $result -> execute();
+  $users = $result -> fetchAll();
+  
+  $query_max_user = "SELECT MAX(id_usuario) FROM usuarios ";
+  $result_max_user = $db2 -> prepare($query_max_user);
+  $result_max_user -> execute();
+  $max_user_id = $result_max_user -> fetchAll();  
+
+  $query_max = "SELECT MAX(id_dir_usr) FROM direcciones_usuario";
   $result_max = $db2 -> prepare($query_max);
   $result_max -> execute();
-  $direcciones_usuario = $result_max -> fetchAll();
+  $max_dir_usr_id = $result_max -> fetchAll();
 
-  $query_max_addres = "SELECT * FROM direcciones";
+  $query_max_addres = "SELECT MAX(id_direccion) FROM direcciones";
   $result_max_addres = $db2 -> prepare($query_max_addres);
   $result_max_addres -> execute();
-  $direcciones = $result_max_addres -> fetchAll();
+  $max_dir_id = $result_max_addres -> fetchAll();
 
+  $id_user = $max_user_id[0][0] + 1;
   $rut_exists = false;
 
   foreach ($users as $u) {
@@ -53,7 +58,7 @@
     if (count($addres) >= 1) {
 
       $id_direccion = $addres[0]['id_direccion'];
-      $id_dir_usr = count($direcciones_usuario);
+      $id_dir_usr = $max_dir_usr_id[0][0] + 1;
 
       echo $id_direccion;
       echo '<br>';
@@ -62,8 +67,8 @@
 
     } elseif (count($addres) == 0) {
 
-      $id_direccion = count($direcciones);
-      $id_dir_usr = count($direcciones_usuario);
+      $id_direccion = $max_dir_id[0][0] + 1;
+      $id_dir_usr = $max_dir_usr_id[0][0] + 1;
 
       echo $id_direccion;
       echo '<br>';
