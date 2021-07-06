@@ -17,10 +17,12 @@
   if (count($users) == 1) {
     $user_data = $users[0];
     $nombre = $user_data['nombre'];
+    $id_user = $user_data['id_usuario']
     echo "Bien, el usuario $nombre ha sido validado";
     echo '<br>
           <br>
-          <form action="../homepage/homepage.php" method="get">
+          <form action="../homepage/homepage.php" method="post">
+            <input type="hidden" name="id_user" value=$id_user>
             <input type="submit" value="Ir al homepage">
           </form>
           </body>
