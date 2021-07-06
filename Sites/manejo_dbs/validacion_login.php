@@ -25,10 +25,12 @@
     $user_data = $users[0];
     $nombre = $user_data['nombre'];
     $id_user = $user_data['id_usuario'];
+    echo "<h3>Se ha iniciado sesión correctamente</h3>";
     echo "<br>
           <br>
           <form action='../homepage/homepage.php' method='post'>
             <input type='hidden' name='id_user' value=$id_user>
+            <button class='boton2'>Ir al homepage</button>
           </form>"; 
   } elseif (count($users) == 0) {
     echo "<h3>El rut o password son incorrectos</h3>";
