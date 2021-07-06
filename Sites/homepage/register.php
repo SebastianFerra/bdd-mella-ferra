@@ -8,7 +8,7 @@
 </head>
 
 <div id="datos_usuario_nuevo">
-    <form action="../manejo_dbs/validacion_registro.php" method="post">
+    <form action="../manejo_dbs/validacion_register.php" method="post">
         <h2>INGRESA TUS DATOS PARA CREAR TU CUENTA:)</h2>
         <label for="nombre"><h3>Nombre:</h3></label>
         <input type="text" name="nombre"> 
