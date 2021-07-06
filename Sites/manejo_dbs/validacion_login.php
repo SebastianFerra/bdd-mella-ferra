@@ -37,14 +37,14 @@
     echo "<br>
           <br>
           <form action='../homepage/login.php' method='get'>
-            <input type='submit' value='Volver'>
+            <button class='boton2'>Volver</button>
           </form>";
   } else {
     echo "<h3>algo raro paso</h3>";
     echo "<br>
           <br>
           <form action='../homepage/login.php' method='get'>
-            <input type='submit' value='Volver'>
+            <button class='boton2'>Volver</button>
           </form>";
   }
 ?>

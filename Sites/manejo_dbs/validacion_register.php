@@ -1,4 +1,11 @@
-<?php include('../templates/header.html');   ?>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title> Tienda Onlain TuShop </title>
+    <!-- Bootstrap(CSS), Jquery (javascripts), etc... -->
+
+    <link href ="../styles/style.css" rel="stylesheet" />
+
+</head>
 
 <body>
 <?php
@@ -51,11 +58,11 @@
 
   if ($rut_exists) {
 
-    echo "Lo sentimos pero ese rut ya existe";
+    echo "<h3>Lo sentimos pero ese rut ya existe</h3>";
     echo "<br>
           <br>
-          <form action='../homepage/login.php' method='get'>
-            <input type='submit' value='Volver'>
+          <form action='../homepage/register.php' method='get'>
+            <button class='boton2'>Volver</button>
           </form>";
 
   } elseif (false == $rut_exists) {
@@ -65,20 +72,10 @@
       $id_direccion = $addres[0]['id_direccion'];
       $id_dir_usr = $max_dir_usr_id[0][0] + 1;
 
-      echo $id_direccion;
-      echo '<br>';
-      echo $id_dir_usr;
-      echo '<br>';
-
     } elseif (count($addres) == 0) {
 
       $id_direccion = $max_dir_id[0][0] + 1;
       $id_dir_usr = $max_dir_usr_id[0][0] + 1;
-
-      echo $id_direccion;
-      echo '<br>';
-      echo $id_dir_usr;
-      echo '<br>';
 
       $query_insert_dir = "INSERT INTO direcciones VALUES($id_direccion, '$direccion', '$comuna')";
       $result_insert_dir = $db2 -> prepare($query_insert_dir);
@@ -102,9 +99,6 @@
     $result_check -> execute();
     $user_check = $result_check -> fetchAll();
 
-    echo $user_check[0][0];
-    echo '<br>';
-
     if (count($user_check) == 1) {
 
       echo "Registro exitoso";
@@ -112,7 +106,7 @@
             <br>
             <form action='../homepage/homepage.php' method='post'>
               <input type='hidden' name='id_user' value=$id_user>
-              <input type='submit' value='Ir al homepage'>
+              <button class='boton2'>Ir al Homepage</button>
             </form>"; 
 
     }
