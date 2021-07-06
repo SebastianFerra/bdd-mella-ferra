@@ -56,7 +56,9 @@
       $id_dir_usr = count($direcciones_usuario);
 
       echo $id_direccion;
+      <br>
       echo $id_dir_usr;
+      <br>
 
     } elseif (count($addres) == 0) {
 
@@ -64,7 +66,9 @@
       $id_dir_usr = count($direcciones_usuario);
 
       echo $id_direccion;
+      <br>
       echo $id_dir_usr;
+      <br>
 
       $query_insert_dir = "INSERT INTO direcciones VALUES($id_direccion, '$direccion', '$comuna')";
       $result_insert_dir = $db2 -> prepare($query_insert_dir);
@@ -89,9 +93,12 @@
     $user_check = $result_check -> fetchAll();
 
     echo $user_check[0];
+    <br>
+
     if (count($user_check) == 1) {
 
       echo "Registro exitoso";
+      <br>
 
     }
 
