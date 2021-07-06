@@ -67,12 +67,12 @@
 
     }
 
-    $query_insert_user = "INSERT INTO usuarios VALUES($id_user, '$nombre', '$rut', $edad, 'undefined', '$rut')"
+    $query_insert_user = "INSERT INTO usuarios VALUES($id_user, '$nombre', '$rut', $edad, 'undefined', '$rut')";
     $result_insert_user = $db2 -> prepare($query_insert_user);
     $result_insert_user -> execute();
     $result_insert_user -> fetchAll();
 
-    $query_user_dir = "INSERT INTO direcciones_usuario VALUES($id_dir_usr, $id_user, $id_direccion)"
+    $query_user_dir = "INSERT INTO direcciones_usuario VALUES($id_dir_usr, $id_user, $id_direccion)";
     $result_user_dir = $db2 -> prepare($query_user_dir);
     $result_user_dir -> execute();
     $result_user_dir -> fetchAll();
