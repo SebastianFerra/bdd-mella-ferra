@@ -20,7 +20,7 @@
       $result_info -> execute();
       $info = $result_info -> fetchAll();
 
-      echo "$info";
+      echo "$info[0]";
     ?>
 
 
