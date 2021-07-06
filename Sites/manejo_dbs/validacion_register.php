@@ -60,7 +60,7 @@
       $id_direccion = count($direcciones);
       $id_dir_usr = count($direcciones_usuario);
 
-      $query_insert_dir = "INSERT INTO direcciones VALUES($id_direccion, '$direccion', '$comuna')"
+      $query_insert_dir = "INSERT INTO direcciones VALUES($id_direccion, '$direccion', '$comuna')";
       $result_insert_dir = $db2 -> prepare($query_insert_dir);
       $result_insert_dir -> execute();
       $result_insert_dir -> fetchAll();
