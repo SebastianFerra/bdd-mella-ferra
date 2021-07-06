@@ -1,4 +1,11 @@
-<?php include('../templates/header.html');   ?>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title> Tienda Onlain TuShop </title>
+    <!-- Bootstrap(CSS), Jquery (javascripts), etc... -->
+
+    <link href ="../styles/style.css" rel="stylesheet" />
+
+</head>
 
 <body>
 <?php
@@ -18,22 +25,20 @@
     $user_data = $users[0];
     $nombre = $user_data['nombre'];
     $id_user = $user_data['id_usuario'];
-    echo "Bien, el usuario $nombre $id_user ha sido validado";
     echo "<br>
           <br>
           <form action='../homepage/homepage.php' method='post'>
             <input type='hidden' name='id_user' value=$id_user>
-            <input type='submit' value='Ir al homepage'>
           </form>"; 
   } elseif (count($users) == 0) {
-    echo "El rut o password son incorrectos";
+    echo "<h3>El rut o password son incorrectos</h3>";
     echo "<br>
           <br>
           <form action='../homepage/login.php' method='get'>
             <input type='submit' value='Volver'>
           </form>";
   } else {
-    echo "algo raro paso";
+    echo "<h3>algo raro paso</h3>";
     echo "<br>
           <br>
           <form action='../homepage/login.php' method='get'>
