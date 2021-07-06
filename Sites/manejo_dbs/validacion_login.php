@@ -18,7 +18,7 @@
     $user_data = $users[0];
     $nombre = $user_data['nombre'];
     $id_user = $user_data['id_usuario'];
-    echo "Bien, el usuario $nombre ha sido validado";
+    echo "Bien, el usuario $nombre $id_user ha sido validado";
     echo '<br>
           <br>
           <form action="../homepage/homepage.php" method="post">
