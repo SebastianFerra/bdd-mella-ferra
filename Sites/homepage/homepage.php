@@ -24,9 +24,11 @@
         AND direcciones.id_direccion = direcciones_usuario.direccion";
     $result_dir = $db2 -> prepare($query_dir);
     $result_dir -> execute();
-    $direccion = $result_dir -> fetchAll();
+    $direccion_data = $result_dir -> fetchAll();
     
-    $direccion_data = $direccion[0];
+    $direccion = $direccion_data[0]['nombre_direccion'];
+    $comuna = $direccion_data[0]['comuna']
+
     $user_data = $user[0];
 ?>
 
@@ -36,7 +38,7 @@
     <h3>INFORMACIÓN PERSONAL</h3>
     <ul>
         <?php
-            echo "<li>Nombre: $user_data[1]</li><li>Edad: $user_data[3]</li><li>RUT: $user_data[2]</li><li>Dirección: $direccion_data[1], $direccion_data[2]</li>";
+            echo "<li>Nombre: $user_data[1]</li><li>Edad: $user_data[3]</li><li>RUT: $user_data[2]</li><li>Dirección: $direccion, $comuna</li>";
         ?>
     </ul>
     <a>
