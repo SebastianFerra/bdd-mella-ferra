@@ -33,7 +33,7 @@
     <h3>INFORMACIÓN PERSONAL</h3>
     <ul>
         <?php
-            echo "<li>Nombre: $user_data['nombre']</li><li>Edad: $user_data['edad']</li><li>RUT: $user_data['rut']</li><li>Dirección: $direccion_data['nombre_direccion'], $direccion_data['comuna']</li>";
+            echo "<li>Nombre: $user_data[1]</li><li>Edad: $user_data[3]</li><li>RUT: $user_data[2]</li><li>Dirección: $direccion_data[1], $direccion_data[2]</li>";
         ?>
     </ul>
     <a>
