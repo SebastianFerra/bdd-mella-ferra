@@ -11,10 +11,10 @@
     $id_user = $_POST["id_user"];
     echo "$id_user";
 
-    #$query_user = "SELECT * FROM usuarios WHERE id_usuario = $id_user";
-    #$result_user = $db2 -> prepare($query_user);
-    #$result_user -> execute();
-    #$user = $result_user -> fetchAll();
+    $query_user = "SELECT * FROM usuarios WHERE id_usuario = $id_user";
+    $result_user = $db2 -> prepare($query_user);
+    $result_user -> execute();
+    $user = $result_user -> fetchAll();
 
     #$query_dir = "SELECT direcciones.nombre_direccion, direcciones.comuna 
     #    FROM direcciones, direcciones_usuario 
