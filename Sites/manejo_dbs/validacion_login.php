@@ -24,26 +24,23 @@
           <form action="../homepage/homepage.php" method="post">
             <input type="hidden" name="id_user_login" value=$id_user>
             <input type="submit" value="Ir al homepage">
-          </form>
-          </body>
-          </html>'; 
+          </form>'; 
   } elseif (count($users) == 0) {
     echo 'El rut o password son incorrectos';
     echo '<br>
           <br>
           <form action="../homepage/login.php" method="get">
             <input type="submit" value="Volver">
-          </form>
-          </body>
-          </html>';
+          </form>';
   } else {
     echo 'algo raro paso';
     echo '<br>
           <br>
           <form action="../homepage/login.php" method="get">
             <input type="submit" value="Volver">
-          </form>
-          </body>
-          </html>';
+          </form>';
   }
 ?>
+
+</body>
+</html>
