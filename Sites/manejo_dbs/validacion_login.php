@@ -18,7 +18,7 @@
     $user_data = $users[0];
     $nombre = $user_data['nombre'];
     echo "Bien, el usuario $nombre ha sido validado"; 
-  } elseif (count($user_data) == 0) {
+  } elseif (count($users) == 0) {
     echo 'El rut o password son incorrectos';
   } else {
     echo 'algo raro paso';
