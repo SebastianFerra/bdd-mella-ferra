@@ -23,7 +23,7 @@
         WHERE direcciones_usuario.usuario = $id_user 
         AND direcciones.id_direccion = direcciones_usuario.direccion";
     $result_dir = $db2 -> prepare($query_dir);
-    $result_dir = $db2 -> execute();
+    $result_dir -> execute();
     $direccion = $result_dir -> fetchAll();
     
     $direccion_data = $direccion[0];
