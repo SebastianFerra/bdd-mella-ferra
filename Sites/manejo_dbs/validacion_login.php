@@ -17,12 +17,31 @@
   if (count($users) == 1) {
     $user_data = $users[0];
     $nombre = $user_data['nombre'];
-    echo "Bien, el usuario $nombre ha sido validado"; 
+    echo "Bien, el usuario $nombre ha sido validado";
+    echo '<br>
+          <br>
+          <form action="../homepage/homepage.php" method="get">
+            <input type="submit" value="Ir al homepage">
+          </form>
+          </body>
+          </html>'; 
   } elseif (count($users) == 0) {
     echo 'El rut o password son incorrectos';
+    echo '<br>
+          <br>
+          <form action="../homepage/login.php" method="get">
+            <input type="submit" value="Volver">
+          </form>
+          </body>
+          </html>';
   } else {
     echo 'algo raro paso';
+    echo '<br>
+          <br>
+          <form action="../homepage/login.php" method="get">
+            <input type="submit" value="Volver">
+          </form>
+          </body>
+          </html>';
   }
 ?>
-
-<?php include('../templates/footer.html'); ?>
