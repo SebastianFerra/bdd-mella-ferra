@@ -55,10 +55,16 @@
       $id_direccion = $addres[0]['id_direccion'];
       $id_dir_usr = count($direcciones_usuario);
 
+      echo $id_direccion;
+      echo $id_dir_usr;
+
     } elseif (count($addres) == 0) {
 
       $id_direccion = count($direcciones);
       $id_dir_usr = count($direcciones_usuario);
+
+      echo $id_direccion;
+      echo $id_dir_usr;
 
       $query_insert_dir = "INSERT INTO direcciones VALUES($id_direccion, '$direccion', '$comuna')";
       $result_insert_dir = $db2 -> prepare($query_insert_dir);
@@ -77,7 +83,17 @@
     $result_user_dir -> execute();
     $result_user_dir -> fetchAll();
 
-    echo "Registro exitoso";
+    $check = "SELECT * FROM usuarios WHERE id_usuario = $id_user";
+    $result_check = $db2 -> prepare($check);
+    $result_check -> execute();
+    $user_check = $result_check -> fetchAll();
+
+    echo $user_check[0];
+    if (count($user_check) == 1) {
+
+      echo "Registro exitoso";
+
+    }
 
   }
 ?>
