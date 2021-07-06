@@ -2,9 +2,9 @@
 Para todos los usuarios: su informacion personal: nombre, edad, rut, direccion.
 '''
 
-SELECT Usuarios, Productos.descripcion, Productos.tipo
-FROM Productos JOIN Direcciones_usuarios
-WHERE rut LIKE LOWER('%input%') 
+SELECT *
+FROM usuarios
+WHERE id_usuario LIKE LOWER('%input%') 
 
 
 --
