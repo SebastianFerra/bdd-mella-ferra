@@ -10,7 +10,7 @@
 <?php
     $id_user = $_POST["id_user"];
 
-    $query_user = "SELECT * FROM usuarios WHERE id_usuario = '$id_user'";
+    $query_user = "SELECT * FROM usuarios WHERE id_usuario = $id_user";
     $result_user = $db2 -> prepare($query_user);
     $result_user -> execute();
     $user = $result_user -> fetchAll();
