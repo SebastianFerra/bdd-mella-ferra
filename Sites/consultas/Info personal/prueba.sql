@@ -9,7 +9,7 @@ RETURNS BOOLEAN AS $$
 
 
 BEGIN
-    RETURN TRUE
+    RETURN TRUE;
 END
 
 $$ language plpgsql
