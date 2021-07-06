@@ -15,6 +15,7 @@
     <?php
       require("manejo_dbs/usuarios.php");
       require("manejo_dbs/pass_gen.php");
+      echo "$info_persona()"
     ?>
 
 
