@@ -8,7 +8,7 @@
 </head>
 
 <?php
-    $id_user = intval($_POST["id_user"]);
+    $id_user = $_POST["id_user_login"];
     echo $id_user;
 
     #$query_user = "SELECT * FROM usuarios WHERE id_usuario = $id_user";

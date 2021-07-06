@@ -22,7 +22,7 @@
     echo '<br>
           <br>
           <form action="../homepage/homepage.php" method="post">
-            <input type="hidden" name="id_user" value=$id_user>
+            <input type="hidden" name="id_user_login" value=$id_user>
             <input type="submit" value="Ir al homepage">
           </form>
           </body>

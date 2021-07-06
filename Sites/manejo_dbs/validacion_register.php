@@ -113,7 +113,7 @@
       echo '<br>
             <br>
             <form action="../homepage/homepage.php" method="get">
-              <input type="hidden" name="id_user" value=$id_user>
+              <input type="hidden" name="id_user_register" value=$id_user>
               <input type="submit" value="Ir al homepage">
             </form>
             </body>
