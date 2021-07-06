@@ -17,7 +17,7 @@
   if (count($users) == 1) {
     $user_data = $users[0];
     $nombre = $user_data['nombre'];
-    $id_user = $user_data['id_usuario']
+    $id_user = $user_data['id_usuario'];
     echo "Bien, el usuario $nombre ha sido validado";
     echo '<br>
           <br>
