@@ -22,19 +22,62 @@
   $result_addres -> execute();
   $addres = $result_addres -> fetchAll();
 
+  $query_max = "SELECT * FROM direcciones_usuario";
+  $result_max = $db2 -> prepare($query_max);
+  $result_max -> execute();
+  $direcciones_usuario = $result_max -> fetchAll();
+
+  $query_max_addres = "SELECT * FROM direcciones";
+  $result_max_addres = $db2 -> prepare($query_max_addres);
+  $result_max_addres -> execute();
+  $direcciones = $result_max_addres -> fetchAll();
+
   $rut_exists = false;
+
   foreach ($users as $u) {
+
     if ($u['rut'] == $rut) {
-        $rut_exists = true;
+
+      $rut_exists = true;
+
     }
+
   }
 
   if ($rut_exists) {
-    echo "Lo sentimos pero ese rut ya existe"; 
+
+    echo "Lo sentimos pero ese rut ya existe";
+
   } elseif (false == $rut_exists) {
-    if (count($addres) == 1) {
+
+    if (count($addres) >= 1) {
+
       $id_direccion = $addres[0]['id_direccion'];
+      $id_dir_usr = count($direcciones_usuario);
+
+    } elseif (count($addres) == 0) {
+
+      $id_direccion = count($direcciones);
+      $id_dir_usr = count($direcciones_usuario);
+
+      $query_insert_dir = "INSERT INTO direcciones VALUES($id_direccion, '$direccion', '$comuna')"
+      $result_insert_dir = $db2 -> prepare($query_insert_dir);
+      $result_insert_dir -> execute();
+      $result_insert_dir -> fetchAll();
+
     }
+
+    $query_insert_user = "INSERT INTO usuarios VALUES($id_user, '$nombre', '$rut', $edad, 'undefined', '$rut')"
+    $result_insert_user = $db2 -> prepare($query_insert_user);
+    $result_insert_user -> execute();
+    $result_insert_user -> fetchAll();
+
+    $query_user_dir = "INSERT INTO direcciones_usuario VALUES($id_dir_usr, $id_user, $id_direccion)"
+    $result_user_dir = $db2 -> prepare($query_user_dir);
+    $result_user_dir -> execute();
+    $result_user_dir -> fetchAll();
+
+    echo "Registro exitoso";
 
   }
 ?>
