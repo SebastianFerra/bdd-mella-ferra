@@ -27,8 +27,7 @@
     $direccion_data = $result_dir -> fetchAll();
     
     $direccion = $direccion_data[0]['nombre_direccion'];
-    $comuna = $direccion_data[0]['comuna']
-
+    $comuna = $direccion_data[0]['comuna'];
     $user_data = $user[0];
 ?>
 
