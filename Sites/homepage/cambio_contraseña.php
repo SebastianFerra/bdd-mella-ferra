@@ -26,4 +26,14 @@
         <br>
         <button class="boton2">ACEPTAR</button>
     </form>
+    <br>
+
+    <?php
+        echo "
+            <br>
+            <form action='miperfil.php' method='post'>
+            <input type='hidden' name='id_user' value=$id_user>
+            <button class='boton2'>Volver</button>
+            </form>";
+    ?>
 </div>
