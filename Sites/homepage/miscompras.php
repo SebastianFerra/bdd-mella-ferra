@@ -23,17 +23,21 @@
     $compras = $result -> fetchAll();
     
 ?>
+
 <table>
-    <tr>
-      <h2>Historial de compras</h2>
-    </tr>
-  
-      <?php
-        // echo $pokemones;
-        foreach ($compras as $p) {
-          echo "<tr><td><h3>$p[0]</h3></td></tr>";
+  <tr>
+    <td><h3>Producto</h3></td>
+    <td><h3>Cantidad</h3></td>
+  </tr>
+
+    <?php
+      // echo $pokemones;
+      foreach ($compras as $p) {
+        $producto = $p[0];
+        $cantidad = $p[1];
+        echo "<tr><td><h3>$producto</h3></td><td><h3>$cantidad</h3></td></tr>";
       }
-      ?>
+    ?>
       
-  </table>
+</table>
 
