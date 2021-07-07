@@ -28,27 +28,60 @@
     $direccion = $direccion_data[0]['nombre_direccion'];
     $comuna = $direccion_data[0]['comuna'];
     $user_data = $user[0];
+    $rut = $user_data['rut'];
+
+    $query_admin = "SELECT personal.rut FROM personal, personal_admin WHERE personal.id = personal_admin.id_persona AND personal.rut = '$rut' AND personal_admin.clasificacion = 'administracion'";
+    $result_admin = $db2 -> prepare($query_admin);
+    $result_admin -> execute();
+    $rut_admin = $result_admin -> fetchAll();
+    echo "<h3>print_r($rut_admin)</h3>";
 ?>
 
 
 <div id="datos_perfil">
     <h2>Mi PeRFiL</h2>
     <h3>INFORMACIÓN PERSONAL</h3>
+    <div class="espaciador1"></div>
     <ul>
         <?php
             echo "<li><h3>Nombre: $user_data[1]</h3></li><li><h3>Edad: $user_data[3]</h3></li><li><h3>RUT: $user_data[2]</h3></li><li><h3>Dirección: $direccion, $comuna</h3></li>";
         ?>
     </ul>
+    <div class="espaciador1"></div>
     <form action='cambio_contraseña.php' method='post'>
         <?php
             echo "<input type='hidden' name='id_user' value=$id_user>";
         ?>
         <button class="boton2">Cambiar Contraseña</button>
     </form>
-        <div class="espaciador1"></div>
+    <?php
+        echo "<div class='espaciador1'></div>";
+        if ($rut_admin['rut'] == $rut) {
+            echo "
+            <form action='datos_admin.php' method='post'>
+                <input type='hidden' name='id_user' value=$id_user>
+                <button class='boton2'>Datos Jefe de Unidad</button>
+            </form>";
+        }
+    ?>
+    <div class="espaciador1"></div>
+    <form action='miscompras.php' method='post'>
+        <?php
+            echo "<input type='hidden' name='id_user' value=$id_user>";
+        ?>
+        <button class="boton2">Historial de compras</button>
+    </form>
+    <div class="espaciador1"></div>
+    <?php
+        echo "<br>
+            <form action='homepage.php' method='post'>
+                <input type='hidden' name='id_user' value=$id_user>
+                <button class='boton2'>Volver al homepage</button>
+            </form>";
+    ?>
+    <div class="espaciador1"></div>
     <form action='../index.php' method='get'>
         <button class="boton2">Cerrar sesión</button>
     </form>
 
 </div>
-
