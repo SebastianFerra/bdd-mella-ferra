@@ -649,3 +649,6 @@ A continuación mostramos todos los posibles usuarios y sus respectivas contrase
 | 67314332-6 | 67314332-6|
 | 33461512-k | 33461512-k|
 | 65175008-3 | 65175008-3|
+
+Las contraseñas las asignamos simplemente copiando el rut, es decir la contraseña por defecto de un usuario es su rut y tiene la posibilidad de cambiarla libremente.
+En el php "usuarios.php" tomamos de la base de datos de personal administrativo y lo introducimos en la tabla de usuarios, cada vez que se inicia la página se verifica que se haya hecho esa exportación. Simplemente se les cambia el id y para reconocer si son admin o no cuando se inicia sesión se verifica si está o no en la tabla de personal administrativo
