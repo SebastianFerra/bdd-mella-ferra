@@ -55,7 +55,7 @@
     </form>
     <?php
         echo "<div class='espaciador1'></div>";
-        if (count($rut_admin) >= 1) {
+        if ($rut_admin['rut'] == $rut) {
             echo "
             <form action='datos_admin.php' method='post'>
                 <input type='hidden' name='id_user' value=$id_user>
