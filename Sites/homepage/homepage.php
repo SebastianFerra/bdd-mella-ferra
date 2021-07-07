@@ -19,18 +19,18 @@
         <?php
         echo "<input type='hidden' name='id_user' value=$id_user>";
         ?>
-        <button class="boton1">Mi Perfil</button>
+        <button class="boton2">Mi Perfil</button>
     </form>
         <div class="espaciador1"></div>
     <form action='tiendas.php' method='post'>
         <?php
         echo "<input type='hidden' name='id_user' value=$id_user>";
         ?>
-        <button class="boton1">Tiendas Disponibles</button>
+        <button class="boton2">Tiendas Disponibles</button>
     </form>
         <div class="espaciador1"></div>
     <form action='../index.php' method='get'>
-        <button class="boton1">Cerrar sesión</button>
+        <button class="boton2">Cerrar sesión</button>
     </form>
 
 </div>

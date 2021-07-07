@@ -43,11 +43,11 @@
         <?php
             echo "<input type='hidden' name='id_user' value=$id_user>";
         ?>
-        <div class="boton1">Cambiar Contraseña</div>
+        <button class="boton2">Cambiar Contraseña</button>
     </form>
         <div class="espaciador1"></div>
     <form action='../index.php' method='get'>
-        <div class="boton1">Cerrar sesión</div>
+        <button class="boton2">Cerrar sesión</button>
     </form>
 
 </div>
