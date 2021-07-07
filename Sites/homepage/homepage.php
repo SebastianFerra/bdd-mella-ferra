@@ -31,7 +31,7 @@
 
             #AQUI OBTENEMOS LAS COSAS QUE NECESITAMOS COMO LOS AÑOS Y ESAS COSAS
             require("../config/conexion.php");
-            $result = $db2 -> prepare("SELECT nombre FROM Tiendas ORDER BY nombre;");
+            $result = $db2 -> prepare("SELECT id_tienda |' '| nombre as full_name FROM Tiendas ORDER BY nombre;");
             $result -> execute();
             $data = $result -> fetchAll();
 
