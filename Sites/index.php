@@ -15,12 +15,6 @@
     <?php
       require("manejo_dbs/usuarios.php");
       require("manejo_dbs/pass_gen.php");
-      $query_info = "SELECT info_persona()";
-      $result_info = $db1 -> prepare($query_info);
-      $result_info -> execute();
-      $info = $result_info -> fetchAll();
-
-      echo "print_r($info[0])";
     ?>
 
 
