@@ -31,14 +31,16 @@
 
             #AQUI OBTENEMOS LAS COSAS QUE NECESITAMOS COMO LOS AÑOS Y ESAS COSAS
             require("../config/conexion.php");
-            $result = $db2 -> prepare("SELECT nombre FROM Tiendas ORDER BY nombre;");
+            $result = $db2 -> prepare("SELECT id_tienda, nombre FROM Tiendas ORDER BY nombre;");
             $result -> execute();
             $data = $result -> fetchAll();
 
             #Para cada tipo agregamos el tag <option value=value_of_param> visible_value </option>
             foreach ($data as $d) {
-                $nombre_tienda = $d['nombre']; 
-                echo "<option value='$nombre_tienda'> $nombre_tienda </option>";
+                $id_tienda = $d['id_tienda'];
+                $nombre_tienda = $d['nombre'];
+
+                echo "<option value='$id_tienda'> $id_tienda $nombre_tienda </option>";
             }
         ?>
     </select>
