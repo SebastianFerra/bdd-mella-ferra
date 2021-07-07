@@ -34,6 +34,7 @@
     $result_admin = $db2 -> prepare($query_admin);
     $result_admin -> execute();
     $rut_admin = $result_admin -> fetchAll();
+    echo "<h3>print_r($rut_admin)</h3>";
 ?>
 
 
@@ -60,10 +61,16 @@
             <form action='datos_admin.php' method='post'>
                 <input type='hidden' name='id_user' value=$id_user>
                 <button class='boton2'>Datos Jefe de Unidad</button>
-            </form>
-            ";
+            </form>";
         }
     ?>
+    <div class="espaciador1"></div>
+    <form action='miscompras.php' method='post'>
+        <?php
+            echo "<input type='hidden' name='id_user' value=$id_user>";
+        ?>
+        <button class="boton2">Historial de compras</button>
+    </form>
     <div class="espaciador1"></div>
     <?php
         echo "<br>
