@@ -14,19 +14,17 @@
     $id_user = $_POST["id_user"];
     $id_tienda = $_POST["id_tienda"]
 
+    $result = $db2 -> prepare("SELECT nombre FROM Tiendas ORDER BY nombre;");
+    $result -> execute();
+    $data = $result -> fetchAll();
+
 ?>
 
 
 <div id="datos_perfil">
-    <h2>HOLA USUARIO :)</h2>
-    <h3>INFORMACIÓN PERSONAL</h3>
-    <ul>
-        <?php
-            echo "<li><h3>Nombre: $user_data[1]</h3></li>
-            <li><h3>Edad: $user_data[3]</h3></li><li><h3>RUT: $user_data[2]</h3></li>
-            <li><h3>Dirección: $direccion, $comuna</h3></li>";
-        ?>
-    </ul>
+    <?php
+        echo "<h2>Tienda: $id_tienda </h2>"
+    ?>
     <a>
         <div class="boton1">IR A LISTA DE COMPRAS</div>
     </a>
