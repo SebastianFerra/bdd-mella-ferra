@@ -14,8 +14,9 @@ head>
    
     $query = "SELECT Compras.producto, Compras.cantidad
     FROM Compras, Carritos, Usuarios
-    WHERE id_usuario = Carritos.comprador
+    WHERE usuarios.id_usuario = Carritos.comprador
     AND Carritos.id = Compras.carrito
+    AND usuarios.id_usuario = $id_user
     ";
     $result = $db2 -> prepare($query);
     $result -> execute();
