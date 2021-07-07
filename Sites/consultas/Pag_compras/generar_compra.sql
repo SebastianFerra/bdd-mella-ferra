@@ -43,7 +43,7 @@ BEGIN
             MAX(id)
             FROM compras;
 
-            INSERT INTO compras values(idmax + 1, id_carrito, pid, cantidad);
+            INSERT INTO compras values(idmax + 1, id_carrito, producto_id, cantidad);
 
             RETURN TRUE
 
