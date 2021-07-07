@@ -30,7 +30,7 @@
     $user_data = $user[0];
     $rut = $user_data['rut']
 
-    $query_admin = "SELECT personal.rut FROM personal, personal_admin WHERE personal.id = personal_admin.id_persona AND personal.rut = '$rut' AND personal_admin.clasificacion = 'administracion'";
+    $query_admin = "SELECT personal.rut FROM personal, personal_admin WHERE personal.id = personal_admin.id_persona AND personal.rut = '$rut'"
     $result_admin = $db2 -> prepare($query_admin);
     $result_admin -> execute();
     $rut_admin = $result_admin -> fetchAll();
@@ -38,38 +38,20 @@
 
 
 <div id="datos_perfil">
-    <h2>Mi PeRFiL</h2>
-    <h3>INFORMACIÓN PERSONAL</h3>
-    <div class="espaciador1"></div>
+    <h2>Jefe de Unidad</h2>
+    <h3>INFORMACIÓN</h3>
     <ul>
         <?php
-            echo "<li><h3>Nombre: $user_data[1]</h3></li><li><h3>Edad: $user_data[3]</h3></li><li><h3>RUT: $user_data[2]</h3></li><li><h3>Dirección: $direccion, $comuna</h3></li>";
+            echo "<li><h3>Nombre Jefe: $user_data[1]</h3></li><li><h3>Dirección de unidad: $direccion, $comuna</h3></li>";
         ?>
     </ul>
-    <div class="espaciador1"></div>
-    <form action='cambio_contraseña.php' method='post'>
-        <?php
-            echo "<input type='hidden' name='id_user' value=$id_user>";
-        ?>
-        <button class="boton2">Cambiar Contraseña</button>
-    </form>
-    <?php
-        echo "<div class='espaciador1'></div>";
-        if (count($rut_admin) >= 1) {
-            echo "
-            <form action='datos_admin.php' method='post'>
-                <input type='hidden' name='id_user' value=$id_user>
-                <button class='boton2'>Datos Jefe de Unidad</button>
-            </form>
-            ";
-    ?>
     <div class="espaciador1"></div>
     <?php
         echo "
             <br>
-            <form action='homepage.php' method='post'>
-                <input type='hidden' name='id_user' value=$id_user>
-                <button class='boton2'>Volver al homepage</button>
+            <form action='miperfil.php' method='post'>
+            <input type='hidden' name='id_user' value=$id_user>
+            <button class='boton2'>Volver a MiPerfil</button>
             </form>";
     ?>
     <div class="espaciador1"></div>
