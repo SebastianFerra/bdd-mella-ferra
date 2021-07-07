@@ -10,7 +10,7 @@ SELECT Asignado_a.vid, Unidades.id, Cobertura.comuna
 FROM Asignado_a JOIN Unidades JOIN Cobertura
 WHERE Cobertura.uid = Unidades.id 
 AND Unidades.id = Asignado_a.uid 
-AND Cobertura.comuna LIKE x
+AND Cobertura.comuna LIKE comuna
 
 3. Ingrese una comuna y seleccione un año. Muestre todos los vehículos que hayan realizado
 un despacho a dicha comuna durante ese año.
