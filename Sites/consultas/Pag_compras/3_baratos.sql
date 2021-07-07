@@ -1,52 +1,66 @@
 '''
-la funcionalidad de generar la compra (y validar si el producto se vende, y
-se puede entregar) (el tercer boton descrito para la pagina de las compras) debe ser ejecutada
-por medio de un procedimiento almacenado en lenguaje PL/pgSQL: en php se debe invocar
-a ese procedimiento con los datos de entrada de la consulta (ademas de otros necesarios, como
-el id del usuario), y el procedimiento debe ejecutar e insertar las tuplas a las tablas de su base
-de datos. Adicionalmente, deberan desplegar la informacion de la compra que se genera.
-
-3. Genera una nueva compra para este producto (y lo inserta en la tabla compras,
-y todas tablas intermedia que quizas han generado en el grupo Impar).
-Notar que aqui estamos generando compra para solo un producto.
+Un boton que al hacer click, nos despliega los 3 productos mas baratos para
+cada categorIa de productos vendidos por la tienda (No Comestible/Comestible).
+Deben separar visualmente los productos por categoría. Si una de las dos macro
+categoras no tiene productos, deben desplegar el header de dicha categoría de
+todas formas.
 '''
 
-CREATE OR REPLACE FUNCTION
+SELECT Productos.nombre
+FROM Productos JOIN Stock 
+ON Stock.producto = Producto.id
+WHERE Producto.tipo = 'congelado' OR Producto.tipo = 'conserva' OR Producto.tipo = 'fresco'
+AND Tiendas.id = id_tienda
+ORDER BY Productos.precio
+LIMIT 3
 
--- declaramos la función y sus argumentos
-generar_compra (id int, pid int, id_tienda int, id_carrito int, dir_compra varchar, cantidad int)
--- datos de entrada de la consulta?
+SELECT Productos.nombre
+FROM Productos JOIN Stock 
+ON Stock.producto = Producto.id
+WHERE Producto.tipo = 'no comestible'
+AND Tiendas.id = id_tienda
+ORDER BY Productos.precio
+LIMIT 3
 
-RETURNS BOOLEAN AS $$
+--
 
-DECLARE
-idmax int;
+<body>
+<?php
+    require("../config/conexion.php");
+    #input
+    $categoria = $_POST["categoria"]; 
+    $categoria = int($categoria);
+    
+    -- $id_tienda =  -- !!!! 
 
-BEGIN
---VALIDAR QUE SE PUEDA COMPRAR
-    IF pid IN (SELECT producto FROM Stock WHERE tienda = id_tienda) THEN
-    --VALIDAR QUE DIRECCION ESTÁ EN COBERTURA
-        IF dir_compra IN (SELECT comuna_de_cobertura FROM Cobertura_tiendas WHERE tienda = id_tienda) THEN 
-        --GENERAR NUEVA COMPRA
-            
-            SELECT INTO idmax
-            MAX(id)
-            FROM compras;
+    #consulta
+    if $categoria = 'comestible' {
+            $query =    "SELECT Productos.nombre
+                        FROM Productos JOIN Stock 
+                        ON Stock.producto = Producto.id
+                        WHERE Producto.tipo = 'congelado' OR Producto.tipo = 'conserva' OR
+                        AND Tiendas.id = $id_tienda  -- !!!!
+                        Producto.tipo = 'fresco' 
+                        ORDER BY Productos.precio
+                        LIMIT 3";
+        }
+    elseif $categoria = 'no comestible' {
+            $query =    "SELECT Productos.nombre
+                        FROM Productos JOIN Stock 
+                        ON Stock.producto = Producto.id
+                        WHERE Producto.tipo = 'no comestible'
+                        AND Tiendas.id = $id_tienda -- !!!!
+                        ORDER BY Productos.precio
+                        LIMIT 3";
+    }
+    
 
-            INSERT INTO compras values(idmax + 1, id_carrito, pid, cantidad);
+    #Se prepara y ejecuta la consulta. Se obtienen TODOS los resultados
+	$result = $db -> prepare($query);
+	$result -> execute();
+	$3_baratos = $result -> fetchAll();
+?>
 
-            RETURN TRUE
-
-        ELSE
-            RETURN FALSE
-        END IF
-    ELSE
-        RETURN FALSE
-    END IF
-
-
-END
-$$ language plpgsql
 
 
 
