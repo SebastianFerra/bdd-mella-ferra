@@ -28,7 +28,7 @@
     $direccion = $direccion_data[0]['nombre_direccion'];
     $comuna = $direccion_data[0]['comuna'];
     $user_data = $user[0];
-    $rut = $user_data['rut']
+    $rut = $user_data['rut'];
 
     $query_admin = "SELECT personal.rut FROM personal, personal_admin WHERE personal.id = personal_admin.id_persona AND personal.rut = '$rut' AND personal_admin.clasificacion = 'administracion'";
     $result_admin = $db2 -> prepare($query_admin);

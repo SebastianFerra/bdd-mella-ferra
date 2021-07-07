@@ -36,9 +36,10 @@
           $data = $result -> fetchAll();
 
       #Para cada tipo agregamos el tag <option value=value_of_param> visible_value </option>
-            foreach ($data as $d) {
-        echo "<option value=$d[0]>$d[0]</option>";
-      }
+        foreach ($data as $d) {
+            $nombre_tienda = $d['nombre']; 
+            echo "<option value='$nombre_tienda'> $nombre_tienda </option>";
+        }
       ?>
     </select>
         <button class="boton2">Consultar tienda</button>
