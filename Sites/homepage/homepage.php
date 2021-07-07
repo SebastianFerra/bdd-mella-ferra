@@ -29,18 +29,18 @@
         <select name="tiendas">
         <?php
 
-          #    AQUI OBTENEMOS LAS COSAS QUE NECESITAMOS COMO LOS AÑOS Y ESAS COSAS
-          require("config/conexion.php");
-          $result = $db2 -> prepare("SELECT nombre FROM Tiendas ORDER BY nombre;");
-          $result -> execute();
-          $data = $result -> fetchAll();
+            #AQUI OBTENEMOS LAS COSAS QUE NECESITAMOS COMO LOS AÑOS Y ESAS COSAS
+            require("../config/conexion.php");
+            $result = $db2 -> prepare("SELECT nombre FROM Tiendas ORDER BY nombre;");
+            $result -> execute();
+            $data = $result -> fetchAll();
 
-      #Para cada tipo agregamos el tag <option value=value_of_param> visible_value </option>
-        foreach ($data as $d) {
-            $nombre_tienda = $d['nombre']; 
-            echo "<option value='$nombre_tienda'> $nombre_tienda </option>";
-        }
-      ?>
+            #Para cada tipo agregamos el tag <option value=value_of_param> visible_value </option>
+            foreach ($data as $d) {
+                $nombre_tienda = $d['nombre']; 
+                echo "<option value='$nombre_tienda'> $nombre_tienda </option>";
+            }
+        ?>
     </select>
         <button class="boton2">Consultar tienda</button>
     </form>
