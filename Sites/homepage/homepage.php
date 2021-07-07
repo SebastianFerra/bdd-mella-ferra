@@ -37,7 +37,7 @@
 
             #Para cada tipo agregamos el tag <option value=value_of_param> visible_value </option>
             foreach ($data as $d) {
-                $nombre_tienda = $d[0]; 
+                $nombre_tienda = $d['full_name']; 
                 echo "<option value='$nombre_tienda'> $nombre_tienda </option>";
             }
         ?>
