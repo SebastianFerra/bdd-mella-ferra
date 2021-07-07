@@ -1,4 +1,8 @@
- | rut     |    pass|
+
+Para logear debes primero registrar tu usuario con tu rut (sin puntos y con guión), la contraseña por defecto será tu rut, debes también ingresar tu nombre, tu edad y tu dirección. Si ya estás registrado debes ingresar tu rut y tu contraseña, si no quieres registrarte puedes usar este rut 96371883-7 para probar la página.
+A continuación mostramos todos los posibles usuarios y sus respectivas contraseñas:
+
+| rut     |    pass|
 |------------|------------|
 | 19076858-9 | 19076858-9|
 | 19934351-1 | 19934351-1|
