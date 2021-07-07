@@ -62,11 +62,11 @@
                 <button class='boton2'>Datos Jefe de Unidad</button>
             </form>
             ";
+        }
     ?>
     <div class="espaciador1"></div>
     <?php
-        echo "
-            <br>
+        echo "<br>
             <form action='homepage.php' method='post'>
                 <input type='hidden' name='id_user' value=$id_user>
                 <button class='boton2'>Volver al homepage</button>
