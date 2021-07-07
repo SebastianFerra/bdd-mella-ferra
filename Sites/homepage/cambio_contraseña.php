@@ -7,19 +7,20 @@
 
 </head>
 
+<?php
+    $id_user = $_POST["id_user"];
+?>
+
 <div id="datos_usuario_nuevo">
-    <form action="../manejo_dbs/validacion_register.php" method="post">
-        <h2>INGRESA TUS DATOS PARA CREAR TU CUENTA:)</h2>
-        <label for="nombre"><h3>Nombre:</h3></label>
-        <input type="text" name="nombre"> 
-        <label for="rut"><h3>RUT:</h3></label>
-        <input type="text" name="rut"> 
-        <label for="edad"><h3>Edad:</h3></label>
-        <input type="text" name="edad"> 
-        <label for="direccion"><h3>Dirección:</h3></label>
-        <input type="text" name="direccion">
-        <label for="direccion"><h3>Comuna:</h3></label>
-        <input type="text" name="comuna">  
+    <form action="../manejo_dbs/validacion_new_pass.php" method="post">
+        <h2>INGRESA TU CONTRSEÑA ANTIGUA Y LUEGO LA CONTRASEÑA NUEVA</h2>
+        <?php
+            echo "<input type='hidden' name='id_user' value=$id_user>"
+        ?>
+        <label for="nombre"><h3>Contraseña Antigua:</h3></label>
+        <input type="text" name="old_pass"> 
+        <label for="rut"><h3>Nueva Contraseña:</h3></label>
+        <input type="text" name="new_pass"> 
         <br>
         <br>
         <br>
