@@ -1,6 +1,6 @@
 head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title> Tienda Onlain TuShop </title>
+    <title> Tienda Online </title>
     <!-- Bootstrap(CSS), Jquery (javascripts), etc... -->
 
     <link href ="../styles/style.css" rel="stylesheet" />

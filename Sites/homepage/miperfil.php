@@ -1,6 +1,6 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title> Tienda Onlain TuShop </title>
+    <title> Tienda Online </title>
     <!-- Bootstrap(CSS), Jquery (javascripts), etc... -->
 
     <link href ="../styles/style.css" rel="stylesheet" />
@@ -39,7 +39,7 @@
 
 
 <div id="datos_perfil">
-    <h2>Mi PeRFiL</h2>
+    <h2>Mi Perfil</h2>
     <h3>INFORMACIÓN PERSONAL</h3>
     <div class="espaciador1"></div>
     <ul>
@@ -56,7 +56,7 @@
     </form>
     <?php
         echo "<div class='espaciador1'></div>";
-        if ($rut_admin['rut'] == $rut) {
+        if ($rut_admin['personal.rut'] == $rut) {
             echo "
             <form action='datos_admin.php' method='post'>
                 <input type='hidden' name='id_user' value=$id_user>
