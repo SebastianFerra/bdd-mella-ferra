@@ -30,17 +30,6 @@
     $user_data = $user[0];
     $rut = strval($user_data['rut']);
 
-    $query_admin = "SELECT personal.rut, unidades.id 
-    FROM personal, personal_admin, unidades
-    WHERE personal.id = personal_admin.id_persona
-    AND personal.id = unidades.jefe 
-    AND personal.rut = '$rut' 
-    AND personal_admin.clasificacion = 'administracion' ";
-
-    $result_admin = $db1 -> prepare($query_admin);
-    $result_admin -> execute();
-    $rut_admin = $result_admin -> fetchAll();
-
     $query_jefe = "SELECT personal.rut, unidades.id 
     FROM personal, unidades
     WHERE personal.id = unidades.jefe
@@ -49,6 +38,7 @@
     $result_jefe = $db1 -> prepare($query_jefe);
     $result_jefe -> execute();
     $jefe = $result_jefe -> fetchAll();
+
     $rut_jefe = $jefe[0]['rut'];
     $unidad_jefe = $jefe[0]['id'];
 ?>
@@ -63,6 +53,23 @@
             echo "<li><h3>Nombre: $user_data[1]</h3></li><li><h3>Edad: $user_data[3]</h3></li><li><h3>RUT: $user_data[2]</h3></li><li><h3>Dirección: $direccion, $comuna</h3></li>";
             if (! is_null($rut_jefe)) {
                echo "<li><h3> JEFE DE UNIDAD: $unidad_jefe </h3></li>"; 
+               echo "<li><h4> Personal Administrativo de la unidad  </h4></li>";
+               
+               $query_admin = "SELECT personal.nombre, personal.rut 
+               FROM personal, unidades, personal_admin
+               WHERE personal.id = personal_admin.id_persona 
+               AND personal_admin.unidad = $unidad_jefe "
+               AND personal_admin.clasificacion = "administracion";
+           
+               $result_admin = $db1 -> prepare($query_admin);
+               $result_admin -> execute();
+               $admin = $result_admin -> fetchAll();
+
+               $nombre_jefe = $admin[0]['nombre'];
+               $rut_admin = $admin[0]['rut'];
+                foreach ($admin as $d) {
+                    echo "<li><h4> $nombre_jefe | $rut_admin</h4></li>";
+                  }
             }
         ?>
     </ul>
@@ -73,16 +80,7 @@
         ?>
         <button class="boton2">Cambiar Contraseña</button>
     </form>
-    <?php
-        echo "<div class='espaciador1'></div>";
-        if ($rut_admin['personal.rut'] == $rut) {
-            echo "
-            <form action='datos_admin.php' method='post'>
-                <input type='hidden' name='id_user' value=$id_user>
-                <button class='boton2'>Datos Jefe de Unidad</button>
-            </form>";
-        }
-    ?>
+    
     <div class="espaciador1"></div>
     <form action='miscompras.php' method='post'>
         <?php
