@@ -66,11 +66,10 @@
                $result_admin = $db1 -> prepare($query_admin);
                $result_admin -> execute();
                $admin = $result_admin -> fetchAll();
-
-               $nombre_jefe = $admin[0]['nombre'];
-               $rut_admin = $admin[0]['rut'];
-                foreach ($admin as $d) {
-                    echo "<li><h4> $nombre_jefe | $rut_admin</h4></li>";
+               foreach ($admin as $d) {
+                    $nombre_admin = $d['nombre'];
+                    $rut_admin = $d['rut'];
+                    echo "<li><h4> $nombre_admin | $rut_admin</h4></li>";
                   }
             }
         ?>
