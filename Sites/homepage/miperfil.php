@@ -30,8 +30,12 @@
     $user_data = $user[0];
     $rut = $user_data['rut'];
 
-    $query_admin = "SELECT personal.rut FROM personal, personal_admin WHERE personal.id = personal_admin.id_persona AND personal.rut = '$rut' AND personal_admin.clasificacion = 'administracion'";
-    $result_admin = $db2 -> prepare($query_admin);
+    $query_admin = "SELECT personal.rut FROM personal, personal_admin 
+    WHERE personal.id = personal_admin.id_persona 
+    --AND personal.rut = '$rut' 
+    AND personal_admin.clasificacion = 'administracion' ";
+
+    $result_admin = $db1 -> prepare($query_admin);
     $result_admin -> execute();
     $rut_admin = $result_admin -> fetchAll();
     echo "<h3>print_r($rut_admin[0])</h3>";
