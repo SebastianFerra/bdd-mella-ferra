@@ -1,6 +1,6 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title> Tienda Onlain TuShop </title>
+    <title> Tienda Online </title>
     <!-- Bootstrap(CSS), Jquery (javascripts), etc... -->
 
     <link href ="../styles/style.css" rel="stylesheet" />
@@ -21,16 +21,20 @@
 ?>
 
 
-<div id="datos_perfil">
+<div id="datos_tienda">
     <?php
         echo "<h2>Tienda: $id_tienda </h2>"
     ?>
     <a>
-        <div class="boton1">IR A LISTA DE COMPRAS</div>
+        <div class="boton1">Top 3 Productos más baratos</div>
     </a>
       <div class="espaciador1"></div>
     <a>
-        <div class="boton1">¿ERES JEFE DE UNIDAD? AQUI HAY MAS INFORMACIÓN</div>
+        <div class="boton1">Generar compra</div>
+    </a>
+      <div class="espaciador1"></div>
+    <a>
+        <div class="boton1">Generar compra</div>
     </a>
 
 </div>

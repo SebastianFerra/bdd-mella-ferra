@@ -1,6 +1,6 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title> Tienda Onlain TuShop </title>
+    <title> Tienda Online </title>
     <!-- Bootstrap(CSS), Jquery (javascripts), etc... -->
 
     <link href ="../styles/style.css" rel="stylesheet" />
@@ -28,23 +28,49 @@
     $direccion = $direccion_data[0]['nombre_direccion'];
     $comuna = $direccion_data[0]['comuna'];
     $user_data = $user[0];
-    $rut = $user_data['rut'];
+    $rut = strval($user_data['rut']);
 
-    $query_admin = "SELECT personal.rut FROM personal, personal_admin WHERE personal.id = personal_admin.id_persona AND personal.rut = '$rut' AND personal_admin.clasificacion = 'administracion'";
-    $result_admin = $db2 -> prepare($query_admin);
-    $result_admin -> execute();
-    $rut_admin = $result_admin -> fetchAll();
-    echo "<h3>print_r($rut_admin)</h3>";
+    $query_jefe = "SELECT personal.rut, unidades.id 
+    FROM personal, unidades
+    WHERE personal.id = unidades.jefe
+    AND personal.rut = '$rut' ";
+
+    $result_jefe = $db1 -> prepare($query_jefe);
+    $result_jefe -> execute();
+    $jefe = $result_jefe -> fetchAll();
+
+    $rut_jefe = $jefe[0]['rut'];
+    $unidad_jefe = $jefe[0]['id'];
 ?>
 
 
 <div id="datos_perfil">
-    <h2>Mi PeRFiL</h2>
+    <h2>Mi Perfil</h2>
     <h3>INFORMACIÓN PERSONAL</h3>
     <div class="espaciador1"></div>
     <ul>
         <?php
             echo "<li><h3>Nombre: $user_data[1]</h3></li><li><h3>Edad: $user_data[3]</h3></li><li><h3>RUT: $user_data[2]</h3></li><li><h3>Dirección: $direccion, $comuna</h3></li>";
+            if (! is_null($rut_jefe)) {
+               echo "<li><h3> JEFE DE UNIDAD: $unidad_jefe </h3></li>"; 
+               echo "<li><h3> Personal Administrativo de la unidad  </h3></li>";
+                           
+
+               $query_admin = "SELECT DISTINCT nombre, rut, clasificacion 
+               FROM personal, unidades, personal_admin 
+               WHERE personal.id = personal_admin.id_persona 
+               AND personal_admin.unidad = $unidad_jefe";
+                        
+            
+               $result_admin = $db1 -> prepare($query_admin);
+               $result_admin -> execute();
+               $admin = $result_admin -> fetchAll();
+               foreach ($admin as $d) {
+                    $nombre_admin = $d['nombre'];
+                    $rut_admin = $d['rut'];
+                    echo "<li><h3> $nombre_admin / $rut_admin </h3></li>";
+                  }
+            }
         ?>
     </ul>
     <div class="espaciador1"></div>
@@ -54,16 +80,7 @@
         ?>
         <button class="boton2">Cambiar Contraseña</button>
     </form>
-    <?php
-        echo "<div class='espaciador1'></div>";
-        if ($rut_admin['rut'] == $rut) {
-            echo "
-            <form action='datos_admin.php' method='post'>
-                <input type='hidden' name='id_user' value=$id_user>
-                <button class='boton2'>Datos Jefe de Unidad</button>
-            </form>";
-        }
-    ?>
+    
     <div class="espaciador1"></div>
     <form action='miscompras.php' method='post'>
         <?php
