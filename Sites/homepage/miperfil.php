@@ -34,8 +34,7 @@
     $result_admin = $db2 -> prepare($query_admin);
     $result_admin -> execute();
     $rut_admin = $result_admin -> fetchAll();
-    $rut_admin = $rut_admin[0]['rut'];
-    echo "<h3>$rut_admin</h3>";
+    echo "<h3>print_r($rut_admin)</h3>";
 ?>
 
 
@@ -48,7 +47,12 @@
             echo "<li><h3>Nombre: $user_data[1]</h3></li><li><h3>Edad: $user_data[3]</h3></li><li><h3>RUT: $user_data[2]</h3></li><li><h3>Dirección: $direccion, $comuna</h3></li>";
         ?>
     </ul>
-
+    <div class="espaciador1"></div>
+    <form action='cambio_contraseña.php' method='post'>
+        <?php
+            echo "<input type='hidden' name='id_user' value=$id_user>";
+        ?>
+        <button class="boton2">Cambiar Contraseña</button>
     </form>
     <?php
         echo "<div class='espaciador1'></div>";
