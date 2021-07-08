@@ -30,16 +30,22 @@
     $user_data = $user[0];
     $rut = strval($user_data['rut']);
 
-    $query_admin = "SELECT personal.rut FROM personal, personal_admin 
-    WHERE personal.id = personal_admin.id_persona 
+    $query_admin = "SELECT personal.rut, unidades.id 
+    FROM personal, personal_admin, unidades
+    WHERE personal.id = personal_admin.id_persona
+    AND personal.id = unidades.jefe 
     AND personal.rut = '$rut' 
     AND personal_admin.clasificacion = 'administracion' ";
+
+
 
     $result_admin = $db1 -> prepare($query_admin);
     $result_admin -> execute();
     $rut_admin = $result_admin -> fetchAll();
     # foreach ($rut_admin as $ra) {
     #   echo "<h3>print_r($ra[0])</h3>";}
+
+
 ?>
 
 
@@ -50,8 +56,9 @@
     <ul>
         <?php
             echo "<li><h3>Nombre: $user_data[1]</h3></li><li><h3>Edad: $user_data[3]</h3></li><li><h3>RUT: $user_data[2]</h3></li><li><h3>Dirección: $direccion, $comuna</h3></li>";
-            if (! is_null($rut_admin)) {
-               echo "<li><h3> ADMINISTRATIVO <\h3><\li>"; 
+            if (! is_null($rut_admin[0])) {
+               echo "<li><h3> JEFE DE UNIDAD: $rut_admin[1] </h3></li>"; 
+               echo ""
             }
         ?>
     </ul>
