@@ -54,10 +54,10 @@
             if (! is_null($rut_jefe)) {
                echo "<li><h3> JEFE DE UNIDAD: $unidad_jefe </h3></li>"; 
                echo "<li><h4> Personal Administrativo de la unidad  </h4></li>";
-               
-               
-               $administracion = 'administracion'
-               $query_admin = "SELECT personal.nombre, personal.rut 
+                           
+               $administracion = 'administracion';
+
+               $query_admin = "SELECT nombre, rut 
                FROM personal, unidades, personal_admin
                WHERE personal.id = personal_admin.id_persona 
                AND personal_admin.unidad = $unidad_jefe
