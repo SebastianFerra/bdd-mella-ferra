@@ -66,9 +66,9 @@
                $result_admin -> execute();
                $admin = $result_admin -> fetchAll();
                foreach ($admin as $d) {
-                    $nombre_admin = $d[0]['nombre'];
-                    $rut_admin = $d[0]['rut'];
-                    echo "<li><h3> $nombre_admin | $rut_admin</h3></li>";
+                    $nombre_admin = $d['nombre'];
+                    $rut_admin = $d['rut'];
+                    echo "<li><h3> $nombre_admin / $rut_admin </h3></li>";
                   }
             }
         ?>
