@@ -61,7 +61,7 @@
         <?php
             echo "<li><h3>Nombre: $user_data[1]</h3></li><li><h3>Edad: $user_data[3]</h3></li><li><h3>RUT: $user_data[2]</h3></li><li><h3>Dirección: $direccion, $comuna</h3></li>";
             if (! is_null($rut_jefe[0])) {
-               echo "<li><h3> JEFE DE UNIDAD: $rut_jefe[1] </h3></li>"; 
+               echo "<li><h3> JEFE DE UNIDAD: $rut_jefe[0] </h3></li>"; 
             }
         ?>
     </ul>
