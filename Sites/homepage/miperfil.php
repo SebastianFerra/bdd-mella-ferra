@@ -58,7 +58,6 @@
             echo "<li><h3>Nombre: $user_data[1]</h3></li><li><h3>Edad: $user_data[3]</h3></li><li><h3>RUT: $user_data[2]</h3></li><li><h3>Dirección: $direccion, $comuna</h3></li>";
             if (! is_null($rut_admin[0])) {
                echo "<li><h3> JEFE DE UNIDAD: $rut_admin[1] </h3></li>"; 
-               echo ""
             }
         ?>
     </ul>
