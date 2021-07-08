@@ -55,14 +55,13 @@
                echo "<li><h3> JEFE DE UNIDAD: $unidad_jefe </h3></li>"; 
                echo "<li><h3> Personal Administrativo de la unidad  </h3></li>";
                            
-               $administracion = 'administracion';
 
-               $query_admin = "SELECT nombre, rut 
-               FROM personal, unidades, personal_admin
+               $query_admin = "SELECT DISTINCT nombre, rut, clasificacion 
+               FROM personal, unidades, personal_admin 
                WHERE personal.id = personal_admin.id_persona 
-               AND personal_admin.unidad = $unidad_jefe
-               AND personal_admin.clasificacion = $administracion ";
-               
+               AND personal_admin.unidad = $unidad_jefe";
+                        
+            
                $result_admin = $db1 -> prepare($query_admin);
                $result_admin -> execute();
                $admin = $result_admin -> fetchAll();
