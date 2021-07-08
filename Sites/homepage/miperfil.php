@@ -58,8 +58,8 @@
                $query_admin = "SELECT personal.nombre, personal.rut 
                FROM personal, unidades, personal_admin
                WHERE personal.id = personal_admin.id_persona 
-               AND personal_admin.unidad = $unidad_jefe "
-               AND personal_admin.clasificacion = "administracion";
+               AND personal_admin.unidad = $unidad_jefe
+               AND personal_admin.clasificacion = "administracion"";
            
                $result_admin = $db1 -> prepare($query_admin);
                $result_admin -> execute();
