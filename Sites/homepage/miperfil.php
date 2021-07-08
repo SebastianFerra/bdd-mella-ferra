@@ -34,7 +34,7 @@
     $result_admin = $db2 -> prepare($query_admin);
     $result_admin -> execute();
     $rut_admin = $result_admin -> fetchAll();
-    echo "<h3>print_r($rut_admin)</h3>";
+    echo "<h3>print_r($rut_admin[0])</h3>";
 ?>
 
 
