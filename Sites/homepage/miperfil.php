@@ -38,7 +38,8 @@
     $result_admin = $db1 -> prepare($query_admin);
     $result_admin -> execute();
     $rut_admin = $result_admin -> fetchAll();
-    echo "<h3>print_r($rut_admin[0])</h3>";
+    foreach ($rut_admin as $ra) {
+      echo "<h3>print_r($ra[0])</h3>";}
 ?>
 
 
