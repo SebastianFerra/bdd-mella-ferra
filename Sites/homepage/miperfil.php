@@ -38,8 +38,8 @@
     $result_admin = $db1 -> prepare($query_admin);
     $result_admin -> execute();
     $rut_admin = $result_admin -> fetchAll();
-    foreach ($rut_admin as $ra) {
-        echo "<h3>print_r($ra[0])</h3>";}
+    # foreach ($rut_admin as $ra) {
+    #   echo "<h3>print_r($ra[0])</h3>";}
 ?>
 
 
@@ -50,7 +50,7 @@
     <ul>
         <?php
             echo "<li><h3>Nombre: $user_data[1]</h3></li><li><h3>Edad: $user_data[3]</h3></li><li><h3>RUT: $user_data[2]</h3></li><li><h3>Dirección: $direccion, $comuna</h3></li>";
-            if (not is_null($)) {
+            if (not is_null($rut_admin)) {
                echo "<li><h3> ADMINISTRATIVO <\h3><\li>" 
             }
         ?>
