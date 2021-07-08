@@ -48,10 +48,9 @@
 
     $result_jefe = $db1 -> prepare($query_jefe);
     $result_jefe -> execute();
-    $rut_jefe = $result_jefe -> fetchAll();
-    foreach ($rut_jefe as $rj) {
-        echo "<li><h3> $rj $rj[0] $rj[1] $rj[0][0] </li></h3>";
-    } 
+    $jefe = $result_jefe -> fetchAll();
+    $rut_jefe = $jefe[0]['rut']
+    $unidad_jefe = $jefe[0]['id']
 ?>
 
 
@@ -62,8 +61,8 @@
     <ul>
         <?php
             echo "<li><h3>Nombre: $user_data[1]</h3></li><li><h3>Edad: $user_data[3]</h3></li><li><h3>RUT: $user_data[2]</h3></li><li><h3>Dirección: $direccion, $comuna</h3></li>";
-            if (! is_null($rut_jefe[0])) {
-               echo "<li><h3> JEFE DE UNIDAD: $rut_jefe[1] </h3></li>"; 
+            if (! is_null($rut_jefe)) {
+               echo "<li><h3> JEFE DE UNIDAD: $unidad_jefe </h3></li>"; 
             }
         ?>
     </ul>
