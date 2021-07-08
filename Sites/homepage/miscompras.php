@@ -16,7 +16,7 @@
     FROM Compras, Carritos, Usuarios
     WHERE usuarios.id_usuario = Carritos.comprador
     AND Carritos.id = Compras.carrito
-    AND usuarios.id_usuario = $id_user
+    -- AND usuarios.id_usuario = $id_user
     ";
     $result = $db2 -> prepare($query);
     $result -> execute();
