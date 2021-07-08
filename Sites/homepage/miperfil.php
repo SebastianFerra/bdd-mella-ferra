@@ -49,7 +49,11 @@
     $result_jefe = $db1 -> prepare($query_jefe);
     $result_jefe -> execute();
     $rut_jefe = $result_jefe -> fetchAll();
+    foreach ($rut_jefe as $rj) {
+    
 
+        echo "<li><h3> $rj $rj[0] $rj[1] $rj[0][0] </li></h3>";
+    } 
 ?>
 
 
