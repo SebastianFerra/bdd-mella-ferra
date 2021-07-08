@@ -53,7 +53,7 @@
             echo "<li><h3>Nombre: $user_data[1]</h3></li><li><h3>Edad: $user_data[3]</h3></li><li><h3>RUT: $user_data[2]</h3></li><li><h3>Dirección: $direccion, $comuna</h3></li>";
             if (! is_null($rut_jefe)) {
                echo "<li><h3> JEFE DE UNIDAD: $unidad_jefe </h3></li>"; 
-               echo "<li><h4> Personal Administrativo de la unidad  </h4></li>";
+               echo "<li><h3> Personal Administrativo de la unidad  </h3></li>";
                            
                $administracion = 'administracion';
 
@@ -67,9 +67,9 @@
                $result_admin -> execute();
                $admin = $result_admin -> fetchAll();
                foreach ($admin as $d) {
-                    $nombre_admin = $d['nombre'];
-                    $rut_admin = $d['rut'];
-                    echo "<li><h4> $nombre_admin | $rut_admin</h4></li>";
+                    $nombre_admin = $d[0]['nombre'];
+                    $rut_admin = $d[0]['rut'];
+                    echo "<li><h3> $nombre_admin | $rut_admin</h3></li>";
                   }
             }
         ?>
