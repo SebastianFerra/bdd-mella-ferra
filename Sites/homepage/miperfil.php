@@ -49,8 +49,8 @@
     $result_jefe = $db1 -> prepare($query_jefe);
     $result_jefe -> execute();
     $jefe = $result_jefe -> fetchAll();
-    $rut_jefe = $jefe[0]['rut']
-    $unidad_jefe = $jefe[0]['id']
+    $rut_jefe = $jefe[0]['rut'];
+    $unidad_jefe = $jefe[0]['id'];
 ?>
 
 
